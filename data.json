@@ -4,6 +4,11 @@
     "des":"Mozilla 开发者网络（MDN）提供有关开放网络技术（Open Web）的信息，包括 HTML、CSS 和万维网及 HTML5 应用的 API。它还记录了  Mozilla 产品的文档，例如 Firefox OS。" ,
     "tags":["社区"]
 },{
+    "name":"Stack Overflow",
+    "url":"http://stackoverflow.com/" ,
+    "des":"一个与程序相关的IT技术问答网站。用户可以在网站免费提交问题，浏览问题，索引相关内容，在创建主页的时候使用简单的HTML。" ,
+    "tags":["社区"]
+},{
     "name":"Browsershot",
     "url":"http://browsershots.org/" ,
     "des":"超多的浏览器兼容性在线测试，免去了在本机安装N多浏览器的烦恼" ,
@@ -647,4 +652,159 @@
     "url":"http://www.barretlee.com/entry/",
     "des":"",
     "tags":["博客"]
+},{
+    "name":"JavaScriptWeekly",
+    "des":"关于JavaScript新闻和文章的每周邮件聚合订阅",
+    "url":"http://javascriptweekly.com/",
+    "tags":["订阅/周刊"]
+},{
+    "name":"HTML5Weekly",
+    "des":"HTML5 周刊，关注最新动态",
+    "url":"http://html5weekly.com/",
+    "tags":["订阅/周刊"]
+},{
+    "name":"SidebarIO",
+    "des":"关于设计的The best design links, every day. 可以订阅daily, twice a week, weekly",
+    "url":"http://sidebar.io/",
+    "tags":["订阅/周刊"]
+},{
+    "name":"奇舞团周刊",
+    "des":"奇舞团的周刊，内容质量很高，比较精",
+    "url":"http://www.75team.com/weekly/",
+    "tags":["订阅/周刊"]
+},{
+    "name":"码农周刊",
+    "des":"综合的码农相关文章，资料很多，覆盖面广",
+    "url":"http://weekly.manong.io/",
+    "tags":["订阅/周刊"]
+},{
+    "name":"OurJS周刊",
+    "des":"很多 JS 有关的文章，比较好",
+    "url":"http://ourjs.com/",
+    "tags":["订阅/周刊"]
+},{
+    "name":"WebDesignWeekly",
+    "des":"设计动向和经典作品",
+    "url":"http://web-design-weekly.com/",
+    "tags":["订阅/周刊"]
+},{
+    "name":"WebToolsWeekly",
+    "des":"最新的开发工具、插件组件等等",
+    "url":"http://webtoolsweekly.com/",
+    "tags":["订阅/周刊"]
+},{
+    "name":"ResponsiveDesignWeekly",
+    "des":"响应式设计动态、技巧等",
+    "url":"http://responsivedesignweekly.com/",
+    "tags":["订阅/周刊"]
+},{
+    "name":"FeWeekly",
+    "des":"聚焦最新前端技术、框架、教程、工具、资讯和文章",
+    "url":"http://www.feweekly.com/",
+    "tags":["订阅/周刊"]
+},{
+    "name":"Normalize.css",
+    "des":"Normalize是一个相对平和的css reset方案，注重通用的方案，保留有用的user agent 样式",
+    "url":"http://necolas.github.io/normalize.css/",
+    "tags":["CSS"]
+},{
+    "name":"lessFramework",
+    "des":"LESS框架是一个轻量级的CSS框架,它使您能够构建灵活的多列的网站布局",
+    "url":"http://lessframework.com/",
+    "tags":["CSS"]
+},{
+    "name":"Formee",
+    "des":"Formee是一个CSS框架,帮助您轻松地创建跨浏览器的web表单",
+    "url":"http://www.formee.org/",
+    "tags":["CSS"]
+},{
+    "name":"960GRID",
+    "des":"960GS是一个CSS网格系统框架，更为灵活的网格设计",
+    "url":"http://960.gs/",
+    "tags":["CSS"]
+},{
+    "name":"ResponsiveGridSystem",
+    "des":"流体网格CSS框架,用于快速、直观的开发响应性网站，可以使用12列、16列和24列响应式网格设计",
+    "url":"http://responsive.gs/",
+    "tags":["CSS"]
+},{
+    "name":"Bootstrap",
+    "url":"http://getbootstrap.com/",
+    "des":"Bootstrap是快速开发Web应用程序的前端工具包，它是一个CSS和HTML的集合，它使用了最新的浏览器技术，给你的Web开发提供了时尚的版式",
+    "tags":["UI框架"]
+},{
+    "name":"FlatUI",
+    "url":"http://designmodo.github.io/Flat-UI/",
+    "des":"Flat UI是一套精美的扁平风格UI 工具包，基于 Twitter Bootstrap 实现",
+    "tags":["UI框架"]
+},{
+    "name":"pure",
+    "url":"http://purecss.io/",
+    "des":"Pure是来自雅虎的CSS框架，框架基于响应式设计，提供多种样式的组件，包括表格、表单、按钮、表、导航等",
+    "tags":["UI框架"]
+},{
+    "name":"MetroUI",
+    "url":"http://metroui.org.ua/",
+    "des":"MetroUI CSS 是一套实现了Windows8 Metro风格界面的CSS框架",
+    "tags":["UI框架"]
+},{
+    "name":"Maxmertkit",
+    "url":"http://www.maxmert.com/",
+    "des":"Maxmertkit是一个全新的前端框架，拥有类似boostrap的UI但是提供了不同的组件内容",
+    "tags":["UI框架"]
+},{
+    "name":"Semantic UI",
+    "url":"http://semantic-ui.com/",
+    "des":"语义化设计的前端框架，为攻城师而制作的可复用的开源前端框架",
+    "tags":["UI框架"]
+},{
+    "name":"cssReset",
+    "url":"http://www.cssreset.com/",
+    "des":"搜集了各种css reset解决方案",
+    "tags":["CSS资源"]
+},{
+    "name":"浏览器hack大全",
+    "url":"http://browserhacks.com/",
+    "des":"",
+    "tags":["CSS资源"]
+},{
+    "name":"cssValues",
+    "url":"http://cssvalues.com/",
+    "des":"CSS属性查询，可查到对应W3C规范",
+    "tags":["CSS资源"]
+},{
+    "name":"animate动画库",
+    "url":"http://daneden.github.io/animate.css/",
+    "des":"",
+    "tags":["CSS资源"]
+},{
+    "name":"CSS3lib动画库",
+    "url":"http://css3lib.alloyteam.com/",
+    "des":"由腾讯AlloyTeam搜集和整理的CSS3动画库",
+    "tags":["CSS资源"]
+},{
+    "name":"ECD动画库",
+    "url":"http://ecd.tencent.com/css3/index.html",
+    "des":"由腾讯电商前端团队编写的CSS3动画库",
+    "tags":["CSS资源"]
+},{
+    "name":"css3please",
+    "url":"http://css3please.com/",
+    "des":"常用的CSS3具体代码参考",
+    "tags":["CSS资源"]
+},{
+    "name":"css3ClickChart",
+    "url":"http://css3clickchart.com/",
+    "des":"可以查询到目前CSS3草案部分的相关属性",
+    "tags":["CSS资源"]
+},{
+    "name":"W3SCHOOL",
+    "url":"http://www.w3school.com.cn/css3/",
+    "des":"CSS3 教程",
+    "tags":["教程"]
+},{
+    "name":"Mozilla CSS3",
+    "url":"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3",
+    "des":"CSS3 教程",
+    "tags":["教程"]
 }]
