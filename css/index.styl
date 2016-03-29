@@ -1,0 +1,129 @@
+@import '_portal/reset'
+global-reset()
+
+body 
+    font-size 14px
+    padding 1.75em 1.75em 6.75em 1.75em
+    font 14px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif
+
+a 
+    transition: all 0.25s
+    text-decoration: initial
+    &:hover 
+        text-decoration: initial
+.header 
+    padding 1.5em 0 1.2em 0
+    font-size 1em
+    h1 
+        font-size 1.3em
+    .logo
+        float: left
+    .logo:before
+        content ''
+        min-width 290px
+        height 40px
+        display inline-block
+        background  url('../img/logo.svg') top left  no-repeat
+        background-size contain
+    &:after
+        content ''
+        display block
+        clear both
+    .right
+        text-align right
+        line-height 3em
+        color #717171
+        a 
+            color #717171
+            &:hover
+                color #0500E8
+        .box
+            background: #EAEAEA
+            display: inline-block
+            padding: 0 10px
+            line-height: 23px
+            border-radius: 5px
+            i 
+                color #000
+                font-weight bold
+                font-style inherit
+        
+        
+
+.sitelist 
+    .kw 
+        color red
+        font-style inherit
+    li 
+        padding 0.3em 0.3em
+        position: relative;
+        &:after
+            content ''
+            display block
+            border-bottom 1px solid #EEE
+            margin-top 10px
+            
+        
+        .title
+            padding-left 5px
+            margin-right 10px
+            float left
+            a 
+                font-weight bold
+                color #000
+                &:hover 
+                    color red
+        .description
+            padding-left 5px
+            margin 2px 0 0 0
+            line-height 1.3
+            display block
+            clear both
+        .tags 
+            font-size 0.8em
+            float right
+            span 
+                display inline-block
+                background-color #D6D6D6
+                padding 0 .3em 0 .3em
+                line-height 1.4em
+                border-radius .2em
+                color #fff
+                margin 0 0.2em
+        .des
+            color #848484
+            font-size 0.8em
+    ul:after
+        content ''
+        display block
+        clear both
+    .more
+        text-align center
+        padding 1.1em
+        font-size .8em
+        a 
+            display inline-block
+            background #818AA2
+            color #fff
+            padding 0 0.6em
+            border-radius 1em
+            line-height 1.4em
+            &:hover 
+                background: #4E5873;
+                color: #FFF;
+            &:active
+                background: #1D1F27
+.search
+    input 
+        position fixed
+        bottom -2px
+        left 0
+        z-index 10
+        font-size 40px
+        padding 15px 30px
+        font-family inherit
+        font-weight 100
+        border none
+        outline none
+        background rgba(255, 255, 255, .95)
+        width 100%

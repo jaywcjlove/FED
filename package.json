@@ -1,0 +1,20 @@
+{
+  "name": "fed",
+  "version": "1.0.0",
+  "description": "前端导航",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "stylus -u autoprefixer-stylus css/index.styl -o css/ -c",
+    "build": "npm run build:css",
+    "watch": "onchange 'css/**/*.styl' -v -- npm run build"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^6.3.5",
+    "onchange": "^2.2.0",
+    "postcss-cli": "^2.5.1",
+    "stylus": "^0.54.2"
+  }
+}
