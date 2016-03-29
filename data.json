@@ -505,6 +505,11 @@
     "des":"jQuery API 1.12.0 中文在线版，jQuery API CHM 下载，jQuery API 中文最新版，jQuery 是一个兼容多浏览器的 JavasSript 框架，核心理念是 - write less, do more。jQuery API 中文文档(适用jQuery 1.0 - jQuery 2.0).",
     "tags":["工具","手册"]
 },{
+    "name":"jQuery官网",
+    "url":"http://api.jquery.com/",
+    "des":"JQuery是继prototype之后又一个优秀的Javascript库。它是轻量级的js库 ，它兼容CSS3，还兼容各种浏览器（IE 6.0+, FF 1.5+, Safari 2.0+, Opera 9.0+），jQuery2.0及后续版本将不再支持IE6/7/8浏览器。",
+    "tags":["工具","官网","手册"]
+},{
     "name":"JSLite",
     "url":"http://jquery.cuishifeng.cn/",
     "des":"与jQuery有着类似的api，让web开发更迅速，下载执行更快、量级更轻，针对现代高级浏览器的JavaScript库。",
@@ -838,14 +843,9 @@
       "des":"Frozen UI 腾讯移动端框架",
       "tags":["移动框架"]
 },{
-      "name":"jquery mobile中文API",
-      "url":"http://www.filod.net/jqm/index.html",
-      "des":"",
-      "tags":["移动框架"]
-},{
       "name":"jquerymobile",
       "url":"http://jquerymobile.com/",
-      "des":"jquerymobile",
+      "des":"jQuery Mobile是jQuery 在手机上和平板设备上的版本。jQuery Mobile 不仅会给主流移动平台带来jQuery核心库，而且会发布一个完整统一的jQuery移动UI框架。支持全球主流的移动平台。",
       "tags":["移动框架"]
 },{
       "name":"zeptojs",
