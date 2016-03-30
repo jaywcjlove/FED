@@ -683,6 +683,16 @@
     "url":"http://html5weekly.com/",
     "tags":["订阅/周刊"]
 },{
+    "name":"Node 周刊",
+    "des":"免费的，每周电子邮件推送Node.js的新闻和文章",
+    "url":"http://nodeweekly.com/",
+    "tags":["订阅/周刊"]
+},{
+    "name":"DB 周刊",
+    "des":"每周一轮数据库技术的新闻和文章覆盖的新发展，SQL，NoSQL，文档数据库、图形数据库，和更多的发现。",
+    "url":"http://dbweekly.com/",
+    "tags":["订阅/周刊"]
+},{
     "name":"SidebarIO",
     "des":"关于设计的The best design links, every day. 可以订阅daily, twice a week, weekly",
     "url":"http://sidebar.io/",
@@ -703,8 +713,18 @@
     "url":"http://ourjs.com/",
     "tags":["订阅/周刊"]
 },{
+    "name":"Fullweb周刊",
+    "des":"全棧Web开发周刊Fullweb Weekly",
+    "url":"http://fullweb.io/",
+    "tags":["订阅/周刊"]
+},{
+    "name":"Fullweb周刊",
+    "des":"CSS的文章，教程，实验工具",
+    "url":"http://css-weekly.com/",
+    "tags":["订阅/周刊"]
+},{
     "name":"WebDesignWeekly",
-    "des":"设计动向和经典作品",
+    "des":"设计动向和经典作品，Web Design Weekly 一周一次没有垃圾周的邮件，没有杂乱。只是单纯的可怕的链接，在一周内网络出现最好的新闻和文章。",
     "url":"http://web-design-weekly.com/",
     "tags":["订阅/周刊"]
 },{
