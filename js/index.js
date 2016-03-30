@@ -47,24 +47,32 @@ sreach.prototype = {
         xhr.open('GET', url,  true); 
         xhr.send(null); 
     },
+    itemHTML:function(arr,type){
+        var name = arr.name,des = arr.des;
+        if(type === 'search'){
+            name = arr.name.replace(reg,'<i class="kw">'+"$1"+"</i>");
+            des = arr.des.replace(reg,'<i class="kw">'+"$1"+"</i>") || '';
+        }
+        return this.simple(this.ulhtml,{
+            name:name,
+            url:arr.url,
+            des:des || '',
+            icon:arr.icon,
+            tags:(function(tags){
+                var _tags_html = tags.join('</span><span>');
+                return _tags_html&&_tags_html!='' 
+                    ? '<span>' + _tags_html + '</span>' 
+                    : '';
+            })(arr.tags||[])
+        })
+    },
     creatListHTML:function(num){
         var arr = this.data,self = this,page_size = this.page_size,i=num||0;
         if(arr&&arr.length&&toString.call(arr).indexOf('Array')>-1){
             for (; i < page_size; i++) {
                 if(!arr[i]) break;
                 var myLi = document.createElement("LI");
-                myLi.innerHTML = self.simple(self.ulhtml,{
-                    name:arr[i].name,
-                    url:arr[i].url,
-                    des:arr[i].des || '',
-                    icon:arr[i].icon,
-                    tags:(function(tags){
-                        var _tags_html = tags.join('</span><span>');
-                        return _tags_html&&_tags_html!='' 
-                            ? '<span>' + _tags_html + '</span>' 
-                            : '';
-                    })(arr[i].tags||[])
-                })
+                myLi.innerHTML = self.itemHTML(arr[i]);
                 self.boxEml.appendChild(myLi);
             }
         }
@@ -85,19 +93,8 @@ sreach.prototype = {
                 || self.isSreachIndexOF(arr[i].des,keywolds) 
             ){
                 var myLi = document.createElement("LI");
-                myLi.innerHTML = self.simple(self.ulhtml,{
-                    name:arr[i].name.replace(reg,'<i class="kw">'+"$1"+"</i>"),
-                    url:arr[i].url,
-                    des:arr[i].des.replace(reg,'<i class="kw">'+"$1"+"</i>") || '',
-                    icon:arr[i].icon,
-                    tags:(function(tags){
-                        var _tags_html = tags.join('</span><span>');
-                        return _tags_html&&_tags_html!='' 
-                            ? '<span>' + _tags_html + '</span>' 
-                            : '';
-                    })(arr[i].tags||[])
-                });
-                ++total
+                myLi.innerHTML = self.itemHTML(arr[i],'search');
+                ++total;
                 eml.appendChild(myLi);
             }
         }
