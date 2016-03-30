@@ -7,7 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "stylus -u autoprefixer-stylus css/index.styl -o css/ -c",
     "build": "npm run build:css",
-    "watch": "onchange 'css/**/*.styl' -v -- npm run build"
+    "watch:css": "onchange 'css/**/*.styl' -v -- npm run build",
+    "watch:js": "onchange 'js/index.js' './data.json' -v -- npm run min",
+    "min": "npm run min:js && npm run min:data",
+    "min:js": "uglifyjs js/index.js  data.json -o js/index.min.js",
+    "min:data": "node js/build.json.js"
   },
   "author": "",
   "license": "MIT",
@@ -15,6 +19,7 @@
     "autoprefixer": "^6.3.5",
     "onchange": "^2.2.0",
     "postcss-cli": "^2.5.1",
-    "stylus": "^0.54.2"
+    "stylus": "^0.54.2",
+    "uglify-js": "^2.6.2"
   }
 }

@@ -541,6 +541,21 @@
     "des":"点击你需要测试的浏览器环境，安装插件就可以进行测试了。帮助你测试网页在Safari、Chrome、Firefox和Opera浏览器中是否正常，测试兼容性工具",
     "tags":["工具","测试"]
 },{
+    "name":"Mocha",
+    "url":"http://mochajs.org",
+    "des":"mocha 是一个简单、灵活有趣的 JavaScript 测试框架,用于 Node.js 和浏览器上的 JavaScript 应用测试。",
+    "tags":["工具","测试"]
+},{
+    "name":"chai",
+    "url":"http://chaijs.com",
+    "des":"chai是一个断言库，和Mocha搭配使用更佳，所以合称“抹茶”（其实mocha是咖啡）。“抹茶”特点是： 简单，Hour级学习成本，node和浏览器都可运行",
+    "tags":["工具","测试"]
+},{
+    "name":"ava",
+    "url":"https://github.com/sindresorhus/ava",
+    "des":"测试框架，据说比Mocha快的不行不行的。",
+    "tags":["工具","测试"]
+},{
     "name":"缓动函数速查表",
     "url":"http://easings.net/zh-cn",
     "ico":"http://easings.net/favicon.png",

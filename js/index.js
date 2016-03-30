@@ -40,6 +40,7 @@ sreach.prototype = {
       
         xhr.onreadystatechange  = function(){ 
              if(xhr.readyState  == 4 && xhr.status  == 200){
+
                 callback&&(callback(JSON.parse(xhr.responseText),xhr))
              }
         };
@@ -110,7 +111,7 @@ sreach.prototype = {
     },
     init:function(){
         var self = this;
-        this.ajax('data.json',function(dt){
+        this.ajax('js/data.min.json',function(dt){
             self.data = dt;
             self.info.innerHTML = '搜集到<i> '+dt.length+' </i>个站点 ｜ '
             self.creatListHTML();
