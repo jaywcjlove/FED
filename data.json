@@ -1143,6 +1143,21 @@
     "des":"帮你关注每年最流行的颜色搭配",
     "tags":["配色方案"]
 },{
+    "name":"peise",
+    "url":"http://www.peise.net/tools/web/",
+    "des":"",
+    "tags":["配色方案"]
+},{
+    "name":"DesignSeeds",
+    "url":"http://www.design-seeds.com/",
+    "des":"创立于2009年的设计配色网站",
+    "tags":["配色方案"]
+},{
+    "name":"colorCombos",
+    "url":"http://www.colorcombos.com/combolibrary.html",
+    "des":"提供了各种WEB配色方案",
+    "tags":["配色方案"]
+},{
     "name":"ColorBlender",
     "url":"http://colorblender.com/",
     "des":"是一款非常有趣的免费在线网页配色工具",
@@ -1927,4 +1942,54 @@
     "url":"http://www.illustratorsaustralia.com/",
     "des":"一个提供插画设计及教程培训的爱好者联盟组织",
     "tags":["设计培训"]
+},{
+    "name":"backbonejs",
+    "url":"http://backbonejs.org/",
+    "des":"Backbone.js是一个可以在前端组织MVC的javascript框架",
+    "tags":["MVC"]
+},{
+    "name":"angularjs",
+    "url":"http://angularjs.org/",
+    "des":"AngularJS是由Google创建的一种JS框架，使用它可以扩展应用程序中的HTML词汇，从而在web应用程序中使用HTML声明动态内容",
+    "tags":["MVC"]
+},{
+    "name":"emberjs",
+    "url":"http://emberjs.com/",
+    "des":"Ember.js同样是一个用于创建web应用的JavaScript MVC 框架",
+    "tags":["MVC"]
+},{
+    "name":"knockoutjs",
+    "url":"http://knockoutjs.com/",
+    "des":"Knockout 是个JavaScript library，帮助创建丰富的显示和编辑器UI，通过干净的底层数据模型，你可以在任何时候动态更新UI的选择部分",
+    "tags":["MVC"]
+},{
+    "name":"Vue.js",
+    "url":"http://vuejs.org.cn/",
+    "des":"数据驱动的组件，为现代化的 Web 界面而生",
+    "tags":["MVC"]
+},{
+    "name":"commonjs",
+    "url":"http://www.commonjs.org/",
+    "des":"",
+    "tags":["模块化"]
+},{
+    "name":"seajs",
+    "url":"http://seajs.org/docs/",
+    "des":"",
+    "tags":["模块化"]
+},{
+    "name":"requirejs",
+    "url":"http://requirejs.org/",
+    "des":"",
+    "tags":["模块化"]
+},{
+    "name":"nodejs",
+    "url":"http://nodejs.org/",
+    "des":"",
+    "tags":["模块化"]
+},{
+    "name":"curl.js",
+    "url":"https://github.com/cujojs/curl",
+    "des":"",
+    "tags":["模块化"]
 }]
