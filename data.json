@@ -370,6 +370,11 @@
     "des":"按属性分类，国外免费图标下载",
     "tags":["图标"]
 },{
+    "name":"Evil Icons",
+    "url":"http://evil-icons.io/",
+    "des":"简单干净的SVG图标包的代码支持Rails, Sprockets, Node.js, Gulp, Grunt and CDN。",
+    "tags":["图标"]
+},{
     "name":"Easy Icon",
     "url":"http://www.easyicon.cn/",
     "des":"图标搜索引擎，支持中文检索",
