@@ -6,6 +6,7 @@ var sreach = function(){
     this.boxEml = document.getElementById('list-itme');
     this.input = document.getElementById('search')
     this.info = document.getElementById('info')
+    this.error = document.getElementById('error')
     this.page_size = 50;
     this.page_no = 1;
 
@@ -25,6 +26,12 @@ sreach.prototype = {
             var returns = obj[matchs.replace(/\$/g, "")];
             return typeof returns === "undefined" ? "" : returns;
         })
+    },
+    //获取URL上面的参数
+    getQueryString:function(name) { 
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
+        var r = decodeURIComponent(window.location.search.substr(1)).match(reg);
+        if (r != null) return unescape(r[2]); return null; 
     },
     ajax:function(url,callback){
         var xhr; 
@@ -47,8 +54,9 @@ sreach.prototype = {
         xhr.open('GET', url,  true); 
         xhr.send(null); 
     },
-    itemHTML:function(arr,type){
-        var name = arr.name,des = arr.des;
+    itemHTML:function(arr,type,keywolds){
+        var name = arr.name,des = arr.des,
+            reg = new RegExp("("+keywolds+")","ig");
         if(type === 'search'){
             name = arr.name.replace(reg,'<i class="kw">'+"$1"+"</i>");
             des = arr.des.replace(reg,'<i class="kw">'+"$1"+"</i>") || '';
@@ -82,8 +90,7 @@ sreach.prototype = {
             self = this,
             arr = this.data,
             page_size = this.page_size,
-            keywolds = keywolds.toLowerCase();
-            reg = new RegExp("("+keywolds+")","ig"),
+            keywolds = keywolds.toLowerCase(),
             total = 0;
 
         for (var i = 0; i < arr.length; i++) {
@@ -93,11 +100,38 @@ sreach.prototype = {
                 || self.isSreachIndexOF(arr[i].des,keywolds) 
             ){
                 var myLi = document.createElement("LI");
-                myLi.innerHTML = self.itemHTML(arr[i],'search');
+                myLi.innerHTML = self.itemHTML(arr[i],'search',keywolds);
                 ++total;
                 eml.appendChild(myLi);
             }
         }
+        
+    },
+    createTagsListHTML:function(keywolds){
+        var eml = this.boxEml,
+            arr = this.data,
+            self = this,
+            page_size = this.page_size,
+            total = 0;
+
+        for (var i = 0; i < arr.length; i++) {
+            if(!arr[i]) break;
+            if(total>page_size) break;
+
+            if(arr[i]&&arr[i].tags&&arr[i].tags.indexOf(keywolds)>-1){
+                var myLi = document.createElement("LI");
+                myLi.innerHTML = self.itemHTML(arr[i],'tags',keywolds);
+                eml.appendChild(myLi);
+
+                ++total;    
+            }
+            
+        }
+    },
+    isErrorInfo:function(){
+        this.boxEml.innerHTML == '' 
+            ? this.error.className='error'
+            : this.error.className='hide';
     },
     bindEvent:function(elm,type,handle){
         if (elm.addEventListener) {
@@ -106,18 +140,42 @@ sreach.prototype = {
             elm.attachEvent('on'+type, handle);
         }
     },
+    // 是不是Tag搜索
+    isTagSearch:function(val){
+        return /^(:|：)/.test(val)?true:false;
+    },
     init:function(){
         var self = this;
         this.ajax('js/data.min.json',function(dt){
             self.data = dt;
-            self.info.innerHTML = '搜集到<i> '+dt.length+' </i>个站点 ｜ '
-            self.creatListHTML();
+            self.info.innerHTML = '搜集到<i> '+dt.length+' </i>个站点 ｜ ';
+            var kw = self.getQueryString('kw');
+            
+            // 绑定输入事件
             self.bindEvent(self.input,'input',function(e){
+                var val = e.target.value
                 self.boxEml.innerHTML='';
-                e.target.value
-                    ?self.createSreachListHTML(e.target.value)
+                val? (self.isTagSearch(val)
+                        ?self.createTagsListHTML(val.replace(/^(:|：)/,''))
+                        :self.createSreachListHTML(val)
+                    )
                     :self.creatListHTML();
+
+                if(window.history&&window.history.pushState)
+                    history.pushState({},"jsdig","?kw="+val);
+
+                self.isErrorInfo();
             })
+
+            kw?(self.input.value=kw,
+                (self.isTagSearch(kw)
+                    ?self.createTagsListHTML(kw.replace(/^(:|：)/,''))
+                    :self.createSreachListHTML(kw)
+                )
+            )
+            :self.creatListHTML();
+            self.isErrorInfo();
+
         })
     }
 }
