@@ -495,6 +495,11 @@
     "des":"前端工程师必备的技术网站，直接在显示编辑代码片段样本并分享。",
     "tags":["工具"]
 },{
+    "name":"JS-YAML",
+    "url":"http://nodeca.github.io/js-yaml/",
+    "des":"在线解析YAML，YAML转JSON工具。",
+    "tags":["工具"]
+},{
     "name":"openQ",
     "url":"http://openq.cn/",
     "des":"wanghui的博客",
