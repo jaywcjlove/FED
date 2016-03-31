@@ -21,7 +21,7 @@
 },{
     "name":"CodePen",
     "url":"http://codepen.io/",
-    "des":"前端工程师必备的技术网站",
+    "des":"前端工程师必备的技术网站，直接在显示编辑代码片段并分享。",
     "tags":["工具"]
 },{
     "name":"Can I use",
@@ -488,6 +488,11 @@
     "name":"Css3Maker",
     "url":"http://www.css3maker.com/",
     "des":"css3在线生成器",
+    "tags":["工具"]
+},{
+    "name":"JS Bin",
+    "url":"http://jsbin.com/",
+    "des":"前端工程师必备的技术网站，直接在显示编辑代码片段样本并分享。",
     "tags":["工具"]
 },{
     "name":"openQ",
@@ -1421,6 +1426,11 @@
     "name":"Fontex",
     "url":"http://www.fontex.org/",
     "des":"很酷的字体展现方式，字体免费可用于商业用途",
+    "tags":["字体"]
+},{
+    "name":"FontEditor",
+    "url":"http://font.baidu.com/editor/",
+    "des":"FontEditor是一款在线字体编辑器软件， 能够打开本地或者远程的ttf|woff|eot|otf格式的字体文件， 能够导入和导出ttf|woff|eot|svg|otf格式的字体文件， 提供字形的编辑和轮廓编辑功能，提供字体的实时预览功能。",
     "tags":["字体"]
 },{
     "name":"Abstract Fonts",
