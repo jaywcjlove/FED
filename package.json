@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "stylus -u autoprefixer-stylus css/index.styl -o css/ -c",
-    "build": "npm run build:css",
-    "watch:css": "onchange 'css/**/*.styl' -v -- npm run build",
+    "build:css": "stylus -u autoprefixer-stylus styl/index.styl -o css/ -c",
+    "build": "npm run build:css && npm run min",
+    "watch": "npm run watch:css && npm run watch:js",
+    "watch:css": "onchange 'styl/**/*.styl' -v -- npm run build",
     "watch:js": "onchange 'js/index.js' './data.json' -v -- npm run min",
     "min": "npm run min:js && npm run min:data",
     "min:js": "uglifyjs js/index.js -o js/index.min.js",
@@ -17,6 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^6.3.5",
+    "autoprefixer-stylus": "^0.9.2",
     "onchange": "^2.2.0",
     "postcss-cli": "^2.5.1",
     "stylus": "^0.54.2",
