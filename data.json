@@ -2100,4 +2100,49 @@
     "github":"https://github.com/jaywcjlove/sb",
     "des":"SVG高逼格静态状态图标。",
     "tags":["js"]
+},{
+    "name":"Git@OSC代码托管-开源中国社区",
+    "url":"http://git.oschina.net/",
+    "des":"可创建 1000 个项目，不限私有或公有；支持 SSH、HTTP 和 SVN 访问。一键分析您的项目，更直观地了解项目代码整体质量，支持Sonar、腾讯优测等平台。提供 CloudFoundry、Docker及OpenShift 环境，支持多种语言框架及数据库服务。",
+    "tags":["git","代码托管"]
+},{
+    "name":"Git 代码托管 - Coding.net",
+    "url":"https://coding.net/git",
+    "des":"Coding 的代码托管功能除了基本的 Git 仓库以外，还有保护分支，分屏对比，按行评论等高级功能。并且整合了 CodeInsight，质量管理，演示平台等等开发工具，提升研发效率。",
+    "tags":["git","代码托管"]
+},{
+    "name":"CODE csdn",
+    "url":"https://code.csdn.net/",
+    "des":"CSDN CODE code.csdn.net 是CSDN旗下的开发服务平台，面向国内开发者提供代码托管、代码片、社交编程、组织管理、社区讨论、知识库等开发服务。",
+    "tags":["git","代码托管"]
+},{
+    "name":"CODE csdn",
+    "url":"http://code.taobao.org/",
+    "des":"阿里云旗下淘宝的一个代码托管",
+    "tags":["svn","阿里","代码托管"]
+},{
+    "name":"gitcafe",
+    "url":"https://gitcafe.com/",
+    "des":"GitCafe 项目迁移至 Coding.net，GitCafe 是一个为您在线托管软件项目的服务平台。 这里是一个大家庭，您可以在 GitCafe 与他人快乐地进行项目分享与协作。 现在就加入 GitCafe，找到喜欢的项目与志同道合的程序员！",
+    "tags":["git","代码托管"]
+},{
+    "name":"Gitlab",
+    "url":"https://about.gitlab.com/",
+    "des":"GitLab 是一个用于仓库管理系统的开源项目。使用Git作为代码管理工具，并在此基础上搭建起来的web服务。",
+    "tags":["git","代码托管"]
+},{
+    "name":"Bitbucket",
+    "url":"https://bitbucket.org/",
+    "des":"BitBucket 是一家源代码托管网站，采用Mercurial和Git作为分布式版本控制系统，同时提供商业计划和免费账户。",
+    "tags":["git","代码托管"]
+},{
+    "name":"GITHUBER.CN",
+    "url":"http://githuber.cn/",
+    "des":"谁是Github上最闪亮的星？让数据说话，多维度Github人才搜索、技术指标排名，向Github精英们推荐您的招聘职位。",
+    "tags":["github"]
+},{
+    "name":"gogs",
+    "url":"https://gogs.io/",
+    "des":"Gogs 的目标是打造一个最简单、最快速和最轻松的方式搭建自助 Git 服务。使用 Go 语言开发使得 Gogs 能够通过独立的二进制分发，并且支持 Go 语言支持的 所有平台，包括 Linux、Mac OS X、Windows 以及 ARM 平台。",
+    "tags":["git","代码托管"]
 }]
