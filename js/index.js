@@ -6,9 +6,11 @@ var sreach = function(){
     this.boxEml = document.getElementById('list-itme');
     this.input = document.getElementById('search')
     this.info = document.getElementById('info')
+    this.tagsEml = document.getElementById('tags')
     this.error = document.getElementById('error')
     this.page_size = 50;
-    this.page_no = 1;
+    this.page_no = 1,
+    this.tags = [];
 
     if(this.boxEml){
         this.init();   
@@ -107,12 +109,46 @@ sreach.prototype = {
         }
         
     },
+    // 获取所有的tags
+    getTagsAll:function(){
+        var arr = this.data,tags = [];
+        if(arr.length>0){
+            for (var i = 0; i < arr.length; i++) {
+                if(arr[i].tags&&arr[i].tags.length>0){
+                    for(a in arr[i].tags){
+                        tags.indexOf(arr[i].tags[a])===-1 ? tags.push(arr[i].tags[a]):null;
+                    }
+                }
+            }
+            this.tags=tags;
+        }
+    },
+    // 创建tag列表
+    createTagsHTML:function(keywolds){
+        var html_str = '',self=this,
+            elm = this.tagsEml,
+            keywolds = keywolds.replace(/^(:|：)/,''),
+            reg = new RegExp("("+keywolds+")","ig");
+
+        elm.innerHTML = '';
+        for (var i = 0; i < this.tags.length; i++) {
+            var mySpan = document.createElement("SPAN");
+            mySpan.innerHTML = this.tags[i].replace(reg,'<i class="kw">'+"$1"+"</i>");
+            if( self.isSreachIndexOF(this.tags[i],keywolds) ){
+                elm.appendChild(mySpan);
+            }else if(keywolds ===''){
+                elm.appendChild(mySpan);
+            }
+        }
+    },
+    // 所在 tag 的列表
     createTagsListHTML:function(keywolds){
         var eml = this.boxEml,
             arr = this.data,
             self = this,
             page_size = this.page_size,
-            total = 0;
+            total = 0,
+            keywolds = keywolds.replace(/^(:|：)/,'');
 
         for (var i = 0; i < arr.length; i++) {
             if(!arr[i]) break;
@@ -129,6 +165,15 @@ sreach.prototype = {
         }
     },
     isErrorInfo:function(){
+        var kw = this.getQueryString('kw');
+
+        if(/^(:|：)/.test(kw)){
+            this.tagsEml.className = 'show';
+            this.createTagsHTML(kw)
+            return;
+        }else{
+            this.tagsEml.className = 'hide';
+        }
         this.boxEml.innerHTML == '' 
             ? this.error.className='error'
             : this.error.className='hide';
@@ -144,38 +189,38 @@ sreach.prototype = {
     isTagSearch:function(val){
         return /^(:|：)/.test(val)?true:false;
     },
+    valToHTML:function(val){
+        console.log("val:",val);
+        var self = this;
+        val?(self.isTagSearch(val)
+                ?self.createTagsListHTML(val)
+                :self.createSreachListHTML(val)
+        )
+        :self.creatListHTML();
+        if(window.history&&window.history.pushState)
+            val ? history.pushState({},"jsdig","?kw="+val):
+                history.pushState({},"jsdig","?");
+
+        self.isErrorInfo(val);
+    },
     init:function(){
         var self = this;
         this.ajax('js/data.min.json',function(dt){
             self.data = dt;
             self.info.innerHTML = '搜集到<i> '+dt.length+' </i>个站点 ｜ ';
             var kw = self.getQueryString('kw');
+
+            self.getTagsAll();
             
             // 绑定输入事件
             self.bindEvent(self.input,'input',function(e){
                 var val = e.target.value
                 self.boxEml.innerHTML='';
-                val? (self.isTagSearch(val)
-                        ?self.createTagsListHTML(val.replace(/^(:|：)/,''))
-                        :self.createSreachListHTML(val)
-                    )
-                    :self.creatListHTML();
+                self.valToHTML(val);
 
-                if(window.history&&window.history.pushState)
-                    history.pushState({},"jsdig","?kw="+val);
-
-                self.isErrorInfo();
             })
-
-            kw?(self.input.value=kw,
-                (self.isTagSearch(kw)
-                    ?self.createTagsListHTML(kw.replace(/^(:|：)/,''))
-                    :self.createSreachListHTML(kw)
-                )
-            )
-            :self.creatListHTML();
-            self.isErrorInfo();
-
+            kw&&(self.input.value=kw);
+            self.valToHTML(kw);
         })
     }
 }

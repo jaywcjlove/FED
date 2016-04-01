@@ -27,7 +27,7 @@
     "name":"Can I use",
     "url":"http://caniuse.com/",
     "des":"这是一个极好的网站，查询你使用的属性方法在浏览器中的兼容。",
-    "tags":["工具"]
+    "tags":["工具","caniuse"]
 },{
     "name":"前端乱炖",
     "url":"http://html-js.com/",
@@ -108,12 +108,12 @@
     "name":"5173UED",
     "url":"http://ued.5173.com/",
     "des":"5173用户体验设计团队",
-    "tags":["团队"]
+    "tags":["团队","UED"]
 },{
     "name":"HiUED",
     "url":"http://www.hiued.org/",
     "des":"用户体验交流会",
-    "tags":["团队"]
+    "tags":["团队","UED"]
 },{
     "name":"UCD大社区",
     "url":"http://ucdchina.com/",
@@ -123,7 +123,7 @@
     "name":"CNTV&CCTV UED",
     "url":"http://uedteam.com/",
     "des":"央视网/中国网络电视台，指定设计开发团队  [ UE/UX 、UCD、IA、ID、HCI ] ",
-    "tags":["团队"]
+    "tags":["团队","UED"]
 },{
     "name":"人人FED",
     "url":"http://fed.renren.com/",
@@ -133,12 +133,12 @@
     "name":"天猫UED",
     "url":"http://ued.tmall.com/",
     "des":"天猫UED成员微博集合",
-    "tags":["团队"]
+    "tags":["团队","UED"]
 },{
     "name":"搜狐MUED",
     "url":"http://mued.sohu.com/",
     "des":"搜狐无线UED团队",
-    "tags":["团队"]
+    "tags":["团队","UED"]
 },{
     "name":"搜狐媒体设计中心",
     "url":"http://mdc.sohu.com/",
@@ -148,7 +148,7 @@
     "name":"搜狐焦点UED",
     "url":"http://ued.focus.cn/wordpress/",
     "des":"搜狐焦点UED团队",
-    "tags":["团队"]
+    "tags":["团队","UED"]
 },{
     "name":"搜狐畅游VC",
     "url":"http://vc.changyou.com/",
@@ -158,37 +158,37 @@
     "name":"搜狗UED",
     "url":"http://ued.sogou.com/",
     "des":"搜狗UED团队",
-    "tags":["团队"]
+    "tags":["团队","UED"]
 },{
     "name":"携程UED",
     "url":"http://ued.ctrip.com/blog/",
     "des":"携程网UED团队",
-    "tags":["团队"]
+    "tags":["团队","UED"]
 },{
     "name":"支付宝用户体验部",
     "url":"http://ued.alipay.com/",
     "des":"支付宝用户体验部",
-    "tags":["团队","阿里","支付宝"]
+    "tags":["团队","阿里","支付宝","UED"]
 },{
     "name":"一淘体验工作平台",
     "url":"http://ued.alimama.com/",
     "des":"一淘体验工作平台",
-    "tags":["团队","阿里","一淘"]
+    "tags":["团队","阿里","一淘","UED"]
 },{
     "name":"淘宝UED",
     "url":"http://ued.taobao.org/blog/",
     "des":"做地球上最好的 UED",
-    "tags":["团队","阿里","淘宝"]
+    "tags":["团队","阿里","淘宝","UED"]
 },{
     "name":"良无限用户体验部UPD",
     "url":"http://www.lpued.com/",
     "des":"淘宝良无限用户体验部UPD",
-    "tags":["团队","阿里","淘宝"]
+    "tags":["团队","阿里","淘宝","UED"]
 },{
     "name":"U一点",
     "url":"http://www.aliued.cn/",
     "des":"阿里巴巴（中国站）用户体验设计部博客U一点设计 UED团队",
-    "tags":["团队","阿里"]
+    "tags":["团队","阿里","UED"]
 },{
     "name":"美团点评技术团队",
     "url":"http://tech.meituan.com/",
@@ -198,12 +198,12 @@
     "name":"阿里巴巴国际UED团队",
     "url":"http://www.aliued.com/",
     "des":"Alibaba  User experience design team",
-    "tags":["团队","阿里"]
+    "tags":["团队","阿里","UED"]
 },{
     "name":"新浪UED",
     "url":"http://ued.sina.com/",
     "des":"新浪UED",
-    "tags":["团队"]
+    "tags":["团队","UED"]
 },{
     "name":"新浪微博设计团队",
     "url":"http://udc.weibo.com/",
@@ -213,12 +213,12 @@
     "name":"有意思",
     "url":"http://www.kdued.com/",
     "des":"金蝶友商网UED",
-    "tags":["团队"]
+    "tags":["团队","UED"]
 },{
     "name":"淘宝UED",
     "url":"http://ued.taobao.com/",
     "des":"淘宝UED",
-    "tags":["团队","阿里"]
+    "tags":["团队","阿里","UED"]
 },{
     "name":"爱词霸UED",
     "url":"http://ued.iciba.com/",
@@ -238,7 +238,7 @@
     "name":"百度搜索用户体验中心",
     "url":"http://ued.baidu.com/",
     "des":"百度搜索用户体验中心 ( Search UX )，由原百度“搜索业务用户体验部”、“商业产品用户体验部”合并而成。围绕百度最核心的搜索业务，为提高数以亿计用户的交互体验和商业伙伴服务品质而努力。并致力于创建搜索引擎的极致用户体验，及用户行为与商业环境的和谐之美。",
-    "tags":["团队"]
+    "tags":["团队","UED"]
 },{
     "name":"百度MUX",
     "url":"http://mux.baidu.com/",
@@ -263,7 +263,7 @@
     "name":"19楼UED",
     "url":"http://blog.19ued.com/",
     "des":"19楼UED",
-    "tags":["团队"]
+    "tags":["团队","UED"]
 },{
     "name":"腾讯CDC",
     "url":"http://cdc.tencent.com/",
@@ -298,72 +298,72 @@
     "name":"迅雷CUED",
     "url":"http://cued.xunlei.com/",
     "des":"迅雷CUED",
-    "tags":["团队"]
+    "tags":["团队","UED"]
 },{
     "name":"SixUX",
     "url":"http://sixux.com/",
     "des":"实录各类过场动画视频，直观的交互体验学习平台。",
-    "tags":["UX研究所"]
+    "tags":["UX"]
 },{
     "name":"SmashingMagazine",
     "url":"http://www.smashingmagazine.com/",
     "des":"前端与用户体验为核心的杂志类知名博客",
-    "tags":["UX研究所"]
+    "tags":["UX"]
 },{
     "name":"THEnextweb",
     "url":"http://thenextweb.com/",
     "des":"国外交互设计资讯平台",
-    "tags":["UX研究所"]
+    "tags":["UX"]
 },{
     "name":"User Experience",
     "url":"http://ux.stackexchange.com/",
     "des":"一个免费为用户体验研究人员和专家提供问答服务的社区",
-    "tags":["UX研究所"]
+    "tags":["UX"]
 },{
     "name":"UX Magazine",
     "url":"http://uxmag.com/",
     "des":"设计、技术、用户体验等最好最新思想的原创文章",
-    "tags":["UX研究所"]
+    "tags":["UX"]
 },{
     "name":"UXbooth",
     "url":"http://www.uxbooth.com/",
     "des":"侧重用户体验、交互、可用性等内容",
-    "tags":["UX研究所"]
+    "tags":["UX"]
 },{
     "name":"UXDE",
     "url":"http://www.uxde.net/",
     "des":"提供交互设计和开发的灵感、教程、资源等",
-    "tags":["UX研究所"]
+    "tags":["UX"]
 },{
     "name":"UX杂志",
     "url":"http://uxmag.com",
     "des":"提供持续、丰富、权威的用户体验和相关领域的信息",
-    "tags":["UX研究所"]
+    "tags":["UX"]
 },{
     "name":"WebPPD",
     "url":"http://www.webppd.com/",
     "des":"产品原型设计，务实产品经理基本功",
-    "tags":["UX研究所"]
+    "tags":["UX"]
 },{
     "name":"交互设计专业委员会",
     "url":"http://ixdc.org/",
     "des":"引领中国交互设计行业发展",
-    "tags":["UX研究所"]
+    "tags":["UX"]
 },{
     "name":"深圳体验设计专业委员会",
     "url":"http://www.uxdc.org/",
     "des":"中国首个体验设计专业组织，倡导推广体验设计行业能力标准和业务流程，竭力促进体验设计与传统行业的对接，积极引领国内体验设计行业与国际接轨",
-    "tags":["UX研究所"]
+    "tags":["UX"]
 },{
     "name":"用户体验资讯网",
     "url":"http://uxinfo.com/",
     "des":"IXDC旗下资讯网，引领中国交互设计行业发展",
-    "tags":["UX研究所"]
+    "tags":["UX"]
 },{
     "name":"线框杂志",
     "url":"http://wireframes.linowski.ca/",
     "des":"丰富的线框知识与资源，UX必备",
-    "tags":["UX研究所"]
+    "tags":["UX"]
 },{
     "name":"Dryicons",
     "url":"http://www.freeiconsdownload.com/",
@@ -504,6 +504,36 @@
     "url":"http://nodeca.github.io/js-yaml/",
     "des":"在线解析YAML，YAML转JSON工具。",
     "tags":["工具"]
+},{
+    "name":"The Current State of HTML5 Forms",
+    "url":"http://wufoo.com/html5/",
+    "des":"Browser support for the different features of HTML5 forms is quite varied. Let’s explore.",
+    "tags":["工具","caniuse"]
+},{
+    "name":"HTML5 tests - inputs",
+    "url":"http://www.quirksmode.org/html5/inputs.html",
+    "des":"This page tests the new input values of HTML5.",
+    "tags":["工具","caniuse"]
+},{
+    "name":"HTML5 tests - inputs (mobile)",
+    "url":"http://www.quirksmode.org/html5/inputs_mobile.html",
+    "des":"This page tests the new input values of HTML5 in mobile browsers.",
+    "tags":["工具","caniuse"]
+},{
+    "name":"HTML5 tests - video",
+    "url":"http://www.quirksmode.org/html5/tests/video.html",
+    "des":"This page tests the <code>&lt;video&gt;</code> tag.",
+    "tags":["工具","caniuse"]
+},{
+    "name":"Local storage",
+    "url":"http://www.quirksmode.org/html5/storage.html",
+    "des":"Here is information about local storage and session storage.",
+    "tags":["工具","caniuse"]
+},{
+    "name":"Enable CORS",
+    "url":"http://enable-cors.org",
+    "des":"Enable cross-origin resource sharing",
+    "tags":["工具","caniuse"]
 },{
     "name":"openQ",
     "url":"http://openq.cn/",
@@ -841,12 +871,12 @@
     "name":"CSS3lib动画库",
     "url":"http://css3lib.alloyteam.com/",
     "des":"由腾讯AlloyTeam搜集和整理的CSS3动画库",
-    "tags":["CSS资源"]
+    "tags":["CSS资源","腾讯"]
 },{
     "name":"ECD动画库",
     "url":"http://ecd.tencent.com/css3/index.html",
     "des":"由腾讯电商前端团队编写的CSS3动画库",
-    "tags":["CSS资源"]
+    "tags":["CSS资源","腾讯"]
 },{
     "name":"css3please",
     "url":"http://css3please.com/",
@@ -896,7 +926,7 @@
     "name":"Frozen UI",
     "url":"http://frozenui.github.io/",
     "des":"Frozen UI 腾讯移动端框架",
-    "tags":["移动框架"]
+    "tags":["移动框架","腾讯"]
 },{
     "name":"jquerymobile",
     "url":"http://jquerymobile.com/",
@@ -1511,7 +1541,7 @@
     "name":"图表腾讯",
     "url":"http://news.qq.com/newspedia/all.htm",
     "des":"推荐！腾讯的新闻百科，中文信息图设计得很不错",
-    "tags":["信息图片"]
+    "tags":["信息图片","腾讯"]
 },{
     "name":"网商图媒体",
     "url":"http://www.wshang.com/media/index.html",
@@ -2022,4 +2052,52 @@
     "url":"https://github.com/cujojs/curl",
     "des":"",
     "tags":["模块化"]
+},{
+    "name":"validator.js",
+    "url":"http://jaywcjlove.github.io/validator.js",
+    "github":"https://github.com/jaywcjlove/validator.js",
+    "des":"轻量级的JavaScript表单验证，字符串验证。没有依赖，支持UMD，~3kb。",
+    "tags":["js"]
+},{
+    "name":"Hotkeys",
+    "url":"http://jaywcjlove.github.io/hotkeys",
+    "github":"https://github.com/jaywcjlove/hotkeys",
+    "des":"这是一个强健的 Javascript 库用于捕获键盘输入和输入的组合键，它没有依赖，压缩只有只有(~3kb)。",
+    "tags":["js"]
+},{
+    "name":"translater.js",
+    "url":"http://jaywcjlove.github.io/translater.js",
+    "github":"https://github.com/jaywcjlove/translater.js",
+    "des":"这是一个利用HTML注释的页面翻译解决方案。对于少量的静态页面，这种解决方案显得更简单。它没有依赖，压缩只有只有(~2kb)。",
+    "tags":["js"]
+},{
+    "name":"idoc",
+    "url":"http://jaywcjlove.github.io/idoc",
+    "github":"https://github.com/jaywcjlove/idoc",
+    "des":"简单的文档手册生成工具! ",
+    "tags":["文档","手册","node"]
+},{
+    "name":"idoc",
+    "url":"https://github.com/jaywcjlove/ssr",
+    "github":"https://github.com/jaywcjlove/ssr",
+    "des":"将一个目录设置成一个静态服务器。。大家肯定遇到过，当后端 API 没有编写完成时，前端无法进行调试，这就导致了前端会被后端阻塞的情况。而ssr相当于是搭建了一个 Mock Server ，构建假数据，然后把这些假数据存到 JSON 文件上，Mock Server 可以响应请求或者生成页面，当然也可以顺便生成 API 文档。 ",
+    "tags":["工具","node","node"]
+},{
+    "name":"cookie.js",
+    "url":"http://jaywcjlove.github.io/cookie.js",
+    "github":"https://github.com/jaywcjlove/cookie.js",
+    "des":"本地存储cookie的封装，提供简单的AIP 兼容IE6",
+    "tags":["js","cookie"]
+},{
+    "name":"store.js",
+    "url":"http://jaywcjlove.github.io/store.js",
+    "github":"https://github.com/jaywcjlove/store.js",
+    "des":"本地存储cookie的封装，提供简单的AIP 兼容IE6",
+    "tags":["js","cookie"]
+},{
+    "name":"SVG badges",
+    "url":"https://jaywcjlove.github.io/sb",
+    "github":"https://github.com/jaywcjlove/sb",
+    "des":"SVG高逼格静态状态图标。",
+    "tags":["js","cookie"]
 }]

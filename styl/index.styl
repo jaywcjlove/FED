@@ -53,6 +53,7 @@ a
             padding: 0 10px
             line-height: 23px
             border-radius: 5px
+            font-size 0.6rem
             i 
                 color #000
                 font-weight bold
@@ -121,7 +122,24 @@ a
                 color: #FFF;
             &:active
                 background: #1D1F27
+    #tags
+        padding 0.375rem 0 0.5rem 0.25rem
+        span 
+            font-size 0.575rem
+            display inline-block
+            margin 0 0.075rem
+            padding 0 0.25rem
+            border-radius 0.25rem
+            background-color #E5E5E5
+            cursor pointer
+            &:hover
+                background-color #BFC8E0
+            &:active
+                background: #98ACFF
 .search
+    position absolute
+    bottom 0px
+    left 0px
     input 
         position fixed
         bottom -2px
@@ -152,5 +170,6 @@ a
 
     .search input
         font-size 18px
+        padding 15px 10px
     body 
-        padding-bottom 3.75em
+        padding 1.75em 0.275em 3.75em 0.25em
