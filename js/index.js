@@ -19,6 +19,13 @@ var sreach = function(){
 sreach.prototype = {
     // 搜索字符串里面是否存在关键字
     isSreachIndexOF:function(oldstr,kw){
+        var istrue = false;
+        if(oldstr&&toString.call(oldstr) === '[object Array]'){
+            for (var i = 0; i < oldstr.length; i++) {
+                oldstr[i].toLowerCase()===kw.toLowerCase()?istrue=true:null;
+            }
+            return istrue;
+        }
         if(!oldstr || !kw) return false;
         return oldstr.toLowerCase().indexOf(kw.toLowerCase()) > -1 ? true : false;
     },
@@ -154,11 +161,15 @@ sreach.prototype = {
             if(!arr[i]) break;
             if(total>page_size) break;
 
-            if(arr[i]&&arr[i].tags&&arr[i].tags.indexOf(keywolds)>-1){
+            // console.log("keywolds:",keywolds,arr[i].tags)
+
+            //this.isSreachIndexOF(arr[i].tags,keywolds) 
+
+            if(arr[i]&&arr[i].tags&&this.isSreachIndexOF(arr[i].tags,keywolds)){
+            // if(arr[i]&&arr[i].tags&&arr[i].tags.indexOf(keywolds)>-1){
                 var myLi = document.createElement("LI");
                 myLi.innerHTML = self.itemHTML(arr[i],'tags',keywolds);
                 eml.appendChild(myLi);
-
                 ++total;    
             }
             
@@ -190,7 +201,6 @@ sreach.prototype = {
         return /^(:|：)/.test(val)?true:false;
     },
     valToHTML:function(val){
-        console.log("val:",val);
         var self = this;
         val?(self.isTagSearch(val)
                 ?self.createTagsListHTML(val)
