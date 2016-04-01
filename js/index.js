@@ -160,13 +160,7 @@ sreach.prototype = {
         for (var i = 0; i < arr.length; i++) {
             if(!arr[i]) break;
             if(total>page_size) break;
-
-            // console.log("keywolds:",keywolds,arr[i].tags)
-
-            //this.isSreachIndexOF(arr[i].tags,keywolds) 
-
             if(arr[i]&&arr[i].tags&&this.isSreachIndexOF(arr[i].tags,keywolds)){
-            // if(arr[i]&&arr[i].tags&&arr[i].tags.indexOf(keywolds)>-1){
                 var myLi = document.createElement("LI");
                 myLi.innerHTML = self.itemHTML(arr[i],'tags',keywolds);
                 eml.appendChild(myLi);
