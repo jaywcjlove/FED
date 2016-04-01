@@ -2093,11 +2093,11 @@
     "url":"http://jaywcjlove.github.io/store.js",
     "github":"https://github.com/jaywcjlove/store.js",
     "des":"本地存储cookie的封装，提供简单的AIP 兼容IE6",
-    "tags":["js","cookie"]
+    "tags":["js"]
 },{
     "name":"SVG badges",
     "url":"https://jaywcjlove.github.io/sb",
     "github":"https://github.com/jaywcjlove/sb",
     "des":"SVG高逼格静态状态图标。",
-    "tags":["js","cookie"]
+    "tags":["js"]
 }]
