@@ -2395,4 +2395,14 @@
     "url":"https://frontendfront.com/",
     "des":"前端资讯平台",
     "tags":["前端资讯"]
+},{
+    "name":"npm",
+    "url":"https://www.npmjs.com/",
+    "des":"NPM是JavaScript的软件包管理器。查找，共享和重用代码的包从成百上千的开发人员-并用强大的新方法组装起来。",
+    "tags":["npm"]
+},{
+    "name":"npm-stat",
+    "url":"http://npm-stat.com/",
+    "des":"查看npm包或者用的数据统计。",
+    "tags":["npm"]
 }]
