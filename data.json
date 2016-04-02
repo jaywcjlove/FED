@@ -2416,4 +2416,10 @@
     "url":"http://www.webhek.com/", 
     "des":"关注HTML5、CSS3等浏览器前端技术，包括各种HTML5、CSS3资料，HTML5、CSS3网站、HTML5、CSS3资讯、HTML5、CSS3应用、HTML5、CSS3游戏、HTML5、CSS3教程、HTML5、CSS3视频、HTML5、CSS3论坛等。" ,
     "tags":["技术","博客"]
+},{
+    "name":"PixelsTech - A place for geeks", 
+    "url":"http://www.pixelstech.net", 
+    "ico":"http://www.pixelstech.net/favicon.ico",
+    "des":"关注各种技术，包括各种编程语言，各个技术领域。" ,
+    "tags":["技术","资讯"]
 }]
