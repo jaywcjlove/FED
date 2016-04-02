@@ -34,6 +34,11 @@
     "des":"前端乱炖，这里是最专业的前端知识平台，汇集国内大部分前端开发人员的前端花名册，最精彩的原创文章专栏，最专业的问答平台，最火热的话题频道，最丰富的线下线上活动。",
     "tags":["社区"]
 },{
+    "name":"Div.IO",
+    "url":"http://div.io/",
+    "des":"高质量前端资源汇聚",
+    "tags":["社区"]
+},{
     "name":"Bootstrap中文网",
     "url":"http://www.bootcss.com/",
     "des":"Bootstrap是Twitter推出的一个用于前端开发的开源工具包。它由Twitter的设计师Mark Otto和Jacob Thornton合作开发，是一个CSS/HTML框架。目前，Bootstrap最新版本为3.0 。Bootstrap中文网致力于为广大国内开发者提供详尽的中文文档、代码实例等，助力开发者掌握并使用这一框架。",
@@ -72,6 +77,11 @@
     "name":"前端开发",
     "url":"http://www.css88.com/",
     "des":"专注前端开发，关注用户体验",
+    "tags":["社区"]
+},{
+    "name":"Awesomes - 前端资源库",
+    "url":"https://www.awesomes.cn/",
+    "des":"免费开源的高质量前端库、框架和插件",
     "tags":["社区"]
 },{
     "name":"前端观察",
@@ -2033,6 +2043,11 @@
     "des":"数据驱动的组件，为现代化的 Web 界面而生",
     "tags":["MVC","vue"]
 },{
+    "name":"Avalonjs",
+    "url":"http://avalonjs.github.io/",
+    "des":"迷你简单易用的MVVM框架。",
+    "tags":["MVC","MVC"]
+},{
     "name":"commonjs",
     "url":"http://www.commonjs.org/",
     "des":"",
@@ -2051,7 +2066,7 @@
     "name":"nodejs",
     "url":"http://nodejs.org/",
     "des":"",
-    "tags":["模块化"]
+    "tags":["nodejs","官网"]
 },{
     "name":"curl.js",
     "url":"https://github.com/cujojs/curl",
@@ -2170,4 +2185,129 @@
     "url":"http://rawbin-.github.io/",
     "des":"个人前端杂记",
     "tags":["技术","杂记","博客"]
+},{
+    "url":"http://taobaofed.github.io/react-web/",
+    "name":"react taobaofed",
+    "des":"A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+    "tags":["工具","淘宝"]
+},{
+    "url":"http://gulpjs.com/",
+    "name":"gulp",
+    "des":"简单易用的流式构建系统",
+    "tags":["工具","构建工具"]
+},{
+    "url":"http://underscorejs.org/",
+    "name":"underscore",
+    "des":"JavaScript's utility _ belt",
+    "tags":["工具"]
+},{
+    "url":"http://modernizr.com/",
+    "name":"Modernizr",
+    "des":"Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.",
+    "tags":["工具"]
+},{
+    "url":"http://rackt.github.io/redux",
+    "name":"redux",
+    "des":"Predictable state container for JavaScript apps",
+    "tags":["工具"]
+},{
+    "url":"http://mozilla.github.io/pdf.js/",
+    "name":"pdf.js",
+    "des":"JavaScript 的 PDF 查看器 ",
+    "tags":["工具"]
+},{
+    "url":"https://lodash.com/",
+    "name":"lodash",
+    "des":"A JavaScript utility library delivering consistency, modularity, performance, &amp; extras.",
+    "tags":["工具"]
+},{
+    "url":"http://lesscss.org/",
+    "name":"less.js",
+    "des":"CSS 的一种简写语法",
+    "tags":["工具"]
+},{
+    "url":"http://phaser.io/",
+    "name":"phaser",
+    "des":"Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobi browsers, supporting Canvas and WebGL rendering.",
+    "tags":["工具"]
+},{
+    "url":"http://bower.io/",
+    "name":"bower",
+    "des":"一个针对 web 开发的包管理器",
+    "tags":["工具"]
+},{
+    "url":"https://babeljs.io/",
+    "name":"babel",
+    "des":"Babel is a compiler for writing next generation JavaScript.",
+    "tags":["工具"]
+},{
+    "url":"http://developers.google.com/web/starter-kit",
+    "name":"web-starter-kit",
+    "des":"Google Web Starter Kit",
+    "tags":["工具"]
+},{
+    "url":"https://webpack.github.io/",
+    "name":"webpack",
+    "des":"A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows to load parts for the application on demand. Through \"loaders\" modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
+    "tags":["工具","构建工具"]
+},{
+    "url":"http://coffeescript.org/",
+    "name":"coffeescript",
+    "des":"JavaScript 简易写法",
+    "tags":["工具"]
+},{
+    "url":"http://facebook.github.io/flux/",
+    "name":"flux",
+    "des":"创建用户接口的应用框架",
+    "tags":["工具"]
+},{
+    "url":"https://keymetrics.io/",
+    "name":"PM2",
+    "des":"Production process manager for Node.js / io.js applications. Perfectly fitted for microservices architecture.",
+    "tags":["工具"]
+},{
+    "url":"http://angular-ui.github.io/ui-router/site",
+    "name":"ui-router",
+    "des":"The de-facto solution to flexible routing with nested views in AngularJS",
+    "tags":["工具"]
+},{       
+    "url":"http://facebook.github.io/immutable-js/",
+    "name":"immutable-js",
+    "des":"Immutable persistent data collections for Javascript which increase efficiency and simplicity.",
+    "tags":["工具"]
+},{
+    "url":"http://jasmine.github.io/",
+    "name":"jasmine",
+    "des":"DOM-less simple JavaScript testing framework",
+    "tags":["工具","测试工具"]
+},{
+    "url":"https://www.awesomes.cn/repo/pixijs/pixi-js",
+    "name":"pixi.js",
+    "des":"Super fast HTML 5 2D rendering engine that uses webGL with canvas fallback",
+    "tags":["工具"]
+},{
+    "url":"http://gruntjs.com/",
+    "name":"grunt",
+    "des":"Grunt: JavaScript 任务执行器",
+    "tags":["工具","构建工具"]
+},{
+    "url":"http://jade-lang.com/",
+    "name":"jade",
+    "des":"针对 Node.js 的健壮的、优雅的、功能丰富的模板引擎",
+    "tags":["工具","模板引擎"]
+},{
+    "url":"https://zenorocha.github.io/clipboard.js",
+    "name":"clipboard.js",
+    "des":":scissors: Modern copy to clipboard. No Flash. Just 2kb :clipboard:",
+    "tags":["工具"]
+},{
+    "url":"http://handlebarsjs.com/",
+    "name":"handlebars.js",
+    "des":"",
+    "tags":["工具"]
+},{
+    "url":"http://codemirror.net/",
+    "name":"CodeMirror",
+    "des":"浏览器中的代码编辑器",
+    "tags":["工具","编辑器"]
 }]
