@@ -498,7 +498,12 @@
     "name":"JS Bin",
     "url":"http://jsbin.com/",
     "des":"前端工程师必备的技术网站，直接在显示编辑代码片段样本并分享。",
-    "tags":["工具"]
+    "tags":["工具","在线编辑器"]
+},{
+    "name":"JSFiddle",
+    "url":"http://jsfiddle.net/",
+    "des":"测试你的JavaScript，CSS，HTML或CoffeeScript的在线代码编辑器JSFiddle。",
+    "tags":["工具","在线编辑器"]
 },{
     "name":"JS-YAML",
     "url":"http://nodeca.github.io/js-yaml/",
@@ -2026,7 +2031,7 @@
     "name":"Vue.js",
     "url":"http://vuejs.org.cn/",
     "des":"数据驱动的组件，为现代化的 Web 界面而生",
-    "tags":["MVC"]
+    "tags":["MVC","vue"]
 },{
     "name":"commonjs",
     "url":"http://www.commonjs.org/",
