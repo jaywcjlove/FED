@@ -2146,6 +2146,11 @@
     "des":"Gogs 的目标是打造一个最简单、最快速和最轻松的方式搭建自助 Git 服务。使用 Go 语言开发使得 Gogs 能够通过独立的二进制分发，并且支持 Go 语言支持的 所有平台，包括 Linux、Mac OS X、Windows 以及 ARM 平台。",
     "tags":["git","代码托管"]
 },{
+    "name":"React官网",
+    "url":"http://facebook.github.io/react/",
+    "des":"A JAVASCRIPT LIBRARY FOR BUILDING USER INTERFACES",
+    "tags":["react","文档","官网"]
+},{
     "name":"ReactJS 中文技术站",
     "url":"http://reactjs-china.com/",
     "des":"ReactJS 中文技术站",
