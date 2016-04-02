@@ -2310,4 +2310,79 @@
     "name":"CodeMirror",
     "des":"浏览器中的代码编辑器",
     "tags":["工具","编辑器"]
+},{
+    "name":"hexo",
+    "url":"https://hexo.io/zh-cn/",
+    "des":"快速、简洁且高效的博客框架",
+    "tags":["博客搭建"]
+},{
+    "name":"jekyll",
+    "url":"http://jekyll.bootcss.com/",
+    "des":"将纯文本转化为静态网站和博客",
+    "tags":["博客搭建"]
+},{
+    "name":"Tumblr",
+    "url":"https://www.tumblr.com/",
+    "des":"轻博客的祖师爷",
+    "tags":["博客搭建"]
+},{
+    "name":"Wordpress",
+    "url":"https://zh-cn.wordpress.com/",
+    "des":"这玩意古老到我都不想介绍鸟",
+    "tags":["博客搭建"]
+},{
+    "name":"LoadersCSS",
+    "url":"https://connoratherton.com/loaders",
+    "des":"用 CSS 技术实现 loading 动画； 补一句，想熟悉、理解 `keyframes、animation、transform、transition`的童鞋可以直接去读其源码(只有千把行代码)，读完就算出师鸟:)",
+    "tags":["CSS"]
+},{
+    "name":"WeUI",
+    "url":"https://github.com/weui/weui",
+    "des":"一套同微信原生视觉体验一致的基础样式库 为微信 Web 开发量身设计，令用户的使用感知更加统一",
+    "tags":["CSS"]
+},{
+    "name":"PostCSS",
+    "url":"https://github.com/postcss/postcss",
+    "des":"PostCSS在以惊人的速度发展，而且越来越受人欢迎。越来越多的人开始在了解它，使用它。因为他们意识到，在项目中使用PostCSS让他们意识到了眼前一亮。",
+    "tags":["CSS"]
+},{
+    "name":"CSSgram",
+    "url":"https://github.com/una/CSSgram",
+    "des":"图片滤镜库，终于可以用 CSS 在 web 上实现滤镜的效果鸟 IE不支持，不过新的移动设备支持没问题 ",
+    "tags":["CSS"]
+},{
+    "name":"HINT.css",
+    "url":"https://github.com/chinchang/hint.css",
+    "des":"一款非常小巧的提示框效果",
+    "tags":["CSS"]
+},{
+    "name":"Balloon.css",
+    "url":"http://kazzkiq.github.io/balloon.css/",
+    "des":"同上，一款非常小巧的提示框效果",
+    "tags":["CSS"]
+},{
+    "name":"Hover.css",
+    "url":"http://ianlunn.github.io/Hover/",
+    "des":"很多鼠标 Hover 态的效果，可以给产品学习一下:)",
+    "tags":["CSS"]
+},{
+    "name":"Cursor",
+    "url":"http://css-cursor.techstream.org/",
+    "des":"记录各浏览器对Cursor的支持情况",
+    "tags":["CSS","caniuse"]
+},{
+    "name":"csscss",
+    "url":"https://github.com/zmoazeni/csscss",
+    "des":"用于检查 CSS 代码冗余",
+    "tags":["CSS"]
+},{
+    "name":"hamburgers",
+    "url":"https://jonsuh.com/hamburgers/",
+    "des":"简单的动画库，让 Click(or Tap) 变得美妙",
+    "tags":["CSS"]
+},{
+    "name":"cssmatic",
+    "url":"http://www.cssmatic.com",
+    "des":"一个帮忙调试CSS效果的工具",
+    "tags":["CSS"]
 }]
