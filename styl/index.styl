@@ -6,7 +6,7 @@ mq-mobile = "screen and (max-width: 479px)"
 body 
     font-size 14px
     padding 1.75em 1.75em 6.75em 1.75em
-    font 14px/1.6 'HanHei SC','PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+    font 14px/1.6 'HanHei SC','PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif
 
 a 
     transition: all 0.25s
@@ -65,7 +65,7 @@ a
         font-style inherit
     li 
         padding 0.3em 0.3em
-        position: relative;
+        position: relative
         &:after
             content ''
             display block
@@ -118,8 +118,8 @@ a
             border-radius 1em
             line-height 1.4em
             &:hover 
-                background: #4E5873;
-                color: #FFF;
+                background: #4E5873
+                color: #FFF
             &:active
                 background: #1D1F27
     #tags
@@ -153,8 +153,17 @@ a
         outline none
         background rgba(255, 255, 255, .95)
         width 100%
-
-
+.spinner
+    position fixed
+    top 50%
+    left 50%
+    z-index 100
+    padding 0
+    margin 0
+    margin-left -12px
+    display block
+    background-color transparent
+    border-radius 50%
 
 @media mq-mobile
     .header 

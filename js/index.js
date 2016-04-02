@@ -8,6 +8,7 @@ var sreach = function(){
     this.info = document.getElementById('info')
     this.tagsEml = document.getElementById('tags')
     this.error = document.getElementById('error')
+    this.loadingEml = document.getElementById("spinner")
     this.page_size = 50;
     this.page_no = 1,
     this.tags = [];
@@ -35,6 +36,43 @@ sreach.prototype = {
             var returns = obj[matchs.replace(/\$/g, "")];
             return typeof returns === "undefined" ? "" : returns;
         })
+    },
+    // loading1();
+    loading:function (){
+        var canvas = this.loadingEml,
+            ctx = canvas.getContext("2d"),
+            w = canvas.width,
+            h = canvas.height,
+            x = w/2,
+            y = h/2,
+            radius = 16;
+
+        ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
+        ctx.globalAlpha =0.2
+        ctx.fillRect(0,0,w,h);
+
+        var r = [0.25,1,1.75,2.15,3,5];
+        var angle = [10,25,45,65,90,120];
+        var alpha = [0,0.25,0.35,0.45,0.65,0.8,1];
+        var x1=[],y1=[];
+        setInterval(function(){
+            ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
+            ctx.fillRect(0,0,w,h);
+            x1 = [];
+            y1 = [];
+            for(var i = 0; i < r.length; i ++){
+                if(angle[i] >= 360) angle[i] = 0;
+                ctx.beginPath();
+                ctx.font = "1rem sans-serif";
+                ctx.fillStyle = "rgba(0,0,0,"+alpha[i]+")";
+                x1.push( x + radius*Math.cos(angle[i]*Math.PI/180));
+                y1.push( y + radius*Math.sin(angle[i]*Math.PI/180));
+                ctx.arc(x1[i],y1[i],r[i],0,2*Math.PI, true);
+                ctx.closePath();
+                ctx.fill();
+                angle[i] += 6;
+            }
+        },10);
     },
     //获取URL上面的参数
     getQueryString:function(name) { 
@@ -209,7 +247,10 @@ sreach.prototype = {
     },
     init:function(){
         var self = this;
+        this.loadingEml.style.display = 'block'
+        this.loading();
         this.ajax('js/data.min.json',function(dt){
+            self.loadingEml.style.display = 'none';
             self.data = dt;
             self.info.innerHTML = '搜集到<i> '+dt.length+' </i>个站点 ｜ ';
             var kw = self.getQueryString('kw');
