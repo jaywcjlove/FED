@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "stylus -u autoprefixer-stylus styl/index.styl -o css/ -c",
-    "build": "npm run build:css && npm run min",
+    "build": "npm run build:css && npm run min && ssr",
     "watch": "npm run watch:css && npm run watch:js",
     "watch:css": "onchange 'styl/**/*.styl' -v -- npm run build",
     "watch:js": "onchange 'js/index.js' './data.json' -v -- npm run min",
