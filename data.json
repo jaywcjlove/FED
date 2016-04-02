@@ -2405,4 +2405,10 @@
     "url":"http://npm-stat.com/",
     "des":"查看npm包或者用的数据统计。",
     "tags":["npm"]
+},{
+    "name":"朱英达的个人博客", 
+    "url":"https://www.zhuyingda.com/", 
+    "ico":"https://www.zhuyingda.com/favicon.ico",
+    "des":"技术博客，有关web的安全问题和性能问题" ,
+    "tags":["技术","博客","安全"]
 }]
