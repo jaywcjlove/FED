@@ -7,8 +7,8 @@
 
 https://github.com/jaywcjlove/FED/raw/gh-pages/img/logo.svg
 
-![](https://raw.githubusercontent.com/jaywcjlove/FED/raw/gh-pages/img/fed.svg "FED")  
-![](https://raw.githubusercontent.com/jaywcjlove/FED/raw/gh-pages/img/fed2.svg "FED")  
+![](https://raw.githubusercontent.com/jaywcjlove/FED/raw/gh-pages/img/fed.gif "FED")  
+![](https://raw.githubusercontent.com/jaywcjlove/FED/raw/gh-pages/img/fed2.gif "FED")  
 
 
 # 开发
