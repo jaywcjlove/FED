@@ -2391,11 +2391,6 @@
     "des":"多家关注Web标准的公司、团体、标准组织及科研单位共同创立的Web标准推广网站"
     "tags":["开发文档"]
 },{
-    "name":"ycombinator",
-    "url":"https://news.ycombinator.com/news",
-    "des":"一个前端资讯平台，界面很丑，但是质量还是蛮高的",
-    "tags":["前端资讯"]
-},{
     "name":"frontendfront",
     "url":"https://frontendfront.com/",
     "des":"前端资讯平台",
