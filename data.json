@@ -2291,6 +2291,11 @@
     "des":"Grunt: JavaScript 任务执行器",
     "tags":["工具","构建工具"]
 },{
+    "url":"http://fis.baidu.com",
+    "name":"百度Fis",
+    "des":"解决前端开发中自动化工具、性能优化、模块化框架、开发规范、代码部署、开发流程等问题。",
+    "tags":["工具","构建工具","百度"]
+},{
     "url":"http://jade-lang.com/",
     "name":"jade",
     "des":"针对 Node.js 的健壮的、优雅的、功能丰富的模板引擎",
@@ -2434,4 +2439,9 @@
     "ico":"http://collect.w3ctrain.com/img/favicon.jpg",
     "des":"前端收藏夹为你提供全面的前端学习资源汇总。",
     "tags":["技术","资讯","前端分享","前端技术研讨"]
+},{
+    "name":"MUI-最接近原生APP体验的高性能前端框架", 
+    "url":"http://dev.dcloud.net.cn/mui/",  
+    "des":"最接近原生APP体验的高性能框架",
+    "tags":["技术","app","应用","webapp"]
 }]
