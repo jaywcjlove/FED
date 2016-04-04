@@ -933,11 +933,6 @@
     "des":"light7",
     "tags":["移动框架"]
 },{
-    "name":"SUI mobile",
-    "url":"http://m.sui.taobao.org/components/",
-    "des":"SUI mobile",
-    "tags":["移动框架"]
-},{
     "name":"Frozen UI",
     "url":"http://frozenui.github.io/",
     "des":"Frozen UI 腾讯移动端框架",
@@ -2444,4 +2439,9 @@
     "url":"http://dev.dcloud.net.cn/mui/",  
     "des":"最接近原生APP体验的高性能框架",
     "tags":["技术","app","应用","webapp"]
+},{
+    "name":"SUI 是一套基于bootstrap开发的前端组件库，同时她也是一套设计规范。通过SUI，可以非常方便的设计和实现精美的页面。", 
+    "url":"http://sui.taobao.org/sui/docs/index.html",  
+    "des":"基于bootstrap开发，通过SUI，可以非常方便的设计和实现精美的页面",
+    "tags":["技术","app","应用","UI","框架","webapp"]
 }]
