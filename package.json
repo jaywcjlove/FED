@@ -25,6 +25,7 @@
     "autoprefixer-stylus": "^0.9.2",
     "onchange": "^2.2.0",
     "postcss-cli": "^2.5.1",
+    "ssr": "^1.0.9",
     "stylus": "^0.54.2",
     "uglify-js": "^2.6.2"
   }
