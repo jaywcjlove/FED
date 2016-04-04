@@ -2424,8 +2424,14 @@
     "tags":["技术","资讯"]
 },{
     "name":"ITA1024中国互联网技术联盟", 
-    "url":"http://http://www.ita1024.com/", 
-    "ico":"http://http://www.ita1024.com//favicon.ico",
+    "url":"http://www.ita1024.com/", 
+    "ico":"http://www.ita1024.com/favicon.ico",
     "des":"中国互联网技术联盟（Internet Technology Alliance，简称ITA），致力于建立中国互联网企业之间技术交流，技术传播以及IT前沿技术研讨的服务平台。" ,
     "tags":["技术","资讯","前端分享","前端技术研讨","前端技术传播"]
+},{
+    "name":"前端收藏夹", 
+    "url":"http://collect.w3ctrain.com/",  
+    "ico":"http://collect.w3ctrain.com/img/favicon.jpg",
+    "des":"前端收藏夹为你提供全面的前端学习资源汇总。",
+    "tags":["技术","资讯","前端分享","前端技术研讨"]
 }]
