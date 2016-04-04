@@ -2422,4 +2422,10 @@
     "ico":"http://www.pixelstech.net/favicon.ico",
     "des":"关注各种技术，包括各种编程语言，各个技术领域。" ,
     "tags":["技术","资讯"]
+},{
+    "name":"ITA1024中国互联网技术联盟", 
+    "url":"http://http://www.ita1024.com/", 
+    "ico":"http://http://www.ita1024.com//favicon.ico",
+    "des":"中国互联网技术联盟（Internet Technology Alliance，简称ITA），致力于建立中国互联网企业之间技术交流，技术传播以及IT前沿技术研讨的服务平台。" ,
+    "tags":["技术","资讯","前端分享","前端技术研讨","前端技术传播"]
 }]
