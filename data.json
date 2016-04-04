@@ -2291,6 +2291,11 @@
     "des":"Grunt: JavaScript 任务执行器",
     "tags":["工具","构建工具"]
 },{
+    "url":"http://fis.baidu.com",
+    "name":"百度Fis",
+    "des":"解决前端开发中自动化工具、性能优化、模块化框架、开发规范、代码部署、开发流程等问题。",
+    "tags":["工具","构建工具","百度"]
+},{
     "url":"http://jade-lang.com/",
     "name":"jade",
     "des":"针对 Node.js 的健壮的、优雅的、功能丰富的模板引擎",
