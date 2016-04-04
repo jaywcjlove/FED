@@ -2441,7 +2441,7 @@
     "tags":["技术","app","应用","webapp"]
 },{
     "name":"SUI 是一套基于bootstrap开发的前端组件库，同时她也是一套设计规范。通过SUI，可以非常方便的设计和实现精美的页面。", 
-    "url":"http://sui.taobao.org/sui/docs/",  
+    "url":"http://sui.taobao.org/sui/docs/index.html",  
     "des":"基于bootstrap开发，通过SUI，可以非常方便的设计和实现精美的页面",
     "tags":["技术","app","应用","UI","框架","webapp"]
 }]
