@@ -2460,4 +2460,10 @@
     "url":"http://www.swiper.com.cn/", 
     "des":"Swiper(Swiper master)是目前应用较广泛的移动端网页触摸内容滑动js插件。Swiper中文网提供Swiper在线演示、Swiper中文教程、Swiper中文APi、Swiper下载。",
     "tags":["触摸","Swiper","触屏","移动框架","3D切换"]
+},{
+    "name":"赵鹏博客-干货集中营", 
+    "url":"http://zhaopeng.me/", 
+    "ico":"http://zhaopengblog.u.qiniudn.com/wp-content/uploads/2016/03/cropped-logo1-32x32.png",
+    "des":"干货聚集地.技术干货,软件干货,分享最实用的各种干货!" ,
+    "tags":["技术","干货","干货"]
 }]
