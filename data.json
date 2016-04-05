@@ -2450,4 +2450,9 @@
     "ico":"http://www.runoob.com/favicon.ico",
     "des":"菜鸟教程(www.runoob.com)提供了最全的编程技术基础教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。 同时本站中也提供了大量的在线实例，通过实例，您可以更好的学习编程。..",
     "tags":["社区","工具"]
+},{
+    "name":"Swiper中文网", 
+    "url":"http://www.swiper.com.cn/", 
+    "des":"Swiper(Swiper master)是目前应用较广泛的移动端网页触摸内容滑动js插件。Swiper中文网提供Swiper在线演示、Swiper中文教程、Swiper中文APi、Swiper下载。",
+    "tags":["触摸","Swiper","触屏","移动终端","3D切换"]
 }]
