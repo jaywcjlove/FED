@@ -357,8 +357,8 @@
 },{
     "name":"WebPPD",
     "url":"http://www.webppd.com/",
-    "des":"产品原型设计，务实产品经理基本功",
-    "tags":["UX"]
+    "des":"axure产品原型设计，务实产品经理基本功",
+    "tags":["UX","互交设计"]
 },{
     "name":"交互设计专业委员会",
     "url":"http://ixdc.org/",
@@ -1617,11 +1617,6 @@
     "name":"UX Magazine",
     "url":"http://uxmag.com/",
     "des":"提供稳定、丰富、可靠的一站式用户体验资源",
-    "tags":["互交设计"]
-},{
-    "name":"WebPPD",
-    "url":"http://www.axure.org/",
-    "des":"产品原型设计，夯实你做产品经理的基本功",
     "tags":["互交设计"]
 },{
     "name":"User Experience",
