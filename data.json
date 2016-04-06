@@ -2479,6 +2479,21 @@
     "des": "Colorful，一个骚年路过这里，与你一起探讨关于前端技术，设计，Hack的奥秘。" ,
     "tags": ["js", "node", "前端开发","博客"]
 },{
+    "name": "stylus", 
+    "url": "http://stylus-lang.com/", 
+    "des": "Stylus 是一个CSS的预处理框架，2010年产生，来自Node.js社区，主要用来给Node项目进行CSS预处理支持，所以 Stylus 是一种新型语言，可以创建健壮的、动态的、富有表现力的CSS。比较年轻，其本质上做的事情与 SASS/LESS 等类似，应该是有很多借鉴，所以近似脚本的方式去写CSS代码。" ,
+    "tags": ["stylus", "css"]
+},{
+    "name": "Sass 是成熟、稳定、强大的 CSS 扩展语言", 
+    "url": "http://sass-lang.com/", 
+    "des": "Sass 扩展了 CSS3，增加了规则、变量、混入、选择器、继承等等特性。Sass 生成良好格式化的 CSS 代码，易于组织和维护。" ,
+    "tags": ["Sass", "css"]
+},{
+    "name": "Less 是成熟、稳定、强大的 CSS 扩展语言", 
+    "url": "http://lesscss.org/", 
+    "des": "一种动态样式语言，属于CSS预处理语言的一种，它使用类似CSS的语法，为CSS的赋予了动态语言的特性，如变量、继承、运算、函数等，更方便CSS的编写和维护。" ,
+    "tags": ["Less", "css"]
+},{
     "name": "前端人的俱乐部",
     "url": "http://f2er.club/",
     "ico": "http://f2er.club/img/favicon.ico",
