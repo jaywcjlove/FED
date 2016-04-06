@@ -2493,4 +2493,28 @@
     "url": "http://lesscss.org/", 
     "des": "一种动态样式语言，属于CSS预处理语言的一种，它使用类似CSS的语法，为CSS的赋予了动态语言的特性，如变量、继承、运算、函数等，更方便CSS的编写和维护。" ,
     "tags": ["Less", "css"]
+},{
+    "name": "前端人的俱乐部",
+    "url": "http://f2er.club/",
+    "ico": "http://f2er.club/img/favicon.ico",
+    "des": "涉及一些优秀攻城狮的优秀博客、社区，实用的手册、工具，框架/库，以及在线教程和书籍推荐。为大家解决一些基本的，常见的问题和需求做专业的前端平台，提供你需要的东西。解放你的收藏夹，让它们只做最主要的事情",
+    "tags": ["前端开发", "分享"]
+},{
+    "name": "JS Tips",
+    "url": "http://www.jstips.co/",
+    "ico": "http://www.jstips.co/favicon.ico",
+    "des": "A JS Tip per day !",
+    "tags": ["js"]
+},{
+    "name": "Browsersync 中文网",
+    "url": "http://www.browsersync.cn/",
+    "ico": "http://www.browsersync.cn/favicon.ico",
+    "des": "BrowserSync能让浏览器实时、快速响应您的文件（html、js、css、sass、less等等）的更改，BrowserSync支持多终端(PC、ipad、iphone、android等等)设备同时调试。无论您是前端还是后端工程师，使用它将提高您30%的工作效率。",
+    "tags": ["工具"]
+},{
+    "name": "Node.js API 中文版",
+    "url": "http://nodeapi.ucdok.com/#/api/",
+    "ico": "http://nodeapi.ucdok.com/favicon.ico",
+    "des": "Node.js Api 中文版",
+    "tags": ["文档"]
 }]
