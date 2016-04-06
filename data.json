@@ -2517,4 +2517,10 @@
     "ico": "http://nodeapi.ucdok.com/favicon.ico",
     "des": "Node.js Api 中文版",
     "tags": ["文档"]
+},{
+    "name": "justjavac",
+    "url": "http://justjavac.com",
+    "ico": "http://justjavac.com/favicon.ico",
+    "des": "justjavac的个人博客",
+    "tags": ["博客"]
 }]
