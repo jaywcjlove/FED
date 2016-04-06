@@ -2492,5 +2492,5 @@
     "name": "Less 是成熟、稳定、强大的 CSS 扩展语言", 
     "url": "http://lesscss.org/", 
     "des": "一种动态样式语言，属于CSS预处理语言的一种，它使用类似CSS的语法，为CSS的赋予了动态语言的特性，如变量、继承、运算、函数等，更方便CSS的编写和维护。" ,
-    "tags": ["Sass", "css"]
+    "tags": ["Less", "css"]
 }]
