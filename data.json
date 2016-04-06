@@ -2478,4 +2478,32 @@
     "ico": "http://xiaoa.name/favicon.ico",
     "des": "Colorful，一个骚年路过这里，与你一起探讨关于前端技术，设计，Hack的奥秘。" ,
     "tags": ["js", "node", "前端开发","博客"]
+},{
+    "name": "前端人的俱乐部",
+    "url": "http://f2er.club/",
+    "ico": "http://f2er.club/img/favicon.ico",
+    "des": "醉牛前端 最专业  最懂你",
+    "tags": ["前端开发", "分享"]
+},{
+    "name": "JS Tips",
+    "url": "http://www.jstips.co/",
+    "ico": "http://www.jstips.co/favicon.ico",
+    "des": "A JS Tip per day !",
+    "tags": ["js"]
+},{
+    "name": "Browsersync 中文网",
+    "url": "http://www.browsersync.cn/",
+    "ico": "http://www.browsersync.cn/favicon.ico",
+    "des": "省时的浏览器同步测试工具",
+    "tags": ["工具"]
+},{
+    "name": "Node.js API 中文版",
+    "url": "http://nodeapi.ucdok.com/#/api/",
+    "ico": "http://nodeapi.ucdok.com/favicon.ico",
+    "des": "Node.js Api 中文版",
+    "tags": ["文档"]
 }]
+
+
+
+
