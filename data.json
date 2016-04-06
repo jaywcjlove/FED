@@ -2482,7 +2482,7 @@
     "name": "前端人的俱乐部",
     "url": "http://f2er.club/",
     "ico": "http://f2er.club/img/favicon.ico",
-    "des": "醉牛前端 最专业  最懂你",
+    "des": "涉及一些优秀攻城狮的优秀博客、社区，实用的手册、工具，框架/库，以及在线教程和书籍推荐。为大家解决一些基本的，常见的问题和需求做专业的前端平台，提供你需要的东西。解放你的收藏夹，让它们只做最主要的事情",
     "tags": ["前端开发", "分享"]
 },{
     "name": "JS Tips",
@@ -2494,7 +2494,7 @@
     "name": "Browsersync 中文网",
     "url": "http://www.browsersync.cn/",
     "ico": "http://www.browsersync.cn/favicon.ico",
-    "des": "省时的浏览器同步测试工具",
+    "des": "BrowserSync能让浏览器实时、快速响应您的文件（html、js、css、sass、less等等）的更改，BrowserSync支持多终端(PC、ipad、iphone、android等等)设备同时调试。无论您是前端还是后端工程师，使用它将提高您30%的工作效率。",
     "tags": ["工具"]
 },{
     "name": "Node.js API 中文版",
