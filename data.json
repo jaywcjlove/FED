@@ -2465,5 +2465,11 @@
     "url":"http://zhaopeng.me/", 
     "ico":"http://zhaopengblog.u.qiniudn.com/wp-content/uploads/2016/03/cropped-logo1-32x32.png",
     "des":"干货聚集地.技术干货,软件干货,分享最实用的各种干货!" ,
-    "tags":["技术","干货","干货"]
+    "tags":["技术","干货","干货","博客"]
+},{
+    "name": "COLORFUL - 有个骚年路过这里", 
+    "url": "http://xiaoa.name/", 
+    "ico": "http://xiaoa.name/favicon.ico",
+    "des": "Colorful，一个骚年路过这里，与你一起探讨关于前端技术，设计，Hack的奥秘。" ,
+    "tags": ["js", "node", "前端开发","博客"]
 }]
