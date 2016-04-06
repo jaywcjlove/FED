@@ -626,6 +626,12 @@
     "des":"测试框架，据说比Mocha快的不行不行的。",
     "tags":["工具","测试"]
 },{
+    "name":"TesterHome",
+    "url":"https://testerhome.com/",
+    "des":"TesterHome 移动测试社区，由众多移动测试工作者维护，致力于推进国内测试技术。",
+    "ico":"https://testerhome.com/assets/ios-icon-711451fea99037416bfdf0c1b8759dcb33f8927bc6bb6942bfa77828168c6fbe.png",
+    "tags":["工具","测试"]
+},{
     "name":"缓动函数速查表",
     "url":"http://easings.net/zh-cn",
     "ico":"http://easings.net/favicon.png",
