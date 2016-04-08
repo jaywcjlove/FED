@@ -4,12 +4,12 @@ var sreach = function(){
     this.data = null;
     this.ulhtml = '<div class="title"> <h3><a target="_blank" href="$url$">$name$</a></h3> </div> <div class="tags"> $tags$ </div> <div class="description"> <p class="des">$des$</p> </div>';
     this.boxEml = document.getElementById('list-itme');
-    this.input = document.getElementById('search')
+    this.inputElm = document.getElementById('search')
     this.info = document.getElementById('info')
     this.tagsEml = document.getElementById('tags')
     this.error = document.getElementById('error')
     this.loadingEml = document.getElementById("spinner")
-    this.page_size = 50;
+    this.page_size = 70;
     this.page_no = 1,
     this.tags = [];
 
@@ -184,6 +184,11 @@ sreach.prototype = {
             }else if(keywolds ===''){
                 elm.appendChild(mySpan);
             }
+            // 绑定事件 tag 点击
+            self.bindEvent(mySpan,'click',function(e){
+                self.inputElm.value = ":"+this.innerText;
+                self.changeKeyworlds(":"+this.innerText);
+            })
         }
     },
     // 所在 tag 的列表
@@ -245,6 +250,10 @@ sreach.prototype = {
 
         self.isErrorInfo(val);
     },
+    changeKeyworlds:function(val){
+        this.boxEml.innerHTML='';
+        this.valToHTML(val);
+    },
     init:function(){
         var self = this;
         this.loadingEml.style.display = 'block'
@@ -258,13 +267,11 @@ sreach.prototype = {
             self.getTagsAll();
             
             // 绑定输入事件
-            self.bindEvent(self.input,'input',function(e){
+            self.bindEvent(self.inputElm,'input',function(e){
                 var val = e.target.value
-                self.boxEml.innerHTML='';
-                self.valToHTML(val);
-
+                self.changeKeyworlds(val);
             })
-            kw&&(self.input.value=kw);
+            kw&&(self.inputElm.value=kw);
             self.valToHTML(kw);
         })
     }
