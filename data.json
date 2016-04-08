@@ -1,51 +1,61 @@
 [{
     "name":"Mozilla 开发者网络",
     "url":"https://developer.mozilla.org/zh-CN/",
+    "icon":"https://developer.cdn.mozilla.net/static/img/opengraph-logo.dc4e08e2f6af.png",
     "des":"Mozilla 开发者网络（MDN）提供有关开放网络技术（Open Web）的信息，包括 HTML、CSS 和万维网及 HTML5 应用的 API。它还记录了  Mozilla 产品的文档，例如 Firefox OS。",
     "tags":["社区"]
 },{
     "name":"Stack Overflow",
     "url":"http://stackoverflow.com/",
+    "icon":"http://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a",
     "des":"一个与程序相关的IT技术问答网站。用户可以在网站免费提交问题，浏览问题，索引相关内容，在创建主页的时候使用简单的HTML。",
     "tags":["社区"]
 },{
     "name":"Browsershot",
+    "icon":"http://browsershots.org/favicon.ico",
     "url":"http://browsershots.org/",
     "des":"超多的浏览器兼容性在线测试，免去了在本机安装N多浏览器的烦恼",
     "tags":["社区"]
 },{
     "name":"浏览器市场份额 - 百度统计",
+    "icon":"http://tongji.baidu.com/favicon.ico",
     "url":"http://tongji.baidu.com/data/browser",
     "des":"百度统计流量研究院",
     "tags":["工具","统计"]
 },{
     "name":"CodePen",
+    "icon":"http://codepen.io/favicon.ico",
     "url":"http://codepen.io/",
     "des":"前端工程师必备的技术网站，直接在显示编辑代码片段并分享。",
     "tags":["工具"]
 },{
     "name":"Can I use",
+    "icon":"http://caniuse.com/favicon.ico",
     "url":"http://caniuse.com/",
     "des":"这是一个极好的网站，查询你使用的属性方法在浏览器中的兼容。",
     "tags":["工具","caniuse"]
 },{
     "name":"前端乱炖",
+    "icon":"http://html-js.com/favicon.ico",
     "url":"http://html-js.com/",
     "des":"前端乱炖，这里是最专业的前端知识平台，汇集国内大部分前端开发人员的前端花名册，最精彩的原创文章专栏，最专业的问答平台，最火热的话题频道，最丰富的线下线上活动。",
     "tags":["社区"]
 },{
     "name":"Div.IO",
+    "icon":"http://div.io/favicon.ico",
     "url":"http://div.io/",
     "des":"高质量前端资源汇聚",
     "tags":["社区"]
 },{
     "name":"Bootstrap中文网",
     "url":"http://www.bootcss.com/",
+    "icon":"http://static.bootcss.com/www/assets/ico/favicon.png",
     "des":"Bootstrap是Twitter推出的一个用于前端开发的开源工具包。它由Twitter的设计师Mark Otto和Jacob Thornton合作开发，是一个CSS/HTML框架。目前，Bootstrap最新版本为3.0 。Bootstrap中文网致力于为广大国内开发者提供详尽的中文文档、代码实例等，助力开发者掌握并使用这一框架。",
     "tags":["工具"]
 },{
     "name":"w3cplus",
     "url":"http://www.w3cplus.com/",
+    "icon":"http://cdn1.w3cplus.com/cdn/farfuture/6I7SmeJ6bvYzRevkkH6pjf9WnDTRa7YEBbsCyi6dPro/mtime:1414079820/sites/all/themes/w3cplusV2/favicon.ico",
     "des":"w3cplus提供了大量的css,css3,sass,responsive,mobile等最新前端技术文章、demo及下载资源，以一起学习进步，共同分享为原则，为打造优秀的前端学习教程而努力。",
     "tags":["社区"]
 },{
@@ -61,6 +71,7 @@
 },{
     "name":"W3C在线检验",
     "url":"http://validator.w3.org/",
+    "icon":"http://www.w3.org/2008/site/images/favicon.ico",
     "des":"W3C在线检验",
     "tags":["社区"]
 },{
@@ -117,6 +128,7 @@
 },{
     "name":"360奇舞团",
     "url":"http://www.75team.com/",
+    "icon":"http://www.75team.com/static/upload/201603/logo.png",
     "des":"奇虎360公司应用开发部Web前端工程师 + 部分特约嘉宾 组成的一个前端团队",
     "tags":["团队"]
 },{
@@ -177,6 +189,7 @@
 },{
     "name":"携程UED",
     "url":"http://ued.ctrip.com/blog/",
+    "icon":"http://ued.ctrip.com/blog/wp-content/themes/ctripued/img/favicon.ico",
     "des":"携程网UED团队",
     "tags":["团队","UED"]
 },{

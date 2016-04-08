@@ -2,7 +2,7 @@
 
 var sreach = function(){
     this.data = null;
-    this.ulhtml = '<div class="title"> <h3><a target="_blank" href="$url$">$name$</a></h3> </div> <div class="tags"> $tags$ </div> <div class="description"> <p class="des">$des$</p> </div>';
+    this.ulhtml = '<div class="title"> <h3>$icon$<a target="_blank" href="$url$">$name$</a></h3> </div> <div class="tags"> $tags$ </div> <div class="description"> <p class="des">$des$</p> </div>';
     this.boxEml = document.getElementById('list-itme');
     this.inputElm = document.getElementById('search')
     this.info = document.getElementById('info')
@@ -10,6 +10,7 @@ var sreach = function(){
     this.error = document.getElementById('error')
     this.loadingEml = document.getElementById("spinner")
     this.page_size = 70;
+    this.domainReg = /[a-zA-Z0-9]{0,62}.\/\/[a-zA-Z0-9][-a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+\.?/
     this.page_no = 1,
     this.tags = [];
 
@@ -102,7 +103,7 @@ sreach.prototype = {
         xhr.send(null); 
     },
     itemHTML:function(arr,type,keywolds){
-        var name = arr.name,des = arr.des,
+        var name = arr.name,des = arr.des,self = this,
             reg = new RegExp("("+keywolds+")","ig");
         if(type === 'search'){
             name = arr.name.replace(reg,'<i class="kw">'+"$1"+"</i>");
@@ -112,7 +113,18 @@ sreach.prototype = {
             name:name,
             url:arr.url,
             des:des || '',
-            icon:arr.icon,
+            icon:(function(){ 
+                var dm = self.domainReg.exec(arr.url); 
+                if(arr.icon){
+                    return '<img src="'+arr.icon+'" />';
+                }else{
+                    if(dm && dm[0]){
+                        return '<img src="'+dm[0]+'/favicon.ico"  onerror="this.remove()" />';
+                    }else{
+                        return '';
+                    }
+                }
+            })(),
             tags:(function(tags){
                 var _tags_html = tags.join('</span><span>');
                 return _tags_html&&_tags_html!='' 
