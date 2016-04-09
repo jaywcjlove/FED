@@ -35,6 +35,12 @@
     "des":"这是一个极好的网站，查询你使用的属性方法在浏览器中的兼容。",
     "tags":["工具","caniuse"]
 },{
+    "name":"掘金",
+    "icon":"http://gold.xitu.io/favicon.ico",
+    "url":"http://gold.xitu.io/",
+    "des":"掘金是中国质量最高的技术分享社区，邀请稀土用户作为 Co-Editor 来分享优质的技术干货，从前端到后端开发，从设计到产品，让每一个掘金用户都能挖掘到有价值的干货。",
+    "tags":["社区"]
+},{
     "name":"前端乱炖",
     "icon":"http://html-js.com/favicon.ico",
     "url":"http://html-js.com/",
