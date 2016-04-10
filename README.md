@@ -11,6 +11,10 @@
 
 ![FED](https://raw.githubusercontent.com/jaywcjlove/FED/gh-pages/img/fed2.gif)
 
+## 关键字点击
+
+![FED](https://raw.githubusercontent.com/jaywcjlove/FED/gh-pages/img/fed3.gif)
+
 # 添加网站
 
 ## 方法一
