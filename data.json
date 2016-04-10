@@ -2557,4 +2557,19 @@
     "url":"http://qiutc.me/",
     "des":"阿城的blog",
     "tags":["博客"]
+},{
+    "name":"Electron",
+    "url":"http://electron.atom.io/",
+    "des":"构建跨平台桌面应用程序与网络技术的框架",
+    "tags":["跨平台桌面应用程序框架","应用程序框架"]
+},{
+    "name":"nwjs",
+    "url":"http://nwjs.io/",
+    "des":"nw.js（以前称为node-webkit）可以让你把所有js模块直接从DOM使一种新的方式与所有的Web技术编写应用程序。",
+    "tags":["跨平台桌面应用程序框架","应用程序框架"]
+},{
+    "name":"React Native for OS X",
+    "url":"https://github.com/ptmt/react-native-desktop",
+    "des":"使用React Native 和 Cocoa构建操作系统的桌面应用程序使用",
+    "tags":["跨平台桌面应用程序框架","应用程序框架"]
 }]
