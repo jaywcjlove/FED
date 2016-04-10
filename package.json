@@ -6,11 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "stylus -u autoprefixer-stylus styl/index.styl -o css/ -c",
-    "build": "npm run build:css && npm run min && ssr",
+    "build": "npm run build:css && npm run build:js && ssr",
     "watch": "npm run watch:css && npm run watch:js",
-    "watch:css": "onchange 'styl/**/*.styl' -v -- npm run build",
-    "watch:js": "onchange 'js/index.js' './data.json' -v -- npm run min",
-    "min": "npm run min:js && npm run min:data",
+    "watch:css": "stylus -u autoprefixer-stylus -w styl/index.styl -o css/ -c",
+    "watch:js": "onchange 'js/index.js' './data.json' -v -- npm run build:js",
+    "build:js": "npm run min:js && npm run min:data",
     "min:js": "uglifyjs js/index.js -o js/index.min.js",
     "min:data": "node js/build.json.js"
   },
