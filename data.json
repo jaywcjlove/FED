@@ -2560,6 +2560,7 @@
 },{
     "name":"Electron",
     "url":"http://electron.atom.io/",
+    "icon":"http://electron.atom.io/images/favicon.ico",
     "des":"构建跨平台桌面应用程序与网络技术的框架",
     "tags":["跨平台桌面应用程序框架","应用程序框架"]
 },{
