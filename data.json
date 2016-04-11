@@ -2588,5 +2588,6 @@
     "name":"前端小武",
     "url":"https://xuexb.com/",
     "des":"专注WEB前端和用户体验，爱生活爱前端",
-    "tags":["博客"]
+    "tags":["博客"],
+    "icon": "https://xuexb.com/favicon.ico"
 }]
