@@ -609,6 +609,11 @@
     "des":"React 中文的论坛",
     "tags":["社区"]
 },{
+    "name":"react native 中文网",
+    "url":"http://reactnative.cn/",
+    "des":"React Native中文网是中国最大的React Native开发者交流学习平台,致力于打造React Native开发。在这里能轻松找到代码实例,项目案例,并有专人提供最新文档翻译。",
+    "tags":["社区"]
+},{
     "name":"JSConf",
     "url":"http://jsconf.cn/",
     "des":"JS中国开发者大会，中国主要的JavaScript会议，我们一起在。",
