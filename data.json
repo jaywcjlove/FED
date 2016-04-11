@@ -284,11 +284,6 @@
     "des":"FEX做最专业的前端，百度前端研发部，百度前端团队Blog",
     "tags":["团队"]
 },{
-    "name":"百度UEO",
-    "url":"http://ueo.baidu.com/",
-    "des":"百度UEO",
-    "tags":["团队"]
-},{
     "name":"网易用户体验设计中心",
     "url":"http://uedc.163.com/",
     "des":"网易用户体验设计中心",
@@ -2588,5 +2583,6 @@
     "name":"前端小武",
     "url":"https://xuexb.com/",
     "des":"专注WEB前端和用户体验，爱生活爱前端",
-    "tags":["博客"]
+    "tags":["博客"],
+    "icon": "https://xuexb.com/favicon.ico"
 }]
