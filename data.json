@@ -2598,4 +2598,9 @@
     "url":"http://www.html5rocks.com/zh/",
     "des":"HTML5 Rocks - 为开放网络 HTML5 开发人员提供的资源",
     "tags":["HTML5","教程"]
+},{
+    "name":"tool.lu",
+    "url":"http://tool.lu/",
+    "des":"在线工具，提供代码格式化、压缩、加密、解密、正则测试、在线运行代码等功能",
+    "tags":["工具"]
 }]
