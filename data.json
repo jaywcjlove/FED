@@ -98,7 +98,7 @@
 },{
     "name":"Web Platform",
     "url":"http://www.webplatform.org/",
-    "des":"苹果、Google、微软、Facebook等巨头强势联盟，加入W3C共推维基式开放网站Web Platform。该网站将提供关于HTML5, CSS3以及其他跟Web标准相关的最新优质内容，并提供关于这类技术开发、实践技巧，打造互联网上该类内容的单一、权威发布平台", 
+    "des":"苹果、Google、微软、Facebook等巨头强势联盟，加入W3C共推维基式开放网站Web Platform。该网站将提供关于HTML5, CSS3以及其他跟Web标准相关的最新优质内容，并提供关于这类技术开发、实践技巧，打造互联网上该类内容的单一、权威发布平台",
     "tags":["社区"]
 },{
     "name":"前端开发",
@@ -2295,7 +2295,7 @@
     "name":"ui-router",
     "des":"The de-facto solution to flexible routing with nested views in AngularJS",
     "tags":["工具"]
-},{       
+},{
     "url":"http://facebook.github.io/immutable-js/",
     "name":"immutable-js",
     "des":"Immutable persistent data collections for Javascript which increase efficiency and simplicity.",
@@ -2436,80 +2436,80 @@
     "des":"查看npm包或者用的数据统计。",
     "tags":["npm"]
 },{
-    "name":"朱英达的个人博客", 
-    "url":"https://www.zhuyingda.com/", 
+    "name":"朱英达的个人博客",
+    "url":"https://www.zhuyingda.com/",
     "ico":"https://www.zhuyingda.com/favicon.ico",
     "des":"技术博客，有关web的安全问题和性能问题" ,
     "tags":["技术","博客","安全"]
 },{
-    "name":"WEB骇客 - HTML5, CSS3, WEB前端开发技术", 
-    "url":"http://www.webhek.com/", 
+    "name":"WEB骇客 - HTML5, CSS3, WEB前端开发技术",
+    "url":"http://www.webhek.com/",
     "des":"关注HTML5、CSS3等浏览器前端技术，包括各种HTML5、CSS3资料，HTML5、CSS3网站、HTML5、CSS3资讯、HTML5、CSS3应用、HTML5、CSS3游戏、HTML5、CSS3教程、HTML5、CSS3视频、HTML5、CSS3论坛等。" ,
     "tags":["技术","博客"]
 },{
-    "name":"PixelsTech - A place for geeks", 
-    "url":"http://www.pixelstech.net", 
+    "name":"PixelsTech - A place for geeks",
+    "url":"http://www.pixelstech.net",
     "ico":"http://www.pixelstech.net/favicon.ico",
     "des":"关注各种技术，包括各种编程语言，各个技术领域。" ,
     "tags":["技术","资讯"]
 },{
-    "name":"ITA1024中国互联网技术联盟", 
-    "url":"http://www.ita1024.com/", 
+    "name":"ITA1024中国互联网技术联盟",
+    "url":"http://www.ita1024.com/",
     "ico":"http://www.ita1024.com/favicon.ico",
     "des":"中国互联网技术联盟（Internet Technology Alliance，简称ITA），致力于建立中国互联网企业之间技术交流，技术传播以及IT前沿技术研讨的服务平台。" ,
     "tags":["技术","资讯","前端分享","前端技术研讨","前端技术传播"]
 },{
-    "name":"前端收藏夹", 
-    "url":"http://collect.w3ctrain.com/",  
+    "name":"前端收藏夹",
+    "url":"http://collect.w3ctrain.com/",
     "ico":"http://collect.w3ctrain.com/img/favicon.jpg",
     "des":"前端收藏夹为你提供全面的前端学习资源汇总。",
     "tags":["技术","资讯","前端分享","前端技术研讨"]
 },{
-    "name":"MUI-最接近原生APP体验的高性能前端框架", 
-    "url":"http://dev.dcloud.net.cn/mui/",  
+    "name":"MUI-最接近原生APP体验的高性能前端框架",
+    "url":"http://dev.dcloud.net.cn/mui/",
     "des":"最接近原生APP体验的高性能框架",
     "tags":["技术","app","应用","webapp"]
 },{
-    "name":"SUI 是一套基于bootstrap开发的前端组件库，同时她也是一套设计规范。通过SUI，可以非常方便的设计和实现精美的页面。", 
-    "url":"http://sui.taobao.org/sui/docs/index.html",  
+    "name":"SUI 是一套基于bootstrap开发的前端组件库，同时她也是一套设计规范。通过SUI，可以非常方便的设计和实现精美的页面。",
+    "url":"http://sui.taobao.org/sui/docs/index.html",
     "des":"基于bootstrap开发，通过SUI，可以非常方便的设计和实现精美的页面",
     "tags":["技术","app","应用","UI","框架","webapp"]
 },{
-    "name":"菜鸟教程", 
-    "url":"http://www.runoob.com/", 
+    "name":"菜鸟教程",
+    "url":"http://www.runoob.com/",
     "ico":"http://www.runoob.com/favicon.ico",
     "des":"菜鸟教程(www.runoob.com)提供了最全的编程技术基础教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。 同时本站中也提供了大量的在线实例，通过实例，您可以更好的学习编程。..",
     "tags":["社区","工具"]
 },{
-    "name":"Swiper中文网", 
-    "url":"http://www.swiper.com.cn/", 
+    "name":"Swiper中文网",
+    "url":"http://www.swiper.com.cn/",
     "des":"Swiper(Swiper master)是目前应用较广泛的移动端网页触摸内容滑动js插件。Swiper中文网提供Swiper在线演示、Swiper中文教程、Swiper中文APi、Swiper下载。",
     "tags":["触摸","Swiper","触屏","移动框架","3D切换"]
 },{
-    "name":"赵鹏博客-干货集中营", 
-    "url":"http://zhaopeng.me/", 
+    "name":"赵鹏博客-干货集中营",
+    "url":"http://zhaopeng.me/",
     "ico":"http://zhaopengblog.u.qiniudn.com/wp-content/uploads/2016/03/cropped-logo1-32x32.png",
     "des":"干货聚集地.技术干货,软件干货,分享最实用的各种干货!" ,
     "tags":["技术","干货","干货","博客"]
 },{
-    "name": "COLORFUL - 有个骚年路过这里", 
-    "url": "http://xiaoa.name/", 
+    "name": "COLORFUL - 有个骚年路过这里",
+    "url": "http://xiaoa.name/",
     "ico": "http://xiaoa.name/favicon.ico",
     "des": "Colorful，一个骚年路过这里，与你一起探讨关于前端技术，设计，Hack的奥秘。" ,
     "tags": ["js", "node", "前端开发","博客"]
 },{
-    "name": "stylus", 
-    "url": "http://stylus-lang.com/", 
+    "name": "stylus",
+    "url": "http://stylus-lang.com/",
     "des": "Stylus 是一个CSS的预处理框架，2010年产生，来自Node.js社区，主要用来给Node项目进行CSS预处理支持，所以 Stylus 是一种新型语言，可以创建健壮的、动态的、富有表现力的CSS。比较年轻，其本质上做的事情与 SASS/LESS 等类似，应该是有很多借鉴，所以近似脚本的方式去写CSS代码。" ,
     "tags": ["stylus", "css"]
 },{
-    "name": "Sass 是成熟、稳定、强大的 CSS 扩展语言", 
-    "url": "http://sass-lang.com/", 
+    "name": "Sass 是成熟、稳定、强大的 CSS 扩展语言",
+    "url": "http://sass-lang.com/",
     "des": "Sass 扩展了 CSS3，增加了规则、变量、混入、选择器、继承等等特性。Sass 生成良好格式化的 CSS 代码，易于组织和维护。" ,
     "tags": ["Sass", "css"]
 },{
-    "name": "Less 是成熟、稳定、强大的 CSS 扩展语言", 
-    "url": "http://lesscss.org/", 
+    "name": "Less 是成熟、稳定、强大的 CSS 扩展语言",
+    "url": "http://lesscss.org/",
     "des": "一种动态样式语言，属于CSS预处理语言的一种，它使用类似CSS的语法，为CSS的赋予了动态语言的特性，如变量、继承、运算、函数等，更方便CSS的编写和维护。" ,
     "tags": ["Less", "css"]
 },{
@@ -2590,4 +2590,28 @@
     "des":"专注WEB前端和用户体验，爱生活爱前端",
     "tags":["博客"],
     "icon": "https://xuexb.com/favicon.ico"
+},{
+    "name":"Web前端 AlloyTeam Blog",
+    "url":"http://www.alloyteam.com/",
+    "des":"腾讯全端 AlloyTeam 团队 Blog",
+    "tags":["博客"],
+    "icon":"http://www.alloyteam.com/favicon.ico"
+},{
+    "name":"Ant Desgin",
+    "url":"http://ant.design/",
+    "des":"Ant Desgin - 一个UI 设计语言",
+    "tags":["react","蚂蚁金服","UI"],
+    "icon":"https://t.alipayobjects.com/images/T1QUBfXo4fXXXXXXXX.png"
+},{
+    "name":"ECMAScript 6入门",
+    "url":"http://es6.ruanyifeng.com/",
+    "des":"阮一峰著《ECMAScript 6入门》",
+    "tags":["ES6","教程"],
+    "icon":"http://es6.ruanyifeng.com/favicon.ico"
+},{
+    "name":"HTML5 Rocks",
+    "url":"http://www.html5rocks.com/zh/",
+    "des":"HTML5 Rocks - 为开放网络 HTML5 开发人员提供的资源",
+    "tags":["HTML5","教程"],
+    "icon":"http://www.html5rocks.com/favicon.ico"
 }]
