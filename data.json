@@ -2603,4 +2603,10 @@
     "url":"http://tool.lu/",
     "des":"在线工具，提供代码格式化、压缩、加密、解密、正则测试、在线运行代码等功能",
     "tags":["工具"]
+},{
+    "name":"江小湖Laker", 
+    "url":"http://laker.me/blog", 
+    "ico":"http://laker.me/blog/favicon.ico",
+    "des":"江小湖的主页—进击的程序媛" ,
+    "tags":["博客","前端","技术宅","程序媛"]
 }]
