@@ -59,6 +59,11 @@
     "des":"Bootstrap是Twitter推出的一个用于前端开发的开源工具包。它由Twitter的设计师Mark Otto和Jacob Thornton合作开发，是一个CSS/HTML框架。目前，Bootstrap最新版本为3.0 。Bootstrap中文网致力于为广大国内开发者提供详尽的中文文档、代码实例等，助力开发者掌握并使用这一框架。",
     "tags":["工具"]
 },{
+    "name":"Taobao FED | 淘宝前端团队",
+    "url":"http://taobaofed.org/",
+    "des":"淘宝前端团队（FED）用技术为体验提供无限可能",
+    "tags":["FED","阿里","淘宝","团队"]
+},{
     "name":"w3cplus",
     "url":"http://www.w3cplus.com/",
     "icon":"http://cdn1.w3cplus.com/cdn/farfuture/6I7SmeJ6bvYzRevkkH6pjf9WnDTRa7YEBbsCyi6dPro/mtime:1414079820/sites/all/themes/w3cplusV2/favicon.ico",
@@ -161,7 +166,7 @@
     "name":"人人FED",
     "url":"http://fed.renren.com/",
     "des":"人人网前端开发设计团队",
-    "tags":["团队"]
+    "tags":["团队","FED"]
 },{
     "name":"天猫UED",
     "url":"http://ued.tmall.com/",
