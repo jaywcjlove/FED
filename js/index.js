@@ -14,6 +14,8 @@ var sreach = function(){
     this.page_no = 1,
     this.tags = [];
 
+    this.inputElm.focus()
+
     if(this.boxEml){
         this.init();   
     }
