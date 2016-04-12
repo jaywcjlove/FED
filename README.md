@@ -17,6 +17,7 @@
 
 # 添加网站
 
+
 ## 方法一
 
 - [Fork](https://github.com/jaywcjlove/FED/issues#fork-destination-box)到自己仓库
@@ -37,6 +38,38 @@
     // 选填－标签，便于归类
     "tags":["工具"]
 }
+```
+
+如果你已经fork了你得先跟新上游代码，方法如下：
+
+```shell
+# 列出远程仓库 URL
+$ git remote -v
+# List the current remotes （列出当前远程仓库）
+# origin  https://github.com/user/repo.git (fetch)
+# origin  https://github.com/user/repo.git (push)
+
+# 添加上游仓库URL
+$ git remote add upstream https://github.com/otheruser/repo.git
+# Set a new remote (设置一个新的远程仓库)
+
+# 再次列出远程仓库 URL
+$ git remote -v
+# Verify new remote (验证新的原唱仓库)
+# origin    https://github.com/user/repo.git (fetch)
+# origin    https://github.com/user/repo.git (push)
+# upstream  https://github.com/otheruser/repo.git (fetch)
+# upstream  https://github.com/otheruser/repo.git (push)
+
+# 获取上游代码
+$ git fetch upstream
+
+# 检查你的 fork’s 本地 master 分支，如果不在master 分支就切换到该分支
+$ git checkout master
+# Switched to branch 'master'
+
+# 合并来自 upstream/master 的更改到本地 master 分支上。
+$ git merge upstream/master
 ```
 
 ## 方法二
