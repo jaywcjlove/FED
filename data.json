@@ -12,43 +12,36 @@
     "tags":["社区"]
 },{
     "name":"Browsershot",
-    "icon":"http://browsershots.org/favicon.ico",
     "url":"http://browsershots.org/",
     "des":"超多的浏览器兼容性在线测试，免去了在本机安装N多浏览器的烦恼",
     "tags":["社区"]
 },{
     "name":"浏览器市场份额 - 百度统计",
-    "icon":"http://tongji.baidu.com/favicon.ico",
     "url":"http://tongji.baidu.com/data/browser",
     "des":"百度统计流量研究院",
     "tags":["工具","统计"]
 },{
     "name":"CodePen",
-    "icon":"http://codepen.io/favicon.ico",
     "url":"http://codepen.io/",
     "des":"前端工程师必备的技术网站，直接在显示编辑代码片段并分享。",
     "tags":["工具"]
 },{
     "name":"Can I use",
-    "icon":"http://caniuse.com/favicon.ico",
     "url":"http://caniuse.com/",
     "des":"这是一个极好的网站，查询你使用的属性方法在浏览器中的兼容。",
     "tags":["工具","caniuse"]
 },{
     "name":"掘金",
-    "icon":"http://gold.xitu.io/favicon.ico",
     "url":"http://gold.xitu.io/",
     "des":"掘金是中国质量最高的技术分享社区，邀请稀土用户作为 Co-Editor 来分享优质的技术干货，从前端到后端开发，从设计到产品，让每一个掘金用户都能挖掘到有价值的干货。",
     "tags":["社区"]
 },{
     "name":"前端乱炖",
-    "icon":"http://html-js.com/favicon.ico",
     "url":"http://html-js.com/",
     "des":"前端乱炖，这里是最专业的前端知识平台，汇集国内大部分前端开发人员的前端花名册，最精彩的原创文章专栏，最专业的问答平台，最火热的话题频道，最丰富的线下线上活动。",
     "tags":["社区"]
 },{
     "name":"Div.IO",
-    "icon":"http://div.io/favicon.ico",
     "url":"http://div.io/",
     "des":"高质量前端资源汇聚",
     "tags":["社区"]
@@ -631,7 +624,6 @@
 },{
     "name":"Browser Sandbox&trade",
     "url":"https://spoon.net/browsers/",
-    "ico":"https://spoon.net/favicon.ico?v=9.30.15",
     "des":"点击你需要测试的浏览器环境，安装插件就可以进行测试了。帮助你测试网页在Safari、Chrome、Firefox和Opera浏览器中是否正常，测试兼容性工具",
     "tags":["工具","测试"]
 },{
@@ -2438,7 +2430,6 @@
 },{
     "name":"朱英达的个人博客",
     "url":"https://www.zhuyingda.com/",
-    "ico":"https://www.zhuyingda.com/favicon.ico",
     "des":"技术博客，有关web的安全问题和性能问题" ,
     "tags":["技术","博客","安全"]
 },{
@@ -2449,13 +2440,11 @@
 },{
     "name":"PixelsTech - A place for geeks",
     "url":"http://www.pixelstech.net",
-    "ico":"http://www.pixelstech.net/favicon.ico",
     "des":"关注各种技术，包括各种编程语言，各个技术领域。" ,
     "tags":["技术","资讯"]
 },{
     "name":"ITA1024中国互联网技术联盟",
     "url":"http://www.ita1024.com/",
-    "ico":"http://www.ita1024.com/favicon.ico",
     "des":"中国互联网技术联盟（Internet Technology Alliance，简称ITA），致力于建立中国互联网企业之间技术交流，技术传播以及IT前沿技术研讨的服务平台。" ,
     "tags":["技术","资讯","前端分享","前端技术研讨","前端技术传播"]
 },{
@@ -2477,7 +2466,6 @@
 },{
     "name":"菜鸟教程",
     "url":"http://www.runoob.com/",
-    "ico":"http://www.runoob.com/favicon.ico",
     "des":"菜鸟教程(www.runoob.com)提供了最全的编程技术基础教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。 同时本站中也提供了大量的在线实例，通过实例，您可以更好的学习编程。..",
     "tags":["社区","工具"]
 },{
@@ -2494,7 +2482,6 @@
 },{
     "name": "COLORFUL - 有个骚年路过这里",
     "url": "http://xiaoa.name/",
-    "ico": "http://xiaoa.name/favicon.ico",
     "des": "Colorful，一个骚年路过这里，与你一起探讨关于前端技术，设计，Hack的奥秘。" ,
     "tags": ["js", "node", "前端开发","博客"]
 },{
@@ -2521,25 +2508,21 @@
 },{
     "name": "JS Tips",
     "url": "http://www.jstips.co/",
-    "ico": "http://www.jstips.co/favicon.ico",
     "des": "A JS Tip per day !",
     "tags": ["js"]
 },{
     "name": "Browsersync 中文网",
     "url": "http://www.browsersync.cn/",
-    "ico": "http://www.browsersync.cn/favicon.ico",
     "des": "BrowserSync能让浏览器实时、快速响应您的文件（html、js、css、sass、less等等）的更改，BrowserSync支持多终端(PC、ipad、iphone、android等等)设备同时调试。无论您是前端还是后端工程师，使用它将提高您30%的工作效率。",
     "tags": ["工具"]
 },{
     "name": "Node.js API 中文版",
     "url": "http://nodeapi.ucdok.com/#/api/",
-    "ico": "http://nodeapi.ucdok.com/favicon.ico",
     "des": "Node.js Api 中文版",
     "tags": ["文档"]
 },{
     "name": "justjavac(迷渡)",
     "url": "http://justjavac.com",
-    "ico": "http://justjavac.com/favicon.ico",
     "des": "justjavac的个人博客， 探讨目前最时髦的web开发技术。",
     "tags": ["博客"]
 },{
@@ -2571,7 +2554,6 @@
 },{
     "name":"Electron",
     "url":"http://electron.atom.io/",
-    "icon":"http://electron.atom.io/images/favicon.ico",
     "des":"构建跨平台桌面应用程序与网络技术的框架",
     "tags":["跨平台桌面应用程序框架","应用程序框架"]
 },{
@@ -2588,14 +2570,12 @@
     "name":"前端小武",
     "url":"https://xuexb.com/",
     "des":"专注WEB前端和用户体验，爱生活爱前端",
-    "tags":["博客"],
-    "icon": "https://xuexb.com/favicon.ico"
+    "tags":["博客"]
 },{
     "name":"Web前端 AlloyTeam Blog",
     "url":"http://www.alloyteam.com/",
     "des":"腾讯全端 AlloyTeam 团队 Blog",
-    "tags":["博客"],
-    "icon":"http://www.alloyteam.com/favicon.ico"
+    "tags":["博客"]
 },{
     "name":"Ant Desgin",
     "url":"http://ant.design/",
@@ -2606,12 +2586,10 @@
     "name":"ECMAScript 6入门",
     "url":"http://es6.ruanyifeng.com/",
     "des":"阮一峰著《ECMAScript 6入门》",
-    "tags":["ES6","教程"],
-    "icon":"http://es6.ruanyifeng.com/favicon.ico"
+    "tags":["ES6","教程"]
 },{
     "name":"HTML5 Rocks",
     "url":"http://www.html5rocks.com/zh/",
     "des":"HTML5 Rocks - 为开放网络 HTML5 开发人员提供的资源",
-    "tags":["HTML5","教程"],
-    "icon":"http://www.html5rocks.com/favicon.ico"
+    "tags":["HTML5","教程"]
 }]

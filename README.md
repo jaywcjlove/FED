@@ -29,7 +29,8 @@
     "name":"JSLint", 
     // 必填－网址
     "url":"http://jslint.com/", 
-    // 选填－图标
+    // 选填－图标 
+    // => 默认在根目录下的 favicon.ico 可以不填这项
     "ico":"http://easings.net/favicon.png",
     // 必填－可以留空 － 描述说明
     "des":"在线JS校验工具" ,
