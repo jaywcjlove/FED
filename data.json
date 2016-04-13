@@ -2615,4 +2615,9 @@
     "icon":"https://www.phodal.com/static/phodal/images/favicon.ico",
     "des":"Phodal - 狼和凤凰 | Growth Engineer" ,
     "tags":["博客","前端","SEO","硬件"]
+},{
+    "name":"je原创插件库-前端框架", 
+    "url":"http://www.jayui.com/",
+    "des":"本站致力于原创插件和提供各种JS（jQuery），je库、jeDate日期控件",
+    "tags":["弹层组件","日期控件","工具","jQuery"]
 }]
