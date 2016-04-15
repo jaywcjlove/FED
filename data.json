@@ -648,6 +648,11 @@
     "des":"测试框架，据说比Mocha快的不行不行的。",
     "tags":["工具","测试"]
 },{
+    "name":"sinonjs",
+    "url":"http://sinonjs.org/",
+    "des":"独立的第三方测试工具，它没有依赖，可以在任何测试框架下工作。",
+    "tags":["工具","测试"]
+},{
     "name":"TesterHome",
     "url":"https://testerhome.com/",
     "des":"TesterHome 移动测试社区，由众多移动测试工作者维护，致力于推进国内测试技术。",
