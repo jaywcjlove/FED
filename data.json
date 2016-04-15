@@ -2630,4 +2630,10 @@
     "url":"http://liqi.io/",
     "des":"创造者和他们的工具",
     "tags":["利器","工具"]
+},{
+    "name":"饿了么大前端", 
+    "url":"https://fe.ele.me/",
+    "icon": "https://fe.ele.me/assets/img/favicon.png",
+    "des":"Thoughts, stories and ideas.",
+    "tags":["团队","饿了么"]
 }]
