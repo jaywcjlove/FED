@@ -1,5 +1,3 @@
 # 前端导航网
 
-弄个纯静态，便于维护的前端导航站。顺便放一些前端资源。
-
-- 提供搜索
+这里是使用 [React Native](http://facebook.github.io/react-native) 开发iOS应用程序
