@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "stylus -u autoprefixer-stylus styl/index.styl -o css/ -c",
+    "build:css": "stylus -u autoprefixer-stylus -u stylus-px2rem styl/index.styl -o css/ -c",
     "build": "npm run build:css && npm run build:js && ssr",
     "watch": "npm run watch:css && npm run watch:js",
     "watch:css": "stylus -u autoprefixer-stylus -w styl/index.styl -o css/ -c",
@@ -27,6 +27,10 @@
     "postcss-cli": "^2.5.1",
     "ssr": "^1.0.10",
     "stylus": "^0.54.2",
+    "stylus-px2rem": "^1.0.4",
     "uglify-js": "^2.6.2"
+  },
+  "devDependencies": {
+    "stylus-px2rem": "^1.0.5"
   }
 }
