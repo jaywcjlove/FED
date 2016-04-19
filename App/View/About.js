@@ -9,6 +9,7 @@ import React , {
   View,
 } from 'react-native';
 
+import Loading from './Loading';
 import ListItemWrapper from './ListItemWrapper';
 
 
@@ -50,13 +51,15 @@ const styles = StyleSheet.create({
         paddingLeft : 5,
         paddingRight: 5,
         backgroundColor : '#eeeeee'
+    },
+    loading:{
+      
     }
 });
 
 class About extends React.Component{
     renderItems(data){
         return data.map(function(result){
-          console.log("result:",result.id);
           return (
             <ListItemWrapper key={result.id} data={result}/>
           )
@@ -64,9 +67,15 @@ class About extends React.Component{
     }
     render() {
       return (
-        <View style={styles.box}>
-            {this.renderItems(MockData)}
+        <View>
+          <View style={styles.box}>
+              {this.renderItems(MockData)}
+          </View>
+          <View style={styles.loading}>
+            <Loading />
+          </View>
         </View>
+
       );
     }
 

@@ -1,17 +1,20 @@
 import React, {
+    ActivityIndicatorIOS,
     StyleSheet,
     Text,
     View
 } from 'react-native';
 
-
-class Loading extend Components {
+class Loading extends React.Component{
     render(){
-        <View style={styles.container}>
-            <Text>
-            Loading...
-            </Text>
-        </View>
+        return(
+            <View style={[styles.container, styles.centerText]}>
+                <ActivityIndicatorIOS
+                    animating={this.props.isLoading}
+                    style={styles.spinner}
+                />
+            </View>
+        )
     }
 }
 
@@ -20,9 +23,13 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        color : '#bababa',
-        backgroundColor : '#ffffff',
-        fontSize : 12,
+        backgroundColor : '#ffffff'
+    },
+    centerText: {
+        alignItems: "center",
+    },
+    spinner: {
+        width: 50,
     }
 })
 
