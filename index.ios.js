@@ -6,9 +6,7 @@
 import React, {
   AppRegistry,
   Component,
-  StyleSheet,
-  Text,
-  View
+  StyleSheet
 } from 'react-native';
 
 const TabBarView = require('./App/View/TabBar')
