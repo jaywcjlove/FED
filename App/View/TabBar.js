@@ -1,5 +1,6 @@
 'use strict';
 import About from './About'
+import Navigation from './common/Navigation'
 import React,{
   TabBarIOS,
   Component,
@@ -68,13 +69,7 @@ class TabBar extends React.Component{
                   // icon={{uri: base64Icon, scale: 3}}
                   icon={require('./../img/icon-about.png')}
                   onPress={() => this.setTab(ABOUT_TAB)}>
-                  <View style={{flex : 1}}>
-                      {/*{this.renderHeader()}*/}
-                      <ScrollView >
-                          <View style={{height : 4, backgroundColor : '#F2F2F2'}} />
-                          <About />
-                      </ScrollView>  
-                  </View>
+                  <Navigation component={About}/>
                 </TabBarIOS.Item>
             </TabBarIOS>
         )

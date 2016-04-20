@@ -43,42 +43,54 @@ var MockData = [{
 
 // 组件样式
 const styles = StyleSheet.create({
-    box: {
-        flexDirection: 'row',
-        justifyContent: 'center',
-        paddingTop: 10,
-        paddingBottom : 10,
-        paddingLeft : 5,
-        paddingRight: 5,
-        backgroundColor : '#eeeeee'
+    // box: {
+    //     flexDirection: 'row',
+    //     justifyContent: 'center',
+    //     paddingTop: 10,
+    //     paddingBottom : 10,
+    //     paddingLeft : 5,
+    //     paddingRight: 5,
+    //     backgroundColor : '#eeeeee',
+    // },
+    logo:{
+      alignItems:'center',
+      paddingTop:35,
+      paddingBottom:15
     },
-    loading:{
-      
+    info:{
+      alignItems:'center',
+      justifyContent: 'center',
+      textAlign:'center',
+      paddingTop: 25,
+      paddingBottom : 35,
+      paddingLeft : 5,
+      paddingRight: 5,
+      marginLeft:20,
+      marginRight:20,
+      borderRadius:5,
+      // backgroundColor : '#eeeeee',
     }
 });
 
 class About extends React.Component{
-    renderItems(data){
-        return data.map(function(result){
-          return (
-            <ListItemWrapper key={result.id} data={result}/>
-          )
-        })
-    }
-    render() {
+  renderItems(data){
+    return data.map(function(result){
       return (
-        <View>
-          <View style={styles.box}>
-              {this.renderItems(MockData)}
-          </View>
-          <View style={styles.loading}>
-            <Loading />
-          </View>
+        <ListItemWrapper key={result.id} data={result}/>
+      )
+    })
+  }
+  render() {
+    return (
+      <View>
+        <View style={styles.logo}>
+          <Image source={require('./../img/logo.png')} style={styles.boxImg} />
         </View>
-
-      );
-    }
-
+        <Text style={styles.info}>这是一个很酷炫的前端导航网</Text>
+        <Text style={styles.info}>www.JSDig.com</Text>
+      </View>
+    );
+  }
 }
 
 module.exports = About
