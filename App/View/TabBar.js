@@ -6,8 +6,7 @@ import React,{
   Component,
   View,
   Text,
-  StyleSheet,
-  ScrollView
+  StyleSheet
 } from 'react-native';
 
 const TOP_TAB = 'topTab';
@@ -34,7 +33,7 @@ class TabBar extends React.Component{
     }
     render() {
         return (
-            <TabBarIOS>
+            <TabBarIOS style={styles.tabBar}>
                 <TabBarIOS.Item 
                   title="前端头条"
                   selected={this.state.selectedTab === TOP_TAB}
@@ -84,6 +83,9 @@ const styles = StyleSheet.create({
   tabText: {
     margin: 50,
     fontSize: 45
+  },
+  tabBar:{
+    height:50
   }
 });
 

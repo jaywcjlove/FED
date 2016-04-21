@@ -7,6 +7,8 @@ import React , {
   Text,
   Image,
   View,
+  ScrollView,
+  Dimensions
 } from 'react-native';
 
 import Loading from './Loading';
@@ -43,34 +45,28 @@ var MockData = [{
 
 // 组件样式
 const styles = StyleSheet.create({
-    // box: {
-    //     flexDirection: 'row',
-    //     justifyContent: 'center',
-    //     paddingTop: 10,
-    //     paddingBottom : 10,
-    //     paddingLeft : 5,
-    //     paddingRight: 5,
-    //     backgroundColor : '#eeeeee',
-    // },
     logo:{
-      alignItems:'center',
-      paddingTop:35,
-      paddingBottom:15
+      // flexDirection: 'column',
+      flex: 1,
+      alignItems: 'center',
+      marginTop:78
     },
-    info:{
-      alignItems:'center',
-      justifyContent: 'center',
-      textAlign:'center',
-      paddingTop: 25,
-      paddingBottom : 35,
-      paddingLeft : 5,
-      paddingRight: 5,
-      marginLeft:20,
-      marginRight:20,
-      borderRadius:5,
-      // backgroundColor : '#eeeeee',
+    contentContainer:{
+      paddingVertical: 10,
+    },
+    scrollView:{
+      backgroundColor : '#eeeeee',
+      bottom:0,
+
+    },
+    boxImg:{
+
     }
 });
+
+// 获取屏幕高度
+// 什么时候能详细一下文档呢？
+let ScreenHeight = Dimensions.get("window").height;
 
 class About extends React.Component{
   renderItems(data){
@@ -82,12 +78,57 @@ class About extends React.Component{
   }
   render() {
     return (
-      <View>
-        <View style={styles.logo}>
-          <Image source={require('./../img/logo.png')} style={styles.boxImg} />
+      <View style={{flexDirection: 'row',height:ScreenHeight-49,backgroundColor:"#fefefe"}}>
+        <View style={{flex: 1, flexDirection:'column',backgroundColor:"#fff"}}>  
+            <View style={{flexDirection: 'column', height: 200}}>  
+              <View style={styles.logo}>
+                <Image source={require('./../img/LOGO.png')} style={styles.boxImg} />
+                <Text style={{textAlign:'center'}}>一个很酷炫的前端导航网</Text>
+              </View>
+            </View>
+            <ScrollView style={{flex: 1, backgroundColor:"#F4F4F5"}}
+              automaticallyAdjustContentInsets={false}>
+              <Text>一个很酷炫的前端导航网2</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网</Text>
+              <Text>一个很酷炫的前端导航网2323</Text>
+            </ScrollView>
         </View>
-        <Text style={styles.info}>这是一个很酷炫的前端导航网</Text>
-        <Text style={styles.info}>www.JSDig.com</Text>
       </View>
     );
   }
