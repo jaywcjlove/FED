@@ -1,6 +1,7 @@
 'use strict';
 import About from './About'
 import Navigation from './common/Navigation'
+import Nav from './Nav'
 import React,{
   TabBarIOS,
   Component,
@@ -49,9 +50,7 @@ class TabBar extends React.Component{
                   selected={this.state.selectedTab === NAV_TAB}
                   icon={require('./../img/icon-nav.png')}
                   onPress={() => this.setTab(NAV_TAB)}>
-                  <View style={styles.tabContent}>
-                    <Text style={styles.tabText}> 前端导航 </Text>
-                  </View>
+                  <Navigation component={Nav}/>
                 </TabBarIOS.Item>
                 <TabBarIOS.Item 
                   title="导航搜索"
