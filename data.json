@@ -2656,4 +2656,10 @@
     "icon": "https://fe.ele.me/assets/img/favicon.png",
     "des":"Thoughts, stories and ideas.",
     "tags":["团队","饿了么"]
+},{
+    "name":"路人甲", 
+    "url":"http://passer-by.com/",
+    "icon":"http://passer-by.com/public/image/favicon.png",
+    "des":"jQuery插件库，js算法等" ,
+    "tags":["博客","插件","算法"]
 }]
