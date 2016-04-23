@@ -21,10 +21,10 @@
     "des":"百度统计流量研究院",
     "tags":["工具","统计"]
 },{
-    "name":"CodePen",
+    "name":"CodePen代码笔",
     "url":"http://codepen.io/",
-    "des":"前端工程师必备的技术网站，直接在显示编辑代码片段并分享。",
-    "tags":["工具"]
+    "des":"前端工程师必备的技术网站，直接在显示编辑代码片段并分享。codepen！寻找交互灵感的圣地",
+    "tags":["工具","互交设计"]
 },{
     "name":"Can I use",
     "url":"http://caniuse.com/",
@@ -1644,11 +1644,6 @@
     "name":"UI-Patterns",
     "url":"http://ui-patterns.com/",
     "des":"为资深用户界面设计师寻提供灵感和参考的宝库",
-    "tags":["互交设计"]
-},{
-    "name":"代码笔",
-    "url":"http://codepen.io/",
-    "des":"codepen！寻找交互灵感的圣地",
     "tags":["互交设计"]
 },{
     "name":"UX Magazine",
