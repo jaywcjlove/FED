@@ -1,10 +1,4 @@
 [{
-    "name":"W3school 英文网站",
-    "url":"http://www.w3schools.com/",
-    "icon":"http://www.w3schools.com/favicon.ico",
-    "des":"w3school 中文站的来源：THE WORLD'S LARGEST WEB DEVELOPER SITE",
-    "tags":["教程"]
-},{
     "name":"Mozilla 开发者网络",
     "url":"https://developer.mozilla.org/zh-CN/",
     "icon":"https://developer.cdn.mozilla.net/static/img/opengraph-logo.dc4e08e2f6af.png",
@@ -36,6 +30,11 @@
     "url":"http://caniuse.com/",
     "des":"这是一个极好的网站，查询你使用的属性方法在浏览器中的兼容。",
     "tags":["工具","caniuse"]
+},{
+    "name":"W3school 英文网站",
+    "url":"http://www.w3schools.com/",
+    "des":"w3school 中文站的来源：THE WORLD'S LARGEST WEB DEVELOPER SITE",
+    "tags":["教程","手册"]
 },{
     "name":"掘金",
     "url":"http://gold.xitu.io/",
@@ -959,7 +958,7 @@
 },{
     "name":"W3SCHOOL",
     "url":"http://www.w3school.com.cn/css3/",
-    "des":"CSS3 教程",
+    "des":"CSS3 教程，全球最大的中文 Web 技术教程。",
     "tags":["教程"]
 },{
     "name":"Mozilla CSS3",
