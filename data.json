@@ -1,4 +1,10 @@
 [{
+    "name":"W3school 英文网站",
+    "url":"http://www.w3schools.com/",
+    "icon":"http://www.w3schools.com/favicon.ico",
+    "des":"w3school 中文站的来源：THE WORLD'S LARGEST WEB DEVELOPER SITE",
+    "tags":["教程"]
+},{
     "name":"Mozilla 开发者网络",
     "url":"https://developer.mozilla.org/zh-CN/",
     "icon":"https://developer.cdn.mozilla.net/static/img/opengraph-logo.dc4e08e2f6af.png",
