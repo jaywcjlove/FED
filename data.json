@@ -856,11 +856,6 @@
     "url":"http://responsivedesignweekly.com/",
     "tags":["订阅/周刊"]
 },{
-    "name":"FeWeekly",
-    "des":"聚焦最新前端技术、框架、教程、工具、资讯和文章",
-    "url":"http://www.feweekly.com/",
-    "tags":["订阅/周刊"]
-},{
     "name":"Normalize.css",
     "des":"Normalize是一个相对平和的css reset方案，注重通用的方案，保留有用的user agent 样式",
     "url":"http://necolas.github.io/normalize.css/",
