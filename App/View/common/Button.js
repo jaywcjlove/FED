@@ -17,14 +17,14 @@ export default class Button extends React.Component{
     constomPressHandler = () => {
         // alert('你摁下了按钮，当前状态是'+this.state.status)
         const {onPress} = this.props
-        onPress&&(onPress())
+        this.disable()
+        onPress&&(onPress(this.enable))
     }
     enable = () => {
         this.setState({
             disable:false
         })
     }
-    
     disable = () => {
         this.setState({
             disable:true
