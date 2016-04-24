@@ -11,6 +11,8 @@ import React , {
     // TouchableHighlight
 } from 'react-native';
 
+import Button from './common/Button.js'
+
 class Nav extends React.Component{
     fetchData = (enableCallback) => {
         fetch('http://jsdig.com/js/data.min.json',{
@@ -28,14 +30,6 @@ class Nav extends React.Component{
             console.warn(error);
           });
     }
-    constructor(props) {
-      super(props);
-    
-      this.state = {status:1};
-    }
-    constomPressHandler = () => {
-        alert('你摁下了按钮，当前状态是'+this.state.status)
-    }
     render() {
         return (
             <View>
@@ -47,29 +41,26 @@ class Nav extends React.Component{
                 <Text>一个很酷炫的前端导航网</Text>
                 <Text>一个很酷炫的前端导航网</Text>
                 <Text>一个很酷炫的前端导航网</Text>
-                <TouchableOpacity
-                 onPress={this.constomPressHandler}
-                 style={styles.buttons}>
-                    <Text style={styles.buttonsText}>按钮</Text>
-                </TouchableOpacity>
+                <Button text="取消1"/>
+                <Button text="取消" onPress={()=>{alert('点击我了')}}/>
             </View>
         )
     }
 }
 
 const styles = StyleSheet.create({
-    buttons:{
-        backgroundColor:'green',
-        height: 24,
-        width:110,
-        borderRadius:10,
-        justifyContent:'center',
-        overflow:'hidden'
-    },
-    buttonsText:{
-        textAlign:'center',
-        color:'#fff'
-    }
+    // buttons:{
+    //     backgroundColor:'green',
+    //     height: 24,
+    //     width:110,
+    //     borderRadius:10,
+    //     justifyContent:'center',
+    //     overflow:'hidden'
+    // },
+    // buttonsText:{
+    //     textAlign:'center',
+    //     color:'#fff'
+    // }
 })
 
 module.exports = Nav
