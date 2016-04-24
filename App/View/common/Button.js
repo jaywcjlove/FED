@@ -4,7 +4,8 @@ import React , {
     StyleSheet,
     View,
     Text,
-    TouchableOpacity
+    TouchableOpacity,
+    // TouchableHighlight
 } from 'react-native'
 
 

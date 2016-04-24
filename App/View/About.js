@@ -13,6 +13,7 @@ import React , {
 
 import Loading from './Loading';
 import ListItemWrapper from './ListItemWrapper';
+import Util from './common/Util.js';
 
 
 //cat 数据
@@ -64,9 +65,7 @@ const styles = StyleSheet.create({
     }
 });
 
-// 获取屏幕高度
-// 什么时候能详细一下文档呢？
-let ScreenHeight = Dimensions.get("window").height;
+
 
 class About extends React.Component{
   renderItems(data){
@@ -78,7 +77,7 @@ class About extends React.Component{
   }
   render() {
     return (
-      <View style={{flexDirection: 'row',height:ScreenHeight-49,backgroundColor:"#fefefe"}}>
+      <View style={{flexDirection: 'row',height:Util.size.height-49,backgroundColor:"#fefefe"}}>
         <View style={{flex: 1, flexDirection:'column',backgroundColor:"#fff"}}>  
             <View style={{flexDirection: 'column', height: 200}}>  
               <View style={styles.logo}>

@@ -4,54 +4,54 @@
 
 import React , {
     StyleSheet,
+    ScrollView,
+    ListView,
     Text,
     Image,
     View,
-    TouchableOpacity,
-    // TouchableHighlight
 } from 'react-native';
 
-import Button from './common/Button.js'
+import Util from './common/Util.js';
 
 class Nav extends React.Component{
-    fetchData = (enableCallback) => {
-        fetch('http://jsdig.com/js/data.min.json',{
-            method: 'GET',
-            headers: {
-               'Accept': 'application/json',
-               'Content-Type': 'application/json',
-            },
+    fetchData = () => {
+        Util.fetch('http://jsdig.com/js/data.min.json',function(data){
+            // console.log("data::",data);
         })
-          .then((response) => response.text())
-          .then((responseText) => {
-            console.log(responseText);
-          })
-          .catch((error) => {
-            console.warn(error);
-          });
     }
+
     constomPressHandler = (enableCallback) => {
         this.timer = setTimeout(() => {
             enableCallback()
         },3000)
     }
+
+    constructor(props) {
+        super(props)
+        this.state={
+            show:false
+        }
+    }
+
     componentDidMount = () => {
-        this.timer && clearTimeout(this.timer);
+        this.fetchData();
     }
     render() {
+        console.log("testt::",this.state);
         return (
-            <View>
-                <Text>狗</Text>
-                <Text>一个很酷炫的前端导航网</Text>
-                <Text>一个很酷炫的前端导航网</Text>
-                <Text>一个很酷炫的前端导航网</Text>
-                <Text>一个很酷炫的前端导航网</Text>
-                <Text>一个很酷炫的前端导航网</Text>
-                <Text>一个很酷炫的前端导航网</Text>
-                <Text>一个很酷炫的前端导航网</Text>
-                <Button ref="buttons" text="取消"  onPress={this.constomPressHandler}/>
-            </View>
+            <ScrollView>
+                {
+                    this.state.show ?
+                    <View>
+                        <Text>sdsd</Text>
+                    </View>
+                    :Util.loading
+                }
+            </ScrollView>
         )
+    }
+    _renderRow(){
+
     }
 }
 
