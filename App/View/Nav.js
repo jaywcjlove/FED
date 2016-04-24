@@ -30,6 +30,15 @@ class Nav extends React.Component{
             console.warn(error);
           });
     }
+    constomPressHandler = () => {
+        this.refs.buttons.disable()
+        this.timer = setTimeout(() => {
+            this.refs.buttons.enable()
+        },3000)
+    }
+    componentDidMount = () => {
+        this.timer && clearTimeout(this.timer);
+    }
     render() {
         return (
             <View>
@@ -42,7 +51,7 @@ class Nav extends React.Component{
                 <Text>一个很酷炫的前端导航网</Text>
                 <Text>一个很酷炫的前端导航网</Text>
                 <Button text="取消1"/>
-                <Button text="取消" onPress={()=>{alert('点击我了')}}/>
+                <Button ref="buttons" text="取消"  onPress={this.constomPressHandler}/>
             </View>
         )
     }

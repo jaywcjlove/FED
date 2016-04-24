@@ -19,12 +19,24 @@ export default class Button extends React.Component{
         const {onPress} = this.props
         onPress&&(onPress())
     }
+    enable = () => {
+        this.setState({
+            disable:false
+        })
+    }
+    
+    disable = () => {
+        this.setState({
+            disable:true
+        })
+    }
     render(){
         const {text} = this.props
         return(
             <TouchableOpacity
+             disable={this.state.disable}
              onPress={this.constomPressHandler}
-             style={styles.buttons}>
+             style={[styles.buttons,this.state.disable && styles.disable]}>
                 <Text style={styles.buttonsText}>{this.props.text}</Text>
             </TouchableOpacity>
         )
@@ -40,6 +52,9 @@ const styles = StyleSheet.create({
         borderRadius:10,
         justifyContent:'center',
         overflow:'hidden'
+    },
+    disable:{
+        backgroundColor:'gray'
     },
     buttonsText:{
         textAlign:'center',
