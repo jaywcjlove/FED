@@ -2719,5 +2719,10 @@
     "url":"http://www.smushit.com/ysmush.it/",
     "des":"雅虎提供的在线图片压缩工具",
     "tags":["CSS3","CSS3在线生成"]
+},{
+    "name":"汇智网", 
+    "url":"http://www.hubwiz.com/",
+    "des":"一家免费的在线互动式编程网站" ,
+    "tags":["编程","node.js","angular.js","js","mongodb","vue.js","react","nginx"]
 }]
 
