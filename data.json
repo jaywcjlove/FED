@@ -146,7 +146,7 @@
     "tags":["团队"]
 },{
     "name":"大搜车前端团队博客",
-    "url":"http://uxc.360.cn/",
+    "url":"http://f2e.souche.com/blog/",
     "des":"相信技术改变世界，这里是我们的点滴思考和总结。",
     "icon":"http://htmljs.b0.upaiyun.com/uploads/1437909099674-1bb87d41d15fe27b500a4bfcde01bb0e.png",
     "tags":["团队","博客"]
@@ -223,11 +223,6 @@
     "des":"携程网UED团队",
     "tags":["团队","UED"]
 },{
-    "name":"支付宝用户体验部",
-    "url":"http://ued.alipay.com/",
-    "des":"支付宝用户体验部",
-    "tags":["团队","阿里","支付宝","UED"]
-},{
     "name":"一淘体验工作平台",
     "url":"http://ued.alimama.com/",
     "des":"一淘体验工作平台",
@@ -236,11 +231,6 @@
     "name":"淘宝UED",
     "url":"http://ued.taobao.org/blog/",
     "des":"做地球上最好的 UED",
-    "tags":["团队","阿里","淘宝","UED"]
-},{
-    "name":"良无限用户体验部UPD",
-    "url":"http://www.lpued.com/",
-    "des":"淘宝良无限用户体验部UPD",
     "tags":["团队","阿里","淘宝","UED"]
 },{
     "name":"U一点",
@@ -263,20 +253,10 @@
     "des":"新浪UED",
     "tags":["团队","UED"]
 },{
-    "name":"新浪微博设计团队",
-    "url":"http://udc.weibo.com/",
-    "des":"新浪微博设计团队",
-    "tags":["团队"]
-},{
     "name":"有意思",
     "url":"http://www.kdued.com/",
     "des":"金蝶友商网UED",
     "tags":["团队","UED"]
-},{
-    "name":"淘宝UED",
-    "url":"http://ued.taobao.com/",
-    "des":"淘宝UED",
-    "tags":["团队","阿里","UED"]
 },{
     "name":"爱词霸UED",
     "url":"http://ued.iciba.com/",
