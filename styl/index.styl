@@ -1,5 +1,6 @@
 @import 'node_modules/stylus-px2rem'
 @import '_portal/reset'
+@import '_portal/mixins'
 global-reset()
 
 mq-mobile = "screen and (max-width: 479px)"
@@ -35,7 +36,7 @@ a
     h2
         font-weight bold
 
-.header 
+.header
     padding 18px 0 15px 0
     font-size 12px
     .logo
@@ -72,7 +73,44 @@ a
                 color #000
                 font-weight bold
                 font-style inherit
-
+    .view-type,.view-type-list
+        display inline-block
+        vertical-align middle
+        position relative
+        font-style normal
+        text-align left
+        text-indent -9999px
+        direction ltr
+        color #717171
+        width 2px
+        height 2px
+        &:before,&:after
+            content ''
+            pointer-events none
+        
+    .view-type
+        box-shadow 0 -4px 0,-4px -4px 0,4px -4px 0,0 0 0 32px inset,-4px 0 0,4px 0 0,0 4px 0,-4px 4px 0,4px 4px 0
+        margin -2px 7px 0 7px
+    .view-type-list
+        box-shadow inset 0 0 0 25px,0 -4px 0 0,0 4px 0 0
+        margin 2px 12px 4px 2px
+        &:before
+            width 8px
+            height 2px
+            left 4px
+            box-shadow inset 0 0 0 25px,0 -4px 0 0,0 4px 0 0
+            position absolute
+            top 50%
+            transform translateY(-50%)
+    .preview
+        display inline-block
+        cursor pointer
+        &:hover 
+            .view-type,.view-type-list
+                color #0500e8
+        &:active 
+            .view-type,.view-type-list
+                color red
 .sitelist 
     .kw 
         color red
@@ -157,6 +195,29 @@ a
                 background-color #BFC8E0
             &:active
                 background: #98ACFF
+
+.list-itme-grid
+    li 
+        width 25%
+        float left
+        overflow hidden
+        padding 15px
+        &:after
+            margin-top 20px
+        .title
+            white-space nowrap
+            float initial
+            h3
+                single-line()
+        .tags 
+            padding 10px 0 0 4px
+            float inherit
+            height 26px
+            overflow hidden
+        .description
+            height 32px
+            .des
+                multi-line(2)
 .search
     position absolute
     bottom 0px
@@ -204,3 +265,11 @@ a
         padding 15px 10px
     body 
         padding 15px 0 55px 0
+    .list-itme-grid
+        li 
+            width 100%
+            padding 5px
+            &:after
+                margin-top 9px
+    .header .preview
+        display none
