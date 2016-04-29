@@ -13,7 +13,7 @@ import React , {
 
 import Loading from './Loading';
 import ListItemWrapper from './ListItemWrapper';
-import Util from './common/Util.js';
+import Util from '../Common/Util.js';
 
 
 //cat 数据

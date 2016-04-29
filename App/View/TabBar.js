@@ -1,6 +1,6 @@
 'use strict';
 import About from './About'
-import Navigation from './common/Navigation'
+import Navigation from '../Common/Navigation'
 import Nav from './Nav'
 import React,{
   TabBarIOS,

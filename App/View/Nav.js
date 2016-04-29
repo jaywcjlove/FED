@@ -9,9 +9,11 @@ import React , {
     Text,
     Image,
     View,
+    TouchableHighlight
 } from 'react-native';
 
-import Util from './common/Util.js';
+import Util from '../Common/Util.js';
+import WebViewPage from '../Common/WebView.js';
 
 class Nav extends React.Component{
     fetchData = () => {
@@ -24,7 +26,7 @@ class Nav extends React.Component{
                 show:true
             })
         },function(err){
-            console.log(err);
+            console.log("err:=======================",err);
             that.setState({
                 show:false
             })
@@ -37,8 +39,8 @@ class Nav extends React.Component{
         },3000)
     }
 
-    constructor(props) {
-        super(props)
+    constructor(...args) {
+        super(...args)
         var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
         this.state={
             dataSource: ds.cloneWithRows([]),
@@ -50,7 +52,7 @@ class Nav extends React.Component{
         this.fetchData();
     }
     render() {
-        console.log("testt::",this.state);
+        // console.log("testt::",this.state);
         return (
             <ScrollView>
                 {
@@ -64,15 +66,38 @@ class Nav extends React.Component{
             </ScrollView>
         )
     }
+    _onPress = () =>{
+        this.props.navigator.push({
+            component: WebViewPage,
+            title: 'PoberWong',
+            url: 'http://github.com/Bob1993'
+        })
+    }
     _renderRow(row){
-        console.log("row:===:",row);
+        // console.log("row:===:",row);
+        // 
+        // <Text style={styles.rowDes}>{row.tags.join(',')}</Text>
+                // {this._renderRowTag(row.tags)}
         return(
             <View style={styles.rowStyle}>
-                <Text style={styles.rowTitle}>{row.name}</Text>
+
+                <Text style={styles.rowTitle}
+                >{row.name}</Text>
                 <Text style={styles.rowDes}>{row.des}</Text>
-                <Text style={styles.rowDes}>{row.tags.join(',')}</Text>
             </View>
         )
+    }
+    _renderRowTag(data){
+        console.log("result:::::","result",data);
+        return(
+            <Text>sss</Text>
+        )
+        // return data.map(function(result){
+        //     console.log("result:::::",result);
+        //   return (
+        //     <Text style={styles.rowDes}>00</Text>
+        //   )
+        // })
 
     }
 }
