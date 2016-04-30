@@ -2709,5 +2709,25 @@
     "url":"http://www.atool.org/",
     "des":"在线工具，提供各种代码格式化压缩（包括js、css、php、sql等）、正则测试、前端后端辅助工具，图片处理以及其他一些便民工具。atool.org" ,
     "tags":["工具","tool","编程","代码格式化","代码压缩","辅助工具","便捷工具"]
+},{
+    "name":"FilterFactory", 
+    "url":"http://filterfactory.mobi/",
+    "des":"FilterFactory是一款将图片转换成SVG的在线生成工具。" ,
+    "tags":["工具","tool","格式转换","SVG","辅助工具","便捷工具"]
+},{
+    "name":"CSS Animatie", 
+    "url":"http://cssanimate.com/",
+    "des":"CSS Animatie是一款在线制作CSS3动画的工具，可以在线直接制作CSS3动画效果，生成代码。" ,
+    "tags":["工具","tool","CSS3","动画工具","便捷工具"]
+},{
+    "name":"Flatty Shadow", 
+    "url":"http://flattyshadow.com/",
+    "des":"Flatty Shadow在线为Icon图标生成长阴影效果。" ,
+    "tags":["工具","tool","icon","便捷工具"]
+},{
+    "name":"SVG EDIT", 
+    "url":"http://flattyshadow.com/",
+    "des":"SVG EDIT是一款在线绘制、编辑SVG图形和代码的工具。" ,
+    "tags":["工具","tool","icon","SVG","便捷工具"]
 }]
 
