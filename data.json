@@ -2729,5 +2729,10 @@
     "url":"http://flattyshadow.com/",
     "des":"SVG EDIT是一款在线绘制、编辑SVG图形和代码的工具。" ,
     "tags":["工具","tool","icon","SVG","便捷工具"]
+},{
+    "name":"John Resig - JavaScript Programmer", 
+    "url":"http://ejohn.org/",
+    "des":"jQuery作者的博客" ,
+    "tags":["博客","jQuery"]
 }]
 
