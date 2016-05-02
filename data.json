@@ -2734,5 +2734,10 @@
     "url":"http://ejohn.org/",
     "des":"jQuery作者的博客" ,
     "tags":["博客","jQuery"]
+},{
+    "name":"Moment.js", 
+    "url":"http://momentjs.com/",
+    "des":"一款大名鼎鼎的日期插件" ,
+    "tags":["工具","插件"]
 }]
 
