@@ -2739,5 +2739,10 @@
     "url":"http://momentjs.com/",
     "des":"一款大名鼎鼎的日期插件" ,
     "tags":["工具","插件"]
+},{
+    "name":"Libraries - The Open Source Discovery Service", 
+    "url":"https://libraries.io",
+    "des":"可以查询在您的项目中使用的模块和库的版本是否为新版本。",
+    "tags":["工具"]
 }]
 
