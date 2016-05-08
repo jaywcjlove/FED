@@ -633,6 +633,11 @@
     "des":"点击你需要测试的浏览器环境，安装插件就可以进行测试了。帮助你测试网页在Safari、Chrome、Firefox和Opera浏览器中是否正常，测试兼容性工具",
     "tags":["工具","测试"]
 },{
+    "name":"动画手册 - CSS3动画参考  by Tencent ISUX | DMDC",
+    "url":"http://isux.tencent.com/css3/index.html",
+    "des":"这是腾讯团队出品的一个CSS3 动画样式参考手册，同时还配备了一个动画工具。",
+    "tags":["手册","css3"]
+},{
     "name":"Mocha",
     "url":"http://mochajs.org",
     "des":"mocha 是一个简单、灵活有趣的 JavaScript 测试框架,用于 Node.js 和浏览器上的 JavaScript 应用测试。",
