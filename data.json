@@ -31,6 +31,11 @@
     "des":"RunJS,在线编写、展示html、js、css代码，拥有实时预览、分享、Fork、代码高亮、自动完成等多项特性，提供文件上传、多种登录方式。",
     "tags":["社区","工具","互交设计","在线编辑器"]
 },{
+    "name":"plainJS - The Vanilla JavaScript Repository",
+    "url":"https://plainjs.com/",
+    "des":"该仓库都是用原生js写的插件和组件，很实用",
+    "tags":["工具","插件","组件"]
+},{
     "name":"Can I use",
     "url":"http://caniuse.com/",
     "des":"这是一个极好的网站，查询你使用的属性方法在浏览器中的兼容。",
