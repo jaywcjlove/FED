@@ -2759,5 +2759,10 @@
     "url":"https://imququ.com/",
     "des":"屈屈，专职前端开发，目前在中国北京。这个博客是我随便记录东西的地方。",
     "tags":["博客"]
+},{
+    "name":"G2 - The Grammar Of Graphics", 
+    "url":"http://antvis.github.io/",
+    "des":"G2(The Grammar Of Graphics) 是一个由纯 javascript 编写、强大的语义化图表生成工具，它提供了一整套图形语法，可以让用户通过简单的语法搭建出无数种图表，并且集成了大量的统计工具，支持多种坐标系绘制，可以让用户自由得定制图表，是为大数据时代而准备的强大的可视化工具。",
+    "tags":["阿里","图表工具"]
 }]
 
