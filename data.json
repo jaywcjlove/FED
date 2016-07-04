@@ -1,4 +1,10 @@
 [{
+    "name":"JavaScript Event KeyCodes",
+    "url":"http://keycode.info/",
+    "icon":"",
+    "des":"在线Keycode查询",
+    "tags":["工具"]
+},{
     "name":"Mozilla 开发者网络",
     "url":"https://developer.mozilla.org/zh-CN/",
     "icon":"https://developer.cdn.mozilla.net/static/img/opengraph-logo.dc4e08e2f6af.png",
