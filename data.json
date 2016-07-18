@@ -349,6 +349,11 @@
     "des":"实录各类过场动画视频，直观的交互体验学习平台。",
     "tags":["UX"]
 },{
+    "name":"OneAPM Browser Insight",
+    "url":"http://www.oneapm.com/bi/feature.html",
+    "des":"基于真实用户的 Web 前端性能监控平台",
+    "tags":["团队","UED"]
+},{
     "name":"SmashingMagazine",
     "url":"http://www.smashingmagazine.com/",
     "des":"前端与用户体验为核心的杂志类知名博客",
