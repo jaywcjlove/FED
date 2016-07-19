@@ -414,6 +414,12 @@
     "des":"丰富的线框知识与资源，UX必备",
     "tags":["UX"]
 },{
+    "name":"蔡锶铎博客", 
+    "url":"https://caisiduo.xyz/",
+    "ico":"https://caisiduo.xyz/favicon.png",
+    "des":"居住在广东的一个普通初中生，会发布一些技术生活类文章。",
+    "tags":["博客"]
+},{
     "name":"Dryicons",
     "url":"http://www.freeiconsdownload.com/",
     "des":"按属性分类，国外免费图标下载",
@@ -2769,11 +2775,6 @@
     "name":"JerryQu 的小站", 
     "url":"https://imququ.com/",
     "des":"屈屈，专职前端开发，目前在中国北京。这个博客是我随便记录东西的地方。",
-    "tags":["博客"]
-},{
-    "name":"蔡锶铎博客", 
-    "url":"https://caisiduo.xyz/",
-    "des":"居住在广东的一个普通初中生，会发布一些技术生活类文章。",
     "tags":["博客"]
 },{
     "name":"G2 - The Grammar Of Graphics", 
