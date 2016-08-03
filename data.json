@@ -2265,6 +2265,11 @@
     "des":"Predictable state container for JavaScript apps",
     "tags":["工具"]
 },{
+    "url":"http://cn.redux.js.org/index.html",
+    "name":"redux中文文档",
+    "des":"Redux 是 JavaScript 状态容器，提供可预测化的状态管理。",
+    "tags":["工具"]
+},{
     "url":"http://mozilla.github.io/pdf.js/",
     "name":"pdf.js",
     "des":"JavaScript 的 PDF 查看器 ",
