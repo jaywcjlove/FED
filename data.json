@@ -2330,6 +2330,11 @@
     "des":"The de-facto solution to flexible routing with nested views in AngularJS",
     "tags":["工具"]
 },{
+    "url":"http://ireact.cn/",
+    "name":"iReact",
+    "des":"采集react组件的网站。",
+    "tags":["工具","react"]
+},{
     "url":"http://facebook.github.io/immutable-js/",
     "name":"immutable-js",
     "des":"Immutable persistent data collections for Javascript which increase efficiency and simplicity.",
