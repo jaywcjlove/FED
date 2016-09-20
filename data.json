@@ -2790,5 +2790,15 @@
     "url":"http://iReact.cn/",
     "des":"React是Facebook开源的前段开发框架，iReact是收集Github上开源的react组件库，方便用户查询需要的组件。辅助开发工作。",
     "tags":["react","component", "iReact", "react组件"]
+},{
+    "name":"egghead.io",
+    "url":"https://egghead.io/",
+    "des":"Learn professional JavaScript tools with Tutorial Videos & Training",
+    "tags":["教程","js"]
+},{
+    "name":"碼天狗週刊",
+    "url":"http://weekly.codetengu.com/",
+    "des":"CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。致力於解決開發者之間的資訊不對稱。",
+    "tags":"博客"
 }]
 
