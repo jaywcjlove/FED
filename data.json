@@ -2806,5 +2806,9 @@
     "icon":"http://static.bootcss.com/www/assets/ico/favicon.png",
     "des":"Tips, Tricks, and Techniques on using Cascading Style Sheets.",
     "tags":["工具"]
+},{
+    "name":"AngularJs2",
+    "url":"https://angular.cn",
+    "des":"AngularJs2官方中文文档",
+    "tags":["MVC"]
 }]
-
