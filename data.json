@@ -2799,16 +2799,16 @@
     "name":"碼天狗週刊",
     "url":"http://weekly.codetengu.com/",
     "des":"CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。致力於解決開發者之間的資訊不對稱。",
-    "tags":"博客"
+    "tags":["博客"]
 },{
     "name":"css-tricks",
     "url":"https://css-tricks.com/",
     "icon":"http://static.bootcss.com/www/assets/ico/favicon.png",
     "des":"Tips, Tricks, and Techniques on using Cascading Style Sheets.",
-    "tags":["工具"]
+    "tags":["工具","CSS"]
 },{
     "name":"AngularJs2",
     "url":"https://angular.cn",
     "des":"AngularJs2官方中文文档",
-    "tags":["MVC"]
+    "tags":["MVC","Angular"]
 }]
