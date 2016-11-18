@@ -2832,4 +2832,9 @@
     "url":"http://www.tuicool.com/",
     "des":"聚合国内外优质技术文章和新闻资讯的社区网站。",
     "tags":["社区","新闻资讯"]
+},{
+    "name": "leetcode",
+    "url":"https://github.com/hanzichi/leetcode",
+    "des":"js算法题库",
+    "tags":["算法","题库"]
 }]
