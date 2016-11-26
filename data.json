@@ -2656,4 +2656,10 @@
     "icon": "https://fe.ele.me/assets/img/favicon.png",
     "des":"Thoughts, stories and ideas.",
     "tags":["团队","饿了么"]
+},{
+    "name":"DevDocs",
+    "url":"http://devdocs.io/",
+    "icon": "https://cdn.devdocs.io/favicon.ico",
+    "des":"DevDocs在一个快速，有组织和可搜索的界面中组合了多个API文档。网站内有几乎所有开发用到的英文原版文档。",
+    "tags":["文档","API"]
 }]
