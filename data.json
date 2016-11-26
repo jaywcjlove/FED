@@ -46,8 +46,8 @@
     "des":"w3school 中文站的来源：THE WORLD'S LARGEST WEB DEVELOPER SITE",
     "tags":["教程","手册"]
 },{
-    "name":"W3C学院", 
-    "url":"http://www.w3cschool.cn", 
+    "name":"W3C学院",
+    "url":"http://www.w3cschool.cn",
     "icon":"http://www.w3cschool.cn/statics/images/w3c/index.ico",
     "des":"w3cschool是一个专业的编程入门学习及技术文档查询网站，提供包括HTML,CSS,Javascript,jQuery,C,PHP,Java,Python,Sql,Mysql等编程语言和开源技术的在线教程及使用手册，是类国外w3schools的W3C学习社区及菜鸟编程平台。" ,
     "tags":["工具","教程","手册"]
@@ -2651,52 +2651,52 @@
     "des":"在线工具，提供代码格式化、压缩、加密、解密、正则测试、在线运行代码等功能",
     "tags":["工具"]
 },{
-    "name":"江小湖Laker", 
-    "url":"http://laker.me/blog", 
+    "name":"江小湖Laker",
+    "url":"http://laker.me/blog",
     "icon":"http://laker.me/blog/favicon.ico",
     "des":"江小湖的主页—进击的程序媛" ,
     "tags":["博客","前端","技术宅","程序媛"]
 },{
-    "name":"Phodal", 
-    "url":"https://www.phodal.com/", 
+    "name":"Phodal",
+    "url":"https://www.phodal.com/",
     "icon":"https://www.phodal.com/static/phodal/images/favicon.ico",
     "des":"Phodal - 狼和凤凰 | Growth Engineer" ,
     "tags":["博客","前端","SEO","硬件"]
 },{
-    "name":"je原创插件库-前端框架", 
+    "name":"je原创插件库-前端框架",
     "url":"http://www.jayui.com/",
     "des":"本站致力于原创插件和提供各种JS（jQuery），je库、jeDate日期控件",
     "tags":["弹层组件","日期控件","工具","jQuery"]
 },{
-    "name":"SUI3 是一套基于 Bootstrap3 的全栈开发工具包，包含丰富的组件库，同时提供了完整的前端开发指导。", 
+    "name":"SUI3 是一套基于 Bootstrap3 的全栈开发工具包，包含丰富的组件库，同时提供了完整的前端开发指导。",
     "url":"http://sui3.taobao.org/",
     "des":"基于 Bootstrap3 的全栈开发工具包，包含丰富的组件库，同时提供了完整的前端开发指导。",
     "tags":["技术","app","应用","UI","框架","webapp"]
 },{
-    "name":"利器 - 创造者和他们的工具", 
+    "name":"利器 - 创造者和他们的工具",
     "url":"http://liqi.io/",
     "des":"创造者和他们的工具",
     "tags":["利器","工具"]
 },{
-    "name":"饿了么大前端", 
+    "name":"饿了么大前端",
     "url":"https://fe.ele.me/",
     "icon": "https://fe.ele.me/assets/img/favicon.png",
     "des":"Thoughts, stories and ideas.",
     "tags":["团队","饿了么"]
 },{
-    "name":"路人甲", 
+    "name":"路人甲",
     "url":"http://passer-by.com/",
     "icon":"http://passer-by.com/public/image/favicon.png",
     "des":"jQuery插件库，js算法等" ,
     "tags":["博客","插件","算法"]
 },{
-    "name":"Mystra", 
+    "name":"Mystra",
     "url":"http://www.wangchenlong.org/",
     "icon":"http://www.wangchenlong.org/web-icon.png?v=5.0.1",
     "des":"Mystra 的博客" ,
     "tags":["博客","ReactNative"]
 },{
-    "name":"React.parts – A catalog of React components", 
+    "name":"React.parts – A catalog of React components",
     "url":"https://react.parts/native",
     "icon":"http://www.wangchenlong.org/web-icon.png?v=5.0.1",
     "des":"一种非官方的React组件目录。An unofficial catalog of React components for both Web and Native." ,
@@ -2737,62 +2737,62 @@
     "des":"雅虎提供的在线图片压缩工具",
     "tags":["CSS3","CSS3在线生成"]
 },{
-    "name":"汇智网", 
+    "name":"汇智网",
     "url":"http://www.hubwiz.com/",
     "des":"一家免费的在线互动式编程网站" ,
     "tags":["编程","node.js","angular.js","js","mongodb","vue.js","react","nginx"]
 },{
-    "name":"在线工具aTool", 
+    "name":"在线工具aTool",
     "url":"http://www.atool.org/",
     "des":"在线工具，提供各种代码格式化压缩（包括js、css、php、sql等）、正则测试、前端后端辅助工具，图片处理以及其他一些便民工具。atool.org" ,
     "tags":["工具","tool","编程","代码格式化","代码压缩","辅助工具","便捷工具"]
 },{
-    "name":"FilterFactory", 
+    "name":"FilterFactory",
     "url":"http://filterfactory.mobi/",
     "des":"FilterFactory是一款将图片转换成SVG的在线生成工具。" ,
     "tags":["工具","tool","格式转换","SVG","辅助工具","便捷工具"]
 },{
-    "name":"CSS Animatie", 
+    "name":"CSS Animatie",
     "url":"http://cssanimate.com/",
     "des":"CSS Animatie是一款在线制作CSS3动画的工具，可以在线直接制作CSS3动画效果，生成代码。" ,
     "tags":["工具","tool","CSS3","动画工具","便捷工具"]
 },{
-    "name":"Flatty Shadow", 
+    "name":"Flatty Shadow",
     "url":"http://flattyshadow.com/",
     "des":"Flatty Shadow在线为Icon图标生成长阴影效果。" ,
     "tags":["工具","tool","icon","便捷工具"]
 },{
-    "name":"SVG EDIT", 
+    "name":"SVG EDIT",
     "url":"http://flattyshadow.com/",
     "des":"SVG EDIT是一款在线绘制、编辑SVG图形和代码的工具。" ,
     "tags":["工具","tool","icon","SVG","便捷工具"]
 },{
-    "name":"John Resig - JavaScript Programmer", 
+    "name":"John Resig - JavaScript Programmer",
     "url":"http://ejohn.org/",
     "des":"jQuery作者的博客" ,
     "tags":["博客","jQuery"]
 },{
-    "name":"Moment.js", 
+    "name":"Moment.js",
     "url":"http://momentjs.com/",
     "des":"一款大名鼎鼎的日期插件" ,
     "tags":["工具","插件"]
 },{
-    "name":"Libraries - The Open Source Discovery Service", 
+    "name":"Libraries - The Open Source Discovery Service",
     "url":"https://libraries.io",
     "des":"可以查询在您的项目中使用的模块和库的版本是否为新版本。",
     "tags":["工具"]
 },{
-    "name":"JerryQu 的小站", 
+    "name":"JerryQu 的小站",
     "url":"https://imququ.com/",
     "des":"屈屈，专职前端开发，目前在中国北京。这个博客是我随便记录东西的地方。",
     "tags":["博客"]
 },{
-    "name":"G2 - The Grammar Of Graphics", 
+    "name":"G2 - The Grammar Of Graphics",
     "url":"http://antvis.github.io/",
     "des":"G2(The Grammar Of Graphics) 是一个由纯 javascript 编写、强大的语义化图表生成工具，它提供了一整套图形语法，可以让用户通过简单的语法搭建出无数种图表，并且集成了大量的统计工具，支持多种坐标系绘制，可以让用户自由得定制图表，是为大数据时代而准备的强大的可视化工具。",
     "tags":["阿里","图表工具"]
 },{
-    "name":"iReact - Fantastic React-Components and React-Libraries!", 
+    "name":"iReact - Fantastic React-Components and React-Libraries!",
     "url":"http://iReact.cn/",
     "des":"React是Facebook开源的前段开发框架，iReact是收集Github上开源的react组件库，方便用户查询需要的组件。辅助开发工作。",
     "tags":["react","component", "iReact", "react组件"]
@@ -2837,4 +2837,10 @@
     "url":"https://github.com/hanzichi/leetcode",
     "des":"js算法题库",
     "tags":["算法","题库"]
+},{
+    "name":"DevDocs",
+    "url":"http://devdocs.io/",
+    "icon": "https://cdn.devdocs.io/favicon.ico",
+    "des":"DevDocs在一个快速，有组织和可搜索的界面中组合了多个API文档。网站内有几乎所有开发用到的英文原版文档。",
+    "tags":["文档","API"]
 }]
