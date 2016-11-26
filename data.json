@@ -21,15 +21,41 @@
     "des":"百度统计流量研究院",
     "tags":["工具","统计"]
 },{
-    "name":"CodePen",
+    "name":"CodePen代码笔",
     "url":"http://codepen.io/",
-    "des":"前端工程师必备的技术网站，直接在显示编辑代码片段并分享。",
-    "tags":["工具"]
+    "des":"前端工程师必备的技术网站，直接在显示编辑代码片段并分享。codepen！寻找交互灵感的圣地",
+    "tags":["工具","互交设计","在线编辑器"]
+},{
+    "name":"RunJS - 在线编辑、展示、分享、交流你的 JavaScript 代码",
+    "url":"http://runjs.cn/",
+    "des":"RunJS,在线编写、展示html、js、css代码，拥有实时预览、分享、Fork、代码高亮、自动完成等多项特性，提供文件上传、多种登录方式。",
+    "tags":["社区","工具","互交设计","在线编辑器"]
+},{
+    "name":"plainJS - The Vanilla JavaScript Repository",
+    "url":"https://plainjs.com/",
+    "des":"该仓库都是用原生js写的插件和组件，很实用",
+    "tags":["工具","插件","组件"]
 },{
     "name":"Can I use",
     "url":"http://caniuse.com/",
     "des":"这是一个极好的网站，查询你使用的属性方法在浏览器中的兼容。",
     "tags":["工具","caniuse"]
+},{
+    "name":"W3school 英文网站",
+    "url":"http://www.w3schools.com/",
+    "des":"w3school 中文站的来源：THE WORLD'S LARGEST WEB DEVELOPER SITE",
+    "tags":["教程","手册"]
+},{
+    "name":"W3C学院",
+    "url":"http://www.w3cschool.cn",
+    "icon":"http://www.w3cschool.cn/statics/images/w3c/index.ico",
+    "des":"w3cschool是一个专业的编程入门学习及技术文档查询网站，提供包括HTML,CSS,Javascript,jQuery,C,PHP,Java,Python,Sql,Mysql等编程语言和开源技术的在线教程及使用手册，是类国外w3schools的W3C学习社区及菜鸟编程平台。" ,
+    "tags":["工具","教程","手册"]
+},{
+    "name":"前端De早读课,前端开发,前端资讯分享",
+    "url":"http://www.zaoduke.net/",
+    "des":"前端De早读课是专注分享前端开发、UI设计、产品设计，创业的资讯网站。",
+    "tags":["社区","新闻资讯"]
 },{
     "name":"掘金",
     "url":"http://gold.xitu.io/",
@@ -131,7 +157,7 @@
     "tags":["团队"]
 },{
     "name":"大搜车前端团队博客",
-    "url":"http://uxc.360.cn/",
+    "url":"http://f2e.souche.com/blog/",
     "des":"相信技术改变世界，这里是我们的点滴思考和总结。",
     "icon":"http://htmljs.b0.upaiyun.com/uploads/1437909099674-1bb87d41d15fe27b500a4bfcde01bb0e.png",
     "tags":["团队","博客"]
@@ -208,11 +234,6 @@
     "des":"携程网UED团队",
     "tags":["团队","UED"]
 },{
-    "name":"支付宝用户体验部",
-    "url":"http://ued.alipay.com/",
-    "des":"支付宝用户体验部",
-    "tags":["团队","阿里","支付宝","UED"]
-},{
     "name":"一淘体验工作平台",
     "url":"http://ued.alimama.com/",
     "des":"一淘体验工作平台",
@@ -221,11 +242,6 @@
     "name":"淘宝UED",
     "url":"http://ued.taobao.org/blog/",
     "des":"做地球上最好的 UED",
-    "tags":["团队","阿里","淘宝","UED"]
-},{
-    "name":"良无限用户体验部UPD",
-    "url":"http://www.lpued.com/",
-    "des":"淘宝良无限用户体验部UPD",
     "tags":["团队","阿里","淘宝","UED"]
 },{
     "name":"U一点",
@@ -248,20 +264,10 @@
     "des":"新浪UED",
     "tags":["团队","UED"]
 },{
-    "name":"新浪微博设计团队",
-    "url":"http://udc.weibo.com/",
-    "des":"新浪微博设计团队",
-    "tags":["团队"]
-},{
     "name":"有意思",
     "url":"http://www.kdued.com/",
     "des":"金蝶友商网UED",
     "tags":["团队","UED"]
-},{
-    "name":"淘宝UED",
-    "url":"http://ued.taobao.com/",
-    "des":"淘宝UED",
-    "tags":["团队","阿里","UED"]
 },{
     "name":"爱词霸UED",
     "url":"http://ued.iciba.com/",
@@ -342,6 +348,11 @@
     "url":"http://sixux.com/",
     "des":"实录各类过场动画视频，直观的交互体验学习平台。",
     "tags":["UX"]
+},{
+    "name":"OneAPM Browser Insight",
+    "url":"http://www.oneapm.com/bi/feature.html",
+    "des":"基于真实用户的 Web 前端性能监控平台",
+    "tags":["团队","UED"]
 },{
     "name":"SmashingMagazine",
     "url":"http://www.smashingmagazine.com/",
@@ -638,6 +649,11 @@
     "des":"点击你需要测试的浏览器环境，安装插件就可以进行测试了。帮助你测试网页在Safari、Chrome、Firefox和Opera浏览器中是否正常，测试兼容性工具",
     "tags":["工具","测试"]
 },{
+    "name":"动画手册 - CSS3动画参考  by Tencent ISUX | DMDC",
+    "url":"http://isux.tencent.com/css3/index.html",
+    "des":"这是腾讯团队出品的一个CSS3 动画样式参考手册，同时还配备了一个动画工具。",
+    "tags":["手册","css3"]
+},{
     "name":"Mocha",
     "url":"http://mochajs.org",
     "des":"mocha 是一个简单、灵活有趣的 JavaScript 测试框架,用于 Node.js 和浏览器上的 JavaScript 应用测试。",
@@ -735,6 +751,12 @@
     "url":"http://www.echojs.com/",
     "des":"JavaScript 新闻",
     "tags":["文档"]
+},{
+    "name":"JavaScript Event KeyCodes",
+    "url":"http://keycode.info/",
+    "icon":"",
+    "des":"在线Keycode查询",
+    "tags":["工具"]
 },{
     "name":"阮一峰",
     "url":"http://www.ruanyifeng.com/home.html",
@@ -953,7 +975,7 @@
 },{
     "name":"W3SCHOOL",
     "url":"http://www.w3school.com.cn/css3/",
-    "des":"CSS3 教程",
+    "des":"CSS3 教程，全球最大的中文 Web 技术教程。",
     "tags":["教程"]
 },{
     "name":"Mozilla CSS3",
@@ -1646,11 +1668,6 @@
     "des":"为资深用户界面设计师寻提供灵感和参考的宝库",
     "tags":["互交设计"]
 },{
-    "name":"代码笔",
-    "url":"http://codepen.io/",
-    "des":"codepen！寻找交互灵感的圣地",
-    "tags":["互交设计"]
-},{
     "name":"UX Magazine",
     "url":"http://uxmag.com/",
     "des":"提供稳定、丰富、可靠的一站式用户体验资源",
@@ -2249,9 +2266,14 @@
     "des":"Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.",
     "tags":["工具"]
 },{
-    "url":"http://rackt.github.io/redux",
+    "url":"http://redux.js.org/",
     "name":"redux",
     "des":"Predictable state container for JavaScript apps",
+    "tags":["工具"]
+},{
+    "url":"http://cn.redux.js.org/index.html",
+    "name":"redux中文文档",
+    "des":"Redux 是 JavaScript 状态容器，提供可预测化的状态管理。",
     "tags":["工具"]
 },{
     "url":"http://mozilla.github.io/pdf.js/",
@@ -2313,6 +2335,11 @@
     "name":"ui-router",
     "des":"The de-facto solution to flexible routing with nested views in AngularJS",
     "tags":["工具"]
+},{
+    "url":"http://ireact.cn/",
+    "name":"iReact",
+    "des":"采集react组件的网站。",
+    "tags":["工具","react"]
 },{
     "url":"http://facebook.github.io/immutable-js/",
     "name":"immutable-js",
@@ -2526,7 +2553,7 @@
     "des": "一种动态样式语言，属于CSS预处理语言的一种，它使用类似CSS的语法，为CSS的赋予了动态语言的特性，如变量、继承、运算、函数等，更方便CSS的编写和维护。" ,
     "tags": ["Less", "css"]
 },{
-    "name": "前端人的俱乐部",
+    "name": "醉牛前端",
     "url": "http://f2er.club/",
     "ico": "http://f2er.club/img/favicon.ico",
     "des": "涉及一些优秀攻城狮的优秀博客、社区，实用的手册、工具，框架/库，以及在线教程和书籍推荐。为大家解决一些基本的，常见的问题和需求做专业的前端平台，提供你需要的东西。解放你的收藏夹，让它们只做最主要的事情",
@@ -2624,38 +2651,192 @@
     "des":"在线工具，提供代码格式化、压缩、加密、解密、正则测试、在线运行代码等功能",
     "tags":["工具"]
 },{
-    "name":"江小湖Laker", 
-    "url":"http://laker.me/blog", 
+    "name":"江小湖Laker",
+    "url":"http://laker.me/blog",
     "icon":"http://laker.me/blog/favicon.ico",
     "des":"江小湖的主页—进击的程序媛" ,
     "tags":["博客","前端","技术宅","程序媛"]
 },{
-    "name":"Phodal", 
-    "url":"https://www.phodal.com/", 
+    "name":"Phodal",
+    "url":"https://www.phodal.com/",
     "icon":"https://www.phodal.com/static/phodal/images/favicon.ico",
     "des":"Phodal - 狼和凤凰 | Growth Engineer" ,
     "tags":["博客","前端","SEO","硬件"]
 },{
-    "name":"je原创插件库-前端框架", 
+    "name":"je原创插件库-前端框架",
     "url":"http://www.jayui.com/",
     "des":"本站致力于原创插件和提供各种JS（jQuery），je库、jeDate日期控件",
     "tags":["弹层组件","日期控件","工具","jQuery"]
 },{
-    "name":"SUI3 是一套基于 Bootstrap3 的全栈开发工具包，包含丰富的组件库，同时提供了完整的前端开发指导。", 
+    "name":"SUI3 是一套基于 Bootstrap3 的全栈开发工具包，包含丰富的组件库，同时提供了完整的前端开发指导。",
     "url":"http://sui3.taobao.org/",
     "des":"基于 Bootstrap3 的全栈开发工具包，包含丰富的组件库，同时提供了完整的前端开发指导。",
     "tags":["技术","app","应用","UI","框架","webapp"]
 },{
-    "name":"利器 - 创造者和他们的工具", 
+    "name":"利器 - 创造者和他们的工具",
     "url":"http://liqi.io/",
     "des":"创造者和他们的工具",
     "tags":["利器","工具"]
 },{
-    "name":"饿了么大前端", 
+    "name":"饿了么大前端",
     "url":"https://fe.ele.me/",
     "icon": "https://fe.ele.me/assets/img/favicon.png",
     "des":"Thoughts, stories and ideas.",
     "tags":["团队","饿了么"]
+},{
+    "name":"路人甲",
+    "url":"http://passer-by.com/",
+    "icon":"http://passer-by.com/public/image/favicon.png",
+    "des":"jQuery插件库，js算法等" ,
+    "tags":["博客","插件","算法"]
+},{
+    "name":"Mystra",
+    "url":"http://www.wangchenlong.org/",
+    "icon":"http://www.wangchenlong.org/web-icon.png?v=5.0.1",
+    "des":"Mystra 的博客" ,
+    "tags":["博客","ReactNative"]
+},{
+    "name":"React.parts – A catalog of React components",
+    "url":"https://react.parts/native",
+    "icon":"http://www.wangchenlong.org/web-icon.png?v=5.0.1",
+    "des":"一种非官方的React组件目录。An unofficial catalog of React components for both Web and Native." ,
+    "tags":["React","ReactNative"]
+},{
+    "name":"csscomb",
+    "url":"http://csscomb.com/",
+    "des":"css属性排序工具，可把写好的css按照margin、padding、width、border、background、color顺序排列",
+    "tags":["CSS3","CSS3在线生成"]
+},{
+    "name":"YUIcompressor",
+    "url":"http://yui.github.io/yuicompressor/",
+    "des":"YUI Compressor 是一个用来压缩 JS 和 CSS 文件的工具，采用Java开发",
+    "tags":["CSS3","CSS3在线生成"]
+},{
+    "name":"在线CSS/JS压缩",
+    "url":"http://tool.css-js.com/",
+    "des":"CSS, JavaScript 压缩, 美化, 加密, 解密",
+    "tags":["CSS3","CSS3在线生成"]
+},{
+    "name":"ClosureCompiler",
+    "url":"http://closure-compiler.appspot.com/home",
+    "des":"GOOGLE所用的压缩工具",
+    "tags":["CSS3","CSS3在线生成"]
+},{
+    "name":"jsmini",
+    "url":"http://jsmini.com/",
+    "des":"Minify your js code, free & simple to use, lightning fast compression.",
+    "tags":["CSS3","CSS3在线生成"]
+},{
+    "name":"tinypng",
+    "url":"https://tinypng.com/",
+    "des":"TinyPNG使用一种智能有损压缩技术（通过降低图片中的颜色数量，来减少存储图片所需要的数据）来降低PNG 图片的大小",
+    "tags":["CSS3","CSS3在线生成"]
+},{
+    "name":"smushit",
+    "url":"http://www.smushit.com/ysmush.it/",
+    "des":"雅虎提供的在线图片压缩工具",
+    "tags":["CSS3","CSS3在线生成"]
+},{
+    "name":"汇智网",
+    "url":"http://www.hubwiz.com/",
+    "des":"一家免费的在线互动式编程网站" ,
+    "tags":["编程","node.js","angular.js","js","mongodb","vue.js","react","nginx"]
+},{
+    "name":"在线工具aTool",
+    "url":"http://www.atool.org/",
+    "des":"在线工具，提供各种代码格式化压缩（包括js、css、php、sql等）、正则测试、前端后端辅助工具，图片处理以及其他一些便民工具。atool.org" ,
+    "tags":["工具","tool","编程","代码格式化","代码压缩","辅助工具","便捷工具"]
+},{
+    "name":"FilterFactory",
+    "url":"http://filterfactory.mobi/",
+    "des":"FilterFactory是一款将图片转换成SVG的在线生成工具。" ,
+    "tags":["工具","tool","格式转换","SVG","辅助工具","便捷工具"]
+},{
+    "name":"CSS Animatie",
+    "url":"http://cssanimate.com/",
+    "des":"CSS Animatie是一款在线制作CSS3动画的工具，可以在线直接制作CSS3动画效果，生成代码。" ,
+    "tags":["工具","tool","CSS3","动画工具","便捷工具"]
+},{
+    "name":"Flatty Shadow",
+    "url":"http://flattyshadow.com/",
+    "des":"Flatty Shadow在线为Icon图标生成长阴影效果。" ,
+    "tags":["工具","tool","icon","便捷工具"]
+},{
+    "name":"SVG EDIT",
+    "url":"http://flattyshadow.com/",
+    "des":"SVG EDIT是一款在线绘制、编辑SVG图形和代码的工具。" ,
+    "tags":["工具","tool","icon","SVG","便捷工具"]
+},{
+    "name":"John Resig - JavaScript Programmer",
+    "url":"http://ejohn.org/",
+    "des":"jQuery作者的博客" ,
+    "tags":["博客","jQuery"]
+},{
+    "name":"Moment.js",
+    "url":"http://momentjs.com/",
+    "des":"一款大名鼎鼎的日期插件" ,
+    "tags":["工具","插件"]
+},{
+    "name":"Libraries - The Open Source Discovery Service",
+    "url":"https://libraries.io",
+    "des":"可以查询在您的项目中使用的模块和库的版本是否为新版本。",
+    "tags":["工具"]
+},{
+    "name":"JerryQu 的小站",
+    "url":"https://imququ.com/",
+    "des":"屈屈，专职前端开发，目前在中国北京。这个博客是我随便记录东西的地方。",
+    "tags":["博客"]
+},{
+    "name":"G2 - The Grammar Of Graphics",
+    "url":"http://antvis.github.io/",
+    "des":"G2(The Grammar Of Graphics) 是一个由纯 javascript 编写、强大的语义化图表生成工具，它提供了一整套图形语法，可以让用户通过简单的语法搭建出无数种图表，并且集成了大量的统计工具，支持多种坐标系绘制，可以让用户自由得定制图表，是为大数据时代而准备的强大的可视化工具。",
+    "tags":["阿里","图表工具"]
+},{
+    "name":"iReact - Fantastic React-Components and React-Libraries!",
+    "url":"http://iReact.cn/",
+    "des":"React是Facebook开源的前段开发框架，iReact是收集Github上开源的react组件库，方便用户查询需要的组件。辅助开发工作。",
+    "tags":["react","component", "iReact", "react组件"]
+},{
+    "name":"egghead.io",
+    "url":"https://egghead.io/",
+    "des":"Learn professional JavaScript tools with Tutorial Videos & Training",
+    "tags":["教程","js"]
+},{
+    "name":"碼天狗週刊",
+    "url":"http://weekly.codetengu.com/",
+    "des":"CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。致力於解決開發者之間的資訊不對稱。",
+    "tags":["博客"]
+},{
+    "name":"css-tricks",
+    "url":"https://css-tricks.com/",
+    "icon":"http://static.bootcss.com/www/assets/ico/favicon.png",
+    "des":"Tips, Tricks, and Techniques on using Cascading Style Sheets.",
+    "tags":["工具","CSS"]
+},{
+    "name":"AngularJs2",
+    "url":"https://angular.cn",
+    "des":"AngularJs2官方中文文档",
+    "tags":["MVC","Angular"]
+},{
+    "name":"众成翻译",
+    "url":"http://www.zcfy.cc/",
+    "des":"技术文章翻译社区",
+    "tags":["前端技术"]
+},{
+    "name":"bulma",
+    "url":"http://bulma.io/",
+    "des":"A modern CSS framework based on Flexbox",
+    "tags":["css"]
+},{
+    "name":"推酷",
+    "url":"http://www.tuicool.com/",
+    "des":"聚合国内外优质技术文章和新闻资讯的社区网站。",
+    "tags":["社区","新闻资讯"]
+},{
+    "name": "leetcode",
+    "url":"https://github.com/hanzichi/leetcode",
+    "des":"js算法题库",
+    "tags":["算法","题库"]
 },{
     "name":"DevDocs",
     "url":"http://devdocs.io/",

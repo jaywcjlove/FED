@@ -9,6 +9,7 @@ var sreach = function(){
     this.tagsEml = document.getElementById('tags')
     this.error = document.getElementById('error')
     this.loadingEml = document.getElementById("spinner")
+    this.btnPreviewEml = document.getElementById("preview")
     this.page_size = 70;
     this.domainReg = /[a-zA-Z0-9]{0,62}.\/\/[a-zA-Z0-9][-a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+\.?/
     this.page_no = 1,
@@ -287,6 +288,16 @@ sreach.prototype = {
             })
             kw&&(self.inputElm.value=kw);
             self.valToHTML(kw);
+        })
+        this.bindEvent(this.btnPreviewEml,'click',function(e){
+            var cls = e.target.firstChild.className;
+            if(cls === 'view-type-list'){
+                e.target.firstChild.className = 'view-type';
+                self.boxEml.className = 'list-itme-grid';
+            }else{
+                e.target.firstChild.className = 'view-type-list';
+                self.boxEml.className = '';
+            }
         })
     }
 }
