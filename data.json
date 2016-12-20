@@ -2843,4 +2843,10 @@
     "icon": "https://cdn.devdocs.io/favicon.ico",
     "des":"DevDocs在一个快速，有组织和可搜索的界面中组合了多个API文档。网站内有几乎所有开发用到的英文原版文档。",
     "tags":["文档","API"]
+},{
+    "name":"前端公共库 CDN",
+    "url":"http://www.codefarm.net/",
+    "ico":"",
+    "des":"CDNJS 国内镜像，致力于打造一个稳定而又全面的 JS/CSS 库，给前端开发者免费使用。" ,
+    "tags":["工具","CDN"]
 }]
