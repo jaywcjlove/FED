@@ -2849,4 +2849,10 @@
     "ico":"",
     "des":"CDNJS 国内镜像，致力于打造一个稳定而又全面的 JS/CSS 库，给前端开发者免费使用。" ,
     "tags":["工具","CDN"]
+},{
+    "name":"帮助你生成一段字符来表示目录结构",
+    "url":"http://dir.yardtea.cc/",
+    "ico":"http://dir.yardtea.cc/favicon.ico",
+    "des":"类似 linux 和 windows 中的 tree 命令，现在你可以到这个工具站点以更直观的方式生成想要的目录树字符。" ,
+    "tags":["工具","CDN"]
 }]
