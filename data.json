@@ -5,6 +5,12 @@
     "des":"Mozilla 开发者网络（MDN）提供有关开放网络技术（Open Web）的信息，包括 HTML、CSS 和万维网及 HTML5 应用的 API。它还记录了  Mozilla 产品的文档，例如 Firefox OS。",
     "tags":["社区"]
 },{
+    "name":"whatwg",
+    "url":"https://whatwg.org/",
+    "icon":"https://resources.whatwg.org/logo.svg",
+    "des":"Web Hypertext Application Technology Working Group, 负责web标准制定和维护，如html, dom",
+    "tags":["社区"]
+},{
     "name":"Stack Overflow",
     "url":"http://stackoverflow.com/",
     "icon":"http://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a",
