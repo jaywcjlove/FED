@@ -1555,7 +1555,8 @@
     "tags":["字体"]
 },{
     "name":"FontEditor",
-    "url":"http://font.baidu.com/editor/",
+    "url":"http://fontstore.baidu.com/editor",
+    "ico":"http://www.baidu.com/favicon.ico",
     "des":"FontEditor是一款在线字体编辑器软件， 能够打开本地或者远程的ttf|woff|eot|otf格式的字体文件， 能够导入和导出ttf|woff|eot|svg|otf格式的字体文件， 提供字形的编辑和轮廓编辑功能，提供字体的实时预览功能。",
     "tags":["字体"]
 },{
@@ -2861,4 +2862,16 @@
     "ico":"http://dir.yardtea.cc/favicon.ico",
     "des":"类似 linux 和 windows 中的 tree 命令，现在你可以到这个工具站点以更直观的方式生成想要的目录树字符。" ,
     "tags":["工具","CDN"]
+},{
+    "name":"HelloGitHub",
+    "url":"https://hellogithub.com/",
+    "ico":"https://hellogithub.com/favicon.ico",
+    "des":"分享 GitHub 上有趣、入门级的开源项目" ,
+    "tags":["导航"]
+},{
+    "name":"HTML5 Please",
+    "url":"http://html5please.com/",
+    "ico":"https://hellogithub.com/favicon.ico",
+    "des":"为HTML5与CSS3语法提供浏览器兼容性测试及使用建议" ,
+    "tags":["开发建议","兼容性","HTML5"]
 }]
