@@ -42,6 +42,11 @@
     "des":"该仓库都是用原生js写的插件和组件，很实用",
     "tags":["工具","插件","组件"]
 },{
+    "name":"React.parts - 一个收集 React 组件的网站",
+    "url":"https://react.parts/",
+    "des":"一个收集 React 组件的网站",
+    "tags":["工具","React"]
+},{
     "name":"Can I use",
     "url":"http://caniuse.com/",
     "des":"这是一个极好的网站，查询你使用的属性方法在浏览器中的兼容。",
