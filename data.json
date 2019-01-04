@@ -1,4 +1,10 @@
 [{
+    "name":"Alili|前端大爆炸! - WEB BANG! BANG!! BANG!!!",
+    "url":"https://alili.tech",
+    "icon":"https://alili.tech/images/logo2.png",
+    "des":"前端大爆炸,一个前端技术博客",
+    "tags":["博客"]
+},{
     "name":"Mozilla 开发者网络",
     "url":"https://developer.mozilla.org/zh-CN/",
     "icon":"https://developer.cdn.mozilla.net/static/img/opengraph-logo.dc4e08e2f6af.png",
