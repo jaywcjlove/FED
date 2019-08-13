@@ -2884,4 +2884,10 @@
     "ico":"https://hellogithub.com/favicon.ico",
     "des":"为HTML5与CSS3语法提供浏览器兼容性测试及使用建议" ,
     "tags":["开发建议","兼容性","HTML5"]
+},{
+    "name":"Flow UI",
+    "url":"https://flow-ui.refined-x.com/",
+    "ico":"https://flow-ui.refined-x.com/favicon.ico",
+    "des":"Flow-UI 是一套高定制性UI框架，基于Seajs/jQuery构建" ,
+    "tags":["UI","jQuery","Seajs","框架"]
 }]
