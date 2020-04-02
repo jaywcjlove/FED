@@ -80,7 +80,8 @@ $ git merge upstream/master
 
 ```bash
 $ npm install
-$ npm run build #编译并起服务本地预览可以测试Ajax请求
+$ npm run build
 $ npm run watch:css
 $ npm run watch:js
+$ npm run server
 ```
