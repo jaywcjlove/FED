@@ -259,9 +259,9 @@ sreach.prototype = {
                 :self.createSreachListHTML(val)
         )
         :self.creatListHTML();
-        if(window.history&&window.history.pushState)
-            val ? history.pushState({},"jsdig","?kw="+val):
-                history.pushState({},"jsdig","/");
+        if(window.history&&window.history.replaceState)
+            val ? history.replaceState({},"jsdig","?kw="+val):
+                history.replaceState({},"jsdig","/");
 
         self.isErrorInfo(val);
     },
