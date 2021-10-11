@@ -7,13 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "stylus -u autoprefixer-stylus -u stylus-px2rem styl/index.styl -o css/ -c",
     "build": "npm run build:css && npm run build:js",
-    "watch": "npm run watch:css && npm run watch:js",
+    "watch": "npm run watch:css & npm run watch:js",
     "watch:css": "stylus -u autoprefixer-stylus -w styl/index.styl -o css/ -c",
     "watch:js": "onchange 'js/index.js' './data.json' -v -- npm run build:js",
     "build:js": "npm run min:js && npm run min:data",
     "min:js": "uglifyjs js/index.js -o js/index.min.js",
     "min:data": "node js/build.json.js",
-    "server": "sgo"
+    "server": "sgo --fallback index.html"
   },
   "repository": {
     "type": "git",
@@ -24,11 +24,11 @@
   "devDependencies": {
     "autoprefixer": "10.3.7",
     "autoprefixer-stylus": "1.0.0",
-    "onchange": "^6.1.0",
+    "onchange": "7.1.0",
     "postcss-cli": "^7.1.0",
     "sgo": "3.0.1",
     "stylus": "0.55.0",
     "stylus-px2rem": "1.0.14",
-    "uglify-js": "^3.8.1"
+    "uglify-js": "3.14.2"
   }
 }

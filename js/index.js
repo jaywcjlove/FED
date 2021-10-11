@@ -18,7 +18,7 @@ var sreach = function(){
     this.inputElm.focus()
 
     if(this.boxEml){
-        this.init();   
+        this.init();
     }
 }
 sreach.prototype = {
@@ -259,10 +259,14 @@ sreach.prototype = {
                 :self.createSreachListHTML(val)
         )
         :self.creatListHTML();
-        if(window.history&&window.history.replaceState)
-            val ? history.replaceState({},"jsdig","?kw="+val):
-                history.replaceState({},"jsdig","/");
-
+        if(window.history && window.history.replaceState) {
+            console.log(window.history)
+            if (val) {
+                history.replaceState({},"jsdig","?kw="+val);
+            } else {
+                history.replaceState({},"jsdig","?kw=");
+            }
+        }
         self.isErrorInfo(val);
     },
     changeKeyworlds:function(val){
