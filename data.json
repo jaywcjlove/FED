@@ -2890,4 +2890,10 @@
     "ico":"https://refined-x.com/favicon.ico",
     "des":"原创前端技术博客，致力于分享前端学习路上的第一手资料。" ,
     "tags":["博客","前端开发","前端技术"]
+},{
+    "name":"前端周刊",
+    "url":"https://frontend-weekly.com/",
+    "ico":"https://frontend-weekly.com/favicon.ico",
+    "des":"前端周刊，给前端同学准备的每周1小时阅读清单。" ,
+    "tags":["前端周刊"]
 }]
