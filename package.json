@@ -26,7 +26,7 @@
     "autoprefixer-stylus": "^1.0.0",
     "onchange": "^6.1.0",
     "postcss-cli": "^7.1.0",
-    "sgo": "^2.3.1",
+    "sgo": "3.0.1",
     "stylus": "^0.54.7",
     "stylus-px2rem": "^1.0.14",
     "uglify-js": "^3.8.1"
