@@ -1565,7 +1565,7 @@
     "tags":["字体"]
 },{
     "name":"FontEditor",
-    "url":"http://fontstore.baidu.com/editor",
+    "url":"https://kekee000.github.io/fonteditor/index.html",
     "ico":"http://www.baidu.com/favicon.ico",
     "des":"FontEditor是一款在线字体编辑器软件， 能够打开本地或者远程的ttf|woff|eot|otf格式的字体文件， 能够导入和导出ttf|woff|eot|svg|otf格式的字体文件， 提供字形的编辑和轮廓编辑功能，提供字体的实时预览功能。",
     "tags":["字体"]
