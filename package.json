@@ -22,13 +22,13 @@
   "author": "kenny wang <wowohoo@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^9.7.5",
-    "autoprefixer-stylus": "^1.0.0",
+    "autoprefixer": "10.3.7",
+    "autoprefixer-stylus": "1.0.0",
     "onchange": "^6.1.0",
     "postcss-cli": "^7.1.0",
     "sgo": "3.0.1",
-    "stylus": "^0.54.7",
-    "stylus-px2rem": "^1.0.14",
+    "stylus": "0.55.0",
+    "stylus-px2rem": "1.0.14",
     "uglify-js": "^3.8.1"
   }
 }
