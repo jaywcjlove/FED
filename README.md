@@ -2,6 +2,24 @@
 
 弄个纯静态，便于维护的前端导航站。顺便放一些前端资源。[提交网址](https://github.com/jaywcjlove/FED/wiki/%E6%B7%BB%E5%8A%A0%E7%BD%91%E7%AB%99)
 
+```bash
+npm i @wcj/fed
+```
+
+```js
+import data from '@wcj/fed';
+
+[
+  {
+    "name":"Mozilla 开发者网络",
+    "url":"https://developer.mozilla.org/zh-CN/",
+    "icon":"https://developer.cdn.mozilla.net/static/img/opengraph-logo.dc4e08e2f6af.png",
+    "des":"Mozilla 开发者网络（MDN）提供有关开放网络技术（Open Web）的信息，包括 HTML、CSS 和万维网及 HTML5 应用的 API。它还记录了  Mozilla 产品的文档，例如 Firefox OS。",
+    "tags":["社区"]
+  },
+  // ....
+]
+```
 
 ## 分类搜索
 

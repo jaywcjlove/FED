@@ -2,7 +2,7 @@
   "name": "@wcj/fed",
   "version": "1.0.0",
   "description": "前端导航",
-  "main": "index.js",
+  "main": "./data.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "stylus -u autoprefixer-stylus -u stylus-px2rem styl/index.styl -o css/ -c",
@@ -19,6 +19,9 @@
     "type": "git",
     "url": "https://github.com/jaywcjlove/FED.git"
   },
+  "files": [
+    "data.json"
+  ],
   "author": "kenny wang <wowohoo@qq.com>",
   "license": "MIT",
   "devDependencies": {
