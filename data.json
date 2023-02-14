@@ -2550,10 +2550,10 @@
     "des":"干货聚集地.技术干货,软件干货,分享最实用的各种干货!" ,
     "tags":["技术","干货","干货","博客"]
 },{
-    "name": "COLORFUL - 有个骚年路过这里",
-    "url": "http://xiaoa.name/",
-    "des": "Colorful，一个骚年路过这里，与你一起探讨关于前端技术，设计，Hack的奥秘。" ,
-    "tags": ["js", "node", "前端开发","博客"]
+    "name": "Colorful",
+    "url": "https://xiaoa.name/",
+    "des": "一枚数字艺术家的自留地" ,
+    "tags": ["Javascript", "Node.js", "前端开发", "数码产品", "Rust", "Java", "读书笔记", "观点"]
 },{
     "name": "stylus",
     "url": "http://stylus-lang.com/",
