@@ -1,5 +1,7 @@
 # 前端导航网
 
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
+
 弄个纯静态，便于维护的前端导航站。顺便放一些前端资源。[提交网址](https://github.com/jaywcjlove/FED/wiki/%E6%B7%BB%E5%8A%A0%E7%BD%91%E7%AB%99)
 
 ```bash
